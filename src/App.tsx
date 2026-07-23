@@ -293,13 +293,14 @@ export default function Home() {
 
   const bestNatures = (mon: Mon, build: BuildPlan): Nature[] => {
     const main = build.priorities[0]?.key;
+    const speedBuild = build.priorities.some(priority => priority.key === "spe" && priority.points >= 252);
     if (build.role.includes("MISTO")) return ["Hasty", "Naive"].map(name => NATURES.find(nature => nature.name === name)!);
     if (main === "atk") {
-      const names = mon.base.spe >= 85 ? ["Jolly", "Adamant"] : ["Adamant", "Brave"];
+      const names = speedBuild ? ["Jolly", "Adamant"] : ["Adamant", "Brave"];
       return names.map(name => NATURES.find(nature => nature.name === name)!);
     }
     if (main === "spa") {
-      const names = mon.base.spe >= 85 ? ["Timid", "Modest"] : ["Modest", "Quiet"];
+      const names = speedBuild ? ["Timid", "Modest"] : ["Modest", "Quiet"];
       return names.map(name => NATURES.find(nature => nature.name === name)!);
     }
     if (main === "def") return ["Bold", "Impish"].map(name => NATURES.find(nature => nature.name === name)!);
@@ -492,7 +493,7 @@ export default function Home() {
                 const enemyData = monBySlug[enemy.slug];
                 return <div className="enemy" key={`${enemy.slug}-${enemy.level}`}>
                   {enemyData && <PokemonSprite dex={enemyData.dex} name={enemy.name} className="enemySprite" />}
-                  <span>{enemy.name}</span><b>Lv. {enemy.level}</b>{enemy.ace && <em>ACE</em>}
+                  <span>{enemy.name}</span><b>Lv. {enemy.level}</b>{Boolean(enemy.ace) && <em>ACE</em>}
                 </div>;
               })}
             </div>
