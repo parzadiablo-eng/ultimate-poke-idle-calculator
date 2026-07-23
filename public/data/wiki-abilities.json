@@ -1,0 +1,7676 @@
+{
+  "generatedAt": "2026-07-16T18:58:30.854Z",
+  "abilities": [
+    {
+      "slug": "soundproof",
+      "name": "À Prova de Som",
+      "desc": "À Prova de Som é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "voltorb",
+          "dex": 100,
+          "name": "VOLTORB"
+        },
+        {
+          "slug": "electrode",
+          "dex": 101,
+          "name": "ELECTRODE"
+        },
+        {
+          "slug": "mr_mime",
+          "dex": 122,
+          "name": "MR. MIME"
+        },
+        {
+          "slug": "whismur",
+          "dex": 293,
+          "name": "WHISMUR"
+        },
+        {
+          "slug": "loudred",
+          "dex": 294,
+          "name": "LOUDRED"
+        },
+        {
+          "slug": "exploud",
+          "dex": 295,
+          "name": "EXPLOUD"
+        },
+        {
+          "slug": "shieldon",
+          "dex": 410,
+          "name": "SHIELDON"
+        },
+        {
+          "slug": "bastiodon",
+          "dex": 411,
+          "name": "BASTIODON"
+        },
+        {
+          "slug": "mime_jr",
+          "dex": 439,
+          "name": "MIME JR"
+        },
+        {
+          "slug": "snover",
+          "dex": 459,
+          "name": "SNOVER"
+        },
+        {
+          "slug": "abomasnow",
+          "dex": 460,
+          "name": "ABOMASNOW"
+        },
+        {
+          "slug": "bouffalant",
+          "dex": 626,
+          "name": "BOUFFALANT"
+        }
+      ]
+    },
+    {
+      "slug": "water-absorb",
+      "name": "Absorve Água",
+      "desc": "Golpes de Água restauram PS em vez de causar dano.",
+      "count": 16,
+      "impl": true,
+      "species": [
+        {
+          "slug": "poliwag",
+          "dex": 60,
+          "name": "POLIWAG"
+        },
+        {
+          "slug": "poliwhirl",
+          "dex": 61,
+          "name": "POLIWHIRL"
+        },
+        {
+          "slug": "poliwrath",
+          "dex": 62,
+          "name": "POLIWRATH"
+        },
+        {
+          "slug": "lapras",
+          "dex": 131,
+          "name": "LAPRAS"
+        },
+        {
+          "slug": "vaporeon",
+          "dex": 134,
+          "name": "VAPOREON"
+        },
+        {
+          "slug": "politoed",
+          "dex": 186,
+          "name": "POLITOED"
+        },
+        {
+          "slug": "wooper",
+          "dex": 194,
+          "name": "WOOPER"
+        },
+        {
+          "slug": "quagsire",
+          "dex": 195,
+          "name": "QUAGSIRE"
+        },
+        {
+          "slug": "mantine",
+          "dex": 226,
+          "name": "MANTINE"
+        },
+        {
+          "slug": "mantyke",
+          "dex": 458,
+          "name": "MANTYKE"
+        },
+        {
+          "slug": "tympole",
+          "dex": 535,
+          "name": "TYMPOLE"
+        },
+        {
+          "slug": "palpitoad",
+          "dex": 536,
+          "name": "PALPITOAD"
+        },
+        {
+          "slug": "seismitoad",
+          "dex": 537,
+          "name": "SEISMITOAD"
+        },
+        {
+          "slug": "maractus",
+          "dex": 556,
+          "name": "MARACTUS"
+        },
+        {
+          "slug": "frillish",
+          "dex": 592,
+          "name": "FRILLISH"
+        },
+        {
+          "slug": "jellicent",
+          "dex": 593,
+          "name": "JELLICENT"
+        }
+      ]
+    },
+    {
+      "slug": "volt-absorb",
+      "name": "Absorve Volt",
+      "desc": "Golpes Elétricos restauram PS em vez de causar dano.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "jolteon",
+          "dex": 135,
+          "name": "JOLTEON"
+        },
+        {
+          "slug": "chinchou",
+          "dex": 170,
+          "name": "CHINCHOU"
+        },
+        {
+          "slug": "lanturn",
+          "dex": 171,
+          "name": "LANTURN"
+        },
+        {
+          "slug": "pachirisu",
+          "dex": 417,
+          "name": "PACHIRISU"
+        }
+      ]
+    },
+    {
+      "slug": "speed-boost",
+      "name": "Acelerar",
+      "desc": "Aumenta a Velocidade ao fim de cada turno.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "yanma",
+          "dex": 193,
+          "name": "YANMA"
+        },
+        {
+          "slug": "ninjask",
+          "dex": 291,
+          "name": "NINJASK"
+        },
+        {
+          "slug": "yanmega",
+          "dex": 469,
+          "name": "YANMEGA"
+        },
+        {
+          "slug": "venipede",
+          "dex": 543,
+          "name": "VENIPEDE"
+        },
+        {
+          "slug": "whirlipede",
+          "dex": 544,
+          "name": "WHIRLIPEDE"
+        },
+        {
+          "slug": "scolipede",
+          "dex": 545,
+          "name": "SCOLIPEDE"
+        }
+      ]
+    },
+    {
+      "slug": "adaptability",
+      "name": "Adaptação",
+      "desc": "Aumenta o bônus de golpes do mesmo tipo do Pokémon.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "eevee",
+          "dex": 133,
+          "name": "EEVEE"
+        },
+        {
+          "slug": "porygon_z",
+          "dex": 474,
+          "name": "PORYGON Z"
+        },
+        {
+          "slug": "basculin",
+          "dex": 550,
+          "name": "BASCULIN"
+        }
+      ]
+    },
+    {
+      "slug": "sticky-hold",
+      "name": "Adesivo",
+      "desc": "Adesivo é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 8,
+      "impl": true,
+      "species": [
+        {
+          "slug": "grimer",
+          "dex": 88,
+          "name": "GRIMER"
+        },
+        {
+          "slug": "muk",
+          "dex": 89,
+          "name": "MUK"
+        },
+        {
+          "slug": "gulpin",
+          "dex": 316,
+          "name": "GULPIN"
+        },
+        {
+          "slug": "swalot",
+          "dex": 317,
+          "name": "SWALOT"
+        },
+        {
+          "slug": "shellos",
+          "dex": 422,
+          "name": "SHELLOS"
+        },
+        {
+          "slug": "gastrodon",
+          "dex": 423,
+          "name": "GASTRODON"
+        },
+        {
+          "slug": "trubbish",
+          "dex": 568,
+          "name": "TRUBBISH"
+        },
+        {
+          "slug": "accelgor",
+          "dex": 617,
+          "name": "ACCELGOR"
+        }
+      ]
+    },
+    {
+      "slug": "aftermath",
+      "name": "Aftermath",
+      "desc": "Aftermath é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "drifloon",
+          "dex": 425,
+          "name": "DRIFLOON"
+        },
+        {
+          "slug": "drifblim",
+          "dex": 426,
+          "name": "DRIFBLIM"
+        },
+        {
+          "slug": "stunky",
+          "dex": 434,
+          "name": "STUNKY"
+        },
+        {
+          "slug": "skuntank",
+          "dex": 435,
+          "name": "SKUNTANK"
+        },
+        {
+          "slug": "trubbish",
+          "dex": 568,
+          "name": "TRUBBISH"
+        },
+        {
+          "slug": "garbodor",
+          "dex": 569,
+          "name": "GARBODOR"
+        }
+      ]
+    },
+    {
+      "slug": "oblivious",
+      "name": "Alheio",
+      "desc": "Alheio é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 17,
+      "impl": true,
+      "species": [
+        {
+          "slug": "slowpoke",
+          "dex": 79,
+          "name": "SLOWPOKE"
+        },
+        {
+          "slug": "slowbro",
+          "dex": 80,
+          "name": "SLOWBRO"
+        },
+        {
+          "slug": "lickitung",
+          "dex": 108,
+          "name": "LICKITUNG"
+        },
+        {
+          "slug": "jynx",
+          "dex": 124,
+          "name": "JYNX"
+        },
+        {
+          "slug": "slowking",
+          "dex": 199,
+          "name": "SLOWKING"
+        },
+        {
+          "slug": "swinub",
+          "dex": 220,
+          "name": "SWINUB"
+        },
+        {
+          "slug": "piloswine",
+          "dex": 221,
+          "name": "PILOSWINE"
+        },
+        {
+          "slug": "smoochum",
+          "dex": 238,
+          "name": "SMOOCHUM"
+        },
+        {
+          "slug": "illumise",
+          "dex": 314,
+          "name": "ILLUMISE"
+        },
+        {
+          "slug": "wailmer",
+          "dex": 320,
+          "name": "WAILMER"
+        },
+        {
+          "slug": "wailord",
+          "dex": 321,
+          "name": "WAILORD"
+        },
+        {
+          "slug": "numel",
+          "dex": 322,
+          "name": "NUMEL"
+        },
+        {
+          "slug": "barboach",
+          "dex": 339,
+          "name": "BARBOACH"
+        },
+        {
+          "slug": "whiscash",
+          "dex": 340,
+          "name": "WHISCASH"
+        },
+        {
+          "slug": "feebas",
+          "dex": 349,
+          "name": "FEEBAS"
+        },
+        {
+          "slug": "lickilicky",
+          "dex": 463,
+          "name": "LICKILICKY"
+        },
+        {
+          "slug": "mamoswine",
+          "dex": 473,
+          "name": "MAMOSWINE"
+        }
+      ]
+    },
+    {
+      "slug": "analytic",
+      "name": "Analytic",
+      "desc": "Analytic é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "magnezone",
+          "dex": 462,
+          "name": "MAGNEZONE"
+        },
+        {
+          "slug": "porygon_z",
+          "dex": 474,
+          "name": "PORYGON Z"
+        },
+        {
+          "slug": "patrat",
+          "dex": 504,
+          "name": "PATRAT"
+        },
+        {
+          "slug": "watchog",
+          "dex": 505,
+          "name": "WATCHOG"
+        },
+        {
+          "slug": "elgyem",
+          "dex": 605,
+          "name": "ELGYEM"
+        },
+        {
+          "slug": "beheeyem",
+          "dex": 606,
+          "name": "BEHEEYEM"
+        }
+      ]
+    },
+    {
+      "slug": "anticipation",
+      "name": "Antecipação",
+      "desc": "Avisa quando o adversário possui um golpe muito perigoso.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "barboach",
+          "dex": 339,
+          "name": "BARBOACH"
+        },
+        {
+          "slug": "whiscash",
+          "dex": 340,
+          "name": "WHISCASH"
+        },
+        {
+          "slug": "wormadam",
+          "dex": 413,
+          "name": "WORMADAM"
+        },
+        {
+          "slug": "croagunk",
+          "dex": 453,
+          "name": "CROAGUNK"
+        },
+        {
+          "slug": "toxicroak",
+          "dex": 454,
+          "name": "TOXICROAK"
+        },
+        {
+          "slug": "ferrothorn",
+          "dex": 598,
+          "name": "FERROTHORN"
+        }
+      ]
+    },
+    {
+      "slug": "arena-trap",
+      "name": "Armadilha",
+      "desc": "Impede a fuga ou troca de adversários vulneráveis.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "diglett",
+          "dex": 50,
+          "name": "DIGLETT"
+        },
+        {
+          "slug": "dugtrio",
+          "dex": 51,
+          "name": "DUGTRIO"
+        },
+        {
+          "slug": "trapinch",
+          "dex": 328,
+          "name": "TRAPINCH"
+        }
+      ]
+    },
+    {
+      "slug": "battle-armor",
+      "name": "Armadura",
+      "desc": "Impede que o Pokémon receba acertos críticos.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "kabuto",
+          "dex": 140,
+          "name": "KABUTO"
+        },
+        {
+          "slug": "kabutops",
+          "dex": 141,
+          "name": "KABUTOPS"
+        },
+        {
+          "slug": "anorith",
+          "dex": 347,
+          "name": "ANORITH"
+        },
+        {
+          "slug": "armaldo",
+          "dex": 348,
+          "name": "ARMALDO"
+        },
+        {
+          "slug": "skorupi",
+          "dex": 451,
+          "name": "SKORUPI"
+        },
+        {
+          "slug": "drapion",
+          "dex": 452,
+          "name": "DRAPION"
+        }
+      ]
+    },
+    {
+      "slug": "magma-armor",
+      "name": "Armadura",
+      "desc": "Armadura é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "slugma",
+          "dex": 218,
+          "name": "SLUGMA"
+        },
+        {
+          "slug": "magcargo",
+          "dex": 219,
+          "name": "MAGCARGO"
+        },
+        {
+          "slug": "camerupt",
+          "dex": 323,
+          "name": "CAMERUPT"
+        }
+      ]
+    },
+    {
+      "slug": "bad-dreams",
+      "name": "Bad-Dreams",
+      "desc": "Bad-Dreams é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "darkrai",
+          "dex": 491,
+          "name": "DARKRAI"
+        }
+      ]
+    },
+    {
+      "slug": "big-pecks",
+      "name": "Big-Pecks",
+      "desc": "Big-Pecks é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 8,
+      "impl": true,
+      "species": [
+        {
+          "slug": "chatot",
+          "dex": 441,
+          "name": "CHATOT"
+        },
+        {
+          "slug": "pidove",
+          "dex": 519,
+          "name": "PIDOVE"
+        },
+        {
+          "slug": "tranquill",
+          "dex": 520,
+          "name": "TRANQUILL"
+        },
+        {
+          "slug": "unfezant",
+          "dex": 521,
+          "name": "UNFEZANT"
+        },
+        {
+          "slug": "ducklett",
+          "dex": 580,
+          "name": "DUCKLETT"
+        },
+        {
+          "slug": "swanna",
+          "dex": 581,
+          "name": "SWANNA"
+        },
+        {
+          "slug": "vullaby",
+          "dex": 629,
+          "name": "VULLABY"
+        },
+        {
+          "slug": "mandibuzz",
+          "dex": 630,
+          "name": "MANDIBUZZ"
+        }
+      ]
+    },
+    {
+      "slug": "frisk",
+      "name": "Bisbilhotar",
+      "desc": "Bisbilhotar é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "wigglytuff",
+          "dex": 40,
+          "name": "WIGGLYTUFF"
+        },
+        {
+          "slug": "stantler",
+          "dex": 234,
+          "name": "STANTLER"
+        },
+        {
+          "slug": "shuppet",
+          "dex": 353,
+          "name": "SHUPPET"
+        },
+        {
+          "slug": "banette",
+          "dex": 354,
+          "name": "BANETTE"
+        },
+        {
+          "slug": "yanmega",
+          "dex": 469,
+          "name": "YANMEGA"
+        },
+        {
+          "slug": "dusknoir",
+          "dex": 477,
+          "name": "DUSKNOIR"
+        },
+        {
+          "slug": "gothita",
+          "dex": 574,
+          "name": "GOTHITA"
+        },
+        {
+          "slug": "gothorita",
+          "dex": 575,
+          "name": "GOTHORITA"
+        },
+        {
+          "slug": "gothitelle",
+          "dex": 576,
+          "name": "GOTHITELLE"
+        }
+      ]
+    },
+    {
+      "slug": "rock-head",
+      "name": "Cabeça Dura",
+      "desc": "Impede dano de recuo de golpes.",
+      "count": 18,
+      "impl": true,
+      "species": [
+        {
+          "slug": "geodude",
+          "dex": 74,
+          "name": "GEODUDE"
+        },
+        {
+          "slug": "graveler",
+          "dex": 75,
+          "name": "GRAVELER"
+        },
+        {
+          "slug": "golem",
+          "dex": 76,
+          "name": "GOLEM"
+        },
+        {
+          "slug": "onix",
+          "dex": 95,
+          "name": "ONIX"
+        },
+        {
+          "slug": "cubone",
+          "dex": 104,
+          "name": "CUBONE"
+        },
+        {
+          "slug": "marowak",
+          "dex": 105,
+          "name": "MAROWAK"
+        },
+        {
+          "slug": "rhyhorn",
+          "dex": 111,
+          "name": "RHYHORN"
+        },
+        {
+          "slug": "rhydon",
+          "dex": 112,
+          "name": "RHYDON"
+        },
+        {
+          "slug": "aerodactyl",
+          "dex": 142,
+          "name": "AERODACTYL"
+        },
+        {
+          "slug": "sudowoodo",
+          "dex": 185,
+          "name": "SUDOWOODO"
+        },
+        {
+          "slug": "steelix",
+          "dex": 208,
+          "name": "STEELIX"
+        },
+        {
+          "slug": "aron",
+          "dex": 304,
+          "name": "ARON"
+        },
+        {
+          "slug": "lairon",
+          "dex": 305,
+          "name": "LAIRON"
+        },
+        {
+          "slug": "aggron",
+          "dex": 306,
+          "name": "AGGRON"
+        },
+        {
+          "slug": "relicanth",
+          "dex": 369,
+          "name": "RELICANTH"
+        },
+        {
+          "slug": "bagon",
+          "dex": 371,
+          "name": "BAGON"
+        },
+        {
+          "slug": "shelgon",
+          "dex": 372,
+          "name": "SHELGON"
+        },
+        {
+          "slug": "bonsly",
+          "dex": 438,
+          "name": "BONSLY"
+        }
+      ]
+    },
+    {
+      "slug": "shell-armor",
+      "name": "Carapaça",
+      "desc": "Impede que o Pokémon receba acertos críticos.",
+      "count": 20,
+      "impl": true,
+      "species": [
+        {
+          "slug": "shellder",
+          "dex": 90,
+          "name": "SHELLDER"
+        },
+        {
+          "slug": "cloyster",
+          "dex": 91,
+          "name": "CLOYSTER"
+        },
+        {
+          "slug": "krabby",
+          "dex": 98,
+          "name": "KRABBY"
+        },
+        {
+          "slug": "kingler",
+          "dex": 99,
+          "name": "KINGLER"
+        },
+        {
+          "slug": "lapras",
+          "dex": 131,
+          "name": "LAPRAS"
+        },
+        {
+          "slug": "omanyte",
+          "dex": 138,
+          "name": "OMANYTE"
+        },
+        {
+          "slug": "omastar",
+          "dex": 139,
+          "name": "OMASTAR"
+        },
+        {
+          "slug": "corphish",
+          "dex": 341,
+          "name": "CORPHISH"
+        },
+        {
+          "slug": "crawdaunt",
+          "dex": 342,
+          "name": "CRAWDAUNT"
+        },
+        {
+          "slug": "clamperl",
+          "dex": 366,
+          "name": "CLAMPERL"
+        },
+        {
+          "slug": "turtwig",
+          "dex": 387,
+          "name": "TURTWIG"
+        },
+        {
+          "slug": "grotle",
+          "dex": 388,
+          "name": "GROTLE"
+        },
+        {
+          "slug": "torterra",
+          "dex": 389,
+          "name": "TORTERRA"
+        },
+        {
+          "slug": "oshawott",
+          "dex": 501,
+          "name": "OSHAWOTT"
+        },
+        {
+          "slug": "dewott",
+          "dex": 502,
+          "name": "DEWOTT"
+        },
+        {
+          "slug": "samurott",
+          "dex": 503,
+          "name": "SAMUROTT"
+        },
+        {
+          "slug": "dwebble",
+          "dex": 557,
+          "name": "DWEBBLE"
+        },
+        {
+          "slug": "crustle",
+          "dex": 558,
+          "name": "CRUSTLE"
+        },
+        {
+          "slug": "escavalier",
+          "dex": 589,
+          "name": "ESCAVALIER"
+        },
+        {
+          "slug": "shelmet",
+          "dex": 616,
+          "name": "SHELMET"
+        }
+      ]
+    },
+    {
+      "slug": "cloud-nine",
+      "name": "Céu Limpo",
+      "desc": "Céu Limpo é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "psyduck",
+          "dex": 54,
+          "name": "PSYDUCK"
+        },
+        {
+          "slug": "golduck",
+          "dex": 55,
+          "name": "GOLDUCK"
+        },
+        {
+          "slug": "lickilicky",
+          "dex": 463,
+          "name": "LICKILICKY"
+        }
+      ]
+    },
+    {
+      "slug": "blaze",
+      "name": "Chama",
+      "desc": "Aumenta o poder de golpes de Fogo quando os PS estão baixos.",
+      "count": 17,
+      "impl": true,
+      "species": [
+        {
+          "slug": "charmander",
+          "dex": 4,
+          "name": "CHARMANDER"
+        },
+        {
+          "slug": "charmeleon",
+          "dex": 5,
+          "name": "CHARMELEON"
+        },
+        {
+          "slug": "charizard",
+          "dex": 6,
+          "name": "CHARIZARD"
+        },
+        {
+          "slug": "cyndaquil",
+          "dex": 155,
+          "name": "CYNDAQUIL"
+        },
+        {
+          "slug": "quilava",
+          "dex": 156,
+          "name": "QUILAVA"
+        },
+        {
+          "slug": "typhlosion",
+          "dex": 157,
+          "name": "TYPHLOSION"
+        },
+        {
+          "slug": "torchic",
+          "dex": 255,
+          "name": "TORCHIC"
+        },
+        {
+          "slug": "combusken",
+          "dex": 256,
+          "name": "COMBUSKEN"
+        },
+        {
+          "slug": "blaziken",
+          "dex": 257,
+          "name": "BLAZIKEN"
+        },
+        {
+          "slug": "chimchar",
+          "dex": 390,
+          "name": "CHIMCHAR"
+        },
+        {
+          "slug": "monferno",
+          "dex": 391,
+          "name": "MONFERNO"
+        },
+        {
+          "slug": "infernape",
+          "dex": 392,
+          "name": "INFERNAPE"
+        },
+        {
+          "slug": "tepig",
+          "dex": 498,
+          "name": "TEPIG"
+        },
+        {
+          "slug": "pignite",
+          "dex": 499,
+          "name": "PIGNITE"
+        },
+        {
+          "slug": "emboar",
+          "dex": 500,
+          "name": "EMBOAR"
+        },
+        {
+          "slug": "pansear",
+          "dex": 513,
+          "name": "PANSEAR"
+        },
+        {
+          "slug": "simisear",
+          "dex": 514,
+          "name": "SIMISEAR"
+        }
+      ]
+    },
+    {
+      "slug": "cute-charm",
+      "name": "Charme",
+      "desc": "Charme é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "clefairy",
+          "dex": 35,
+          "name": "CLEFAIRY"
+        },
+        {
+          "slug": "clefable",
+          "dex": 36,
+          "name": "CLEFABLE"
+        },
+        {
+          "slug": "jigglypuff",
+          "dex": 39,
+          "name": "JIGGLYPUFF"
+        },
+        {
+          "slug": "wigglytuff",
+          "dex": 40,
+          "name": "WIGGLYTUFF"
+        },
+        {
+          "slug": "cleffa",
+          "dex": 173,
+          "name": "CLEFFA"
+        },
+        {
+          "slug": "igglybuff",
+          "dex": 174,
+          "name": "IGGLYBUFF"
+        },
+        {
+          "slug": "skitty",
+          "dex": 300,
+          "name": "SKITTY"
+        },
+        {
+          "slug": "delcatty",
+          "dex": 301,
+          "name": "DELCATTY"
+        },
+        {
+          "slug": "milotic",
+          "dex": 350,
+          "name": "MILOTIC"
+        },
+        {
+          "slug": "lopunny",
+          "dex": 428,
+          "name": "LOPUNNY"
+        },
+        {
+          "slug": "minccino",
+          "dex": 572,
+          "name": "MINCCINO"
+        },
+        {
+          "slug": "cinccino",
+          "dex": 573,
+          "name": "CINCCINO"
+        }
+      ]
+    },
+    {
+      "slug": "chlorophyll",
+      "name": "Clorofila",
+      "desc": "Aumenta a Velocidade sob sol forte.",
+      "count": 32,
+      "impl": true,
+      "species": [
+        {
+          "slug": "oddish",
+          "dex": 43,
+          "name": "ODDISH"
+        },
+        {
+          "slug": "gloom",
+          "dex": 44,
+          "name": "GLOOM"
+        },
+        {
+          "slug": "vileplume",
+          "dex": 45,
+          "name": "VILEPLUME"
+        },
+        {
+          "slug": "bellsprout",
+          "dex": 69,
+          "name": "BELLSPROUT"
+        },
+        {
+          "slug": "weepinbell",
+          "dex": 70,
+          "name": "WEEPINBELL"
+        },
+        {
+          "slug": "victreebel",
+          "dex": 71,
+          "name": "VICTREEBEL"
+        },
+        {
+          "slug": "exeggcute",
+          "dex": 102,
+          "name": "EXEGGCUTE"
+        },
+        {
+          "slug": "exeggutor",
+          "dex": 103,
+          "name": "EXEGGUTOR"
+        },
+        {
+          "slug": "tangela",
+          "dex": 114,
+          "name": "TANGELA"
+        },
+        {
+          "slug": "bellossom",
+          "dex": 182,
+          "name": "BELLOSSOM"
+        },
+        {
+          "slug": "hoppip",
+          "dex": 187,
+          "name": "HOPPIP"
+        },
+        {
+          "slug": "skiploom",
+          "dex": 188,
+          "name": "SKIPLOOM"
+        },
+        {
+          "slug": "jumpluff",
+          "dex": 189,
+          "name": "JUMPLUFF"
+        },
+        {
+          "slug": "sunkern",
+          "dex": 191,
+          "name": "SUNKERN"
+        },
+        {
+          "slug": "sunflora",
+          "dex": 192,
+          "name": "SUNFLORA"
+        },
+        {
+          "slug": "seedot",
+          "dex": 273,
+          "name": "SEEDOT"
+        },
+        {
+          "slug": "nuzleaf",
+          "dex": 274,
+          "name": "NUZLEAF"
+        },
+        {
+          "slug": "shiftry",
+          "dex": 275,
+          "name": "SHIFTRY"
+        },
+        {
+          "slug": "tropius",
+          "dex": 357,
+          "name": "TROPIUS"
+        },
+        {
+          "slug": "cherubi",
+          "dex": 420,
+          "name": "CHERUBI"
+        },
+        {
+          "slug": "tangrowth",
+          "dex": 465,
+          "name": "TANGROWTH"
+        },
+        {
+          "slug": "leafeon",
+          "dex": 470,
+          "name": "LEAFEON"
+        },
+        {
+          "slug": "sewaddle",
+          "dex": 540,
+          "name": "SEWADDLE"
+        },
+        {
+          "slug": "swadloon",
+          "dex": 541,
+          "name": "SWADLOON"
+        },
+        {
+          "slug": "leavanny",
+          "dex": 542,
+          "name": "LEAVANNY"
+        },
+        {
+          "slug": "cottonee",
+          "dex": 546,
+          "name": "COTTONEE"
+        },
+        {
+          "slug": "whimsicott",
+          "dex": 547,
+          "name": "WHIMSICOTT"
+        },
+        {
+          "slug": "petilil",
+          "dex": 548,
+          "name": "PETILIL"
+        },
+        {
+          "slug": "lilligant",
+          "dex": 549,
+          "name": "LILLIGANT"
+        },
+        {
+          "slug": "maractus",
+          "dex": 556,
+          "name": "MARACTUS"
+        },
+        {
+          "slug": "deerling",
+          "dex": 585,
+          "name": "DEERLING"
+        },
+        {
+          "slug": "sawsbuck",
+          "dex": 586,
+          "name": "SAWSBUCK"
+        }
+      ]
+    },
+    {
+      "slug": "pickup",
+      "name": "Coleta",
+      "desc": "Coleta é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "meowth",
+          "dex": 52,
+          "name": "MEOWTH"
+        },
+        {
+          "slug": "aipom",
+          "dex": 190,
+          "name": "AIPOM"
+        },
+        {
+          "slug": "teddiursa",
+          "dex": 216,
+          "name": "TEDDIURSA"
+        },
+        {
+          "slug": "phanpy",
+          "dex": 231,
+          "name": "PHANPY"
+        },
+        {
+          "slug": "zigzagoon",
+          "dex": 263,
+          "name": "ZIGZAGOON"
+        },
+        {
+          "slug": "linoone",
+          "dex": 264,
+          "name": "LINOONE"
+        },
+        {
+          "slug": "pachirisu",
+          "dex": 417,
+          "name": "PACHIRISU"
+        },
+        {
+          "slug": "ambipom",
+          "dex": 424,
+          "name": "AMBIPOM"
+        },
+        {
+          "slug": "munchlax",
+          "dex": 446,
+          "name": "MUNCHLAX"
+        },
+        {
+          "slug": "lillipup",
+          "dex": 506,
+          "name": "LILLIPUP"
+        }
+      ]
+    },
+    {
+      "slug": "contrary",
+      "name": "Contrary",
+      "desc": "Contrary é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "snivy",
+          "dex": 495,
+          "name": "SNIVY"
+        },
+        {
+          "slug": "servine",
+          "dex": 496,
+          "name": "SERVINE"
+        },
+        {
+          "slug": "serperior",
+          "dex": 497,
+          "name": "SERPERIOR"
+        }
+      ]
+    },
+    {
+      "slug": "trace",
+      "name": "Cópia",
+      "desc": "Copia a habilidade do adversário ao entrar em batalha.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "porygon",
+          "dex": 137,
+          "name": "PORYGON"
+        },
+        {
+          "slug": "porygon2",
+          "dex": 233,
+          "name": "PORYGON2"
+        },
+        {
+          "slug": "ralts",
+          "dex": 280,
+          "name": "RALTS"
+        },
+        {
+          "slug": "kirlia",
+          "dex": 281,
+          "name": "KIRLIA"
+        },
+        {
+          "slug": "gardevoir",
+          "dex": 282,
+          "name": "GARDEVOIR"
+        }
+      ]
+    },
+    {
+      "slug": "guts",
+      "name": "Coragem",
+      "desc": "Aumenta o Ataque enquanto o Pokémon sofre uma condição de status.",
+      "count": 20,
+      "impl": true,
+      "species": [
+        {
+          "slug": "rattata",
+          "dex": 19,
+          "name": "RATTATA"
+        },
+        {
+          "slug": "raticate",
+          "dex": 20,
+          "name": "RATICATE"
+        },
+        {
+          "slug": "machop",
+          "dex": 66,
+          "name": "MACHOP"
+        },
+        {
+          "slug": "machoke",
+          "dex": 67,
+          "name": "MACHOKE"
+        },
+        {
+          "slug": "machamp",
+          "dex": 68,
+          "name": "MACHAMP"
+        },
+        {
+          "slug": "heracross",
+          "dex": 214,
+          "name": "HERACROSS"
+        },
+        {
+          "slug": "ursaring",
+          "dex": 217,
+          "name": "URSARING"
+        },
+        {
+          "slug": "tyrogue",
+          "dex": 236,
+          "name": "TYROGUE"
+        },
+        {
+          "slug": "larvitar",
+          "dex": 246,
+          "name": "LARVITAR"
+        },
+        {
+          "slug": "taillow",
+          "dex": 276,
+          "name": "TAILLOW"
+        },
+        {
+          "slug": "swellow",
+          "dex": 277,
+          "name": "SWELLOW"
+        },
+        {
+          "slug": "makuhita",
+          "dex": 296,
+          "name": "MAKUHITA"
+        },
+        {
+          "slug": "hariyama",
+          "dex": 297,
+          "name": "HARIYAMA"
+        },
+        {
+          "slug": "shinx",
+          "dex": 403,
+          "name": "SHINX"
+        },
+        {
+          "slug": "luxio",
+          "dex": 404,
+          "name": "LUXIO"
+        },
+        {
+          "slug": "luxray",
+          "dex": 405,
+          "name": "LUXRAY"
+        },
+        {
+          "slug": "timburr",
+          "dex": 532,
+          "name": "TIMBURR"
+        },
+        {
+          "slug": "gurdurr",
+          "dex": 533,
+          "name": "GURDURR"
+        },
+        {
+          "slug": "conkeldurr",
+          "dex": 534,
+          "name": "CONKELDURR"
+        },
+        {
+          "slug": "throh",
+          "dex": 538,
+          "name": "THROH"
+        }
+      ]
+    },
+    {
+      "slug": "ice-body",
+      "name": "Corpo de Gelo",
+      "desc": "Corpo de Gelo é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "snorunt",
+          "dex": 361,
+          "name": "SNORUNT"
+        },
+        {
+          "slug": "glalie",
+          "dex": 362,
+          "name": "GLALIE"
+        },
+        {
+          "slug": "spheal",
+          "dex": 363,
+          "name": "SPHEAL"
+        },
+        {
+          "slug": "sealeo",
+          "dex": 364,
+          "name": "SEALEO"
+        },
+        {
+          "slug": "walrein",
+          "dex": 365,
+          "name": "WALREIN"
+        },
+        {
+          "slug": "glaceon",
+          "dex": 471,
+          "name": "GLACEON"
+        },
+        {
+          "slug": "vanillite",
+          "dex": 582,
+          "name": "VANILLITE"
+        },
+        {
+          "slug": "vanillish",
+          "dex": 583,
+          "name": "VANILLISH"
+        },
+        {
+          "slug": "vanilluxe",
+          "dex": 584,
+          "name": "VANILLUXE"
+        }
+      ]
+    },
+    {
+      "slug": "flame-body",
+      "name": "Corpo em Chamas",
+      "desc": "Corpo em Chamas é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 11,
+      "impl": true,
+      "species": [
+        {
+          "slug": "magmar",
+          "dex": 126,
+          "name": "MAGMAR"
+        },
+        {
+          "slug": "slugma",
+          "dex": 218,
+          "name": "SLUGMA"
+        },
+        {
+          "slug": "magcargo",
+          "dex": 219,
+          "name": "MAGCARGO"
+        },
+        {
+          "slug": "magby",
+          "dex": 240,
+          "name": "MAGBY"
+        },
+        {
+          "slug": "magmortar",
+          "dex": 467,
+          "name": "MAGMORTAR"
+        },
+        {
+          "slug": "heatran",
+          "dex": 485,
+          "name": "HEATRAN"
+        },
+        {
+          "slug": "litwick",
+          "dex": 607,
+          "name": "LITWICK"
+        },
+        {
+          "slug": "lampent",
+          "dex": 608,
+          "name": "LAMPENT"
+        },
+        {
+          "slug": "chandelure",
+          "dex": 609,
+          "name": "CHANDELURE"
+        },
+        {
+          "slug": "larvesta",
+          "dex": 636,
+          "name": "LARVESTA"
+        },
+        {
+          "slug": "volcarona",
+          "dex": 637,
+          "name": "VOLCARONA"
+        }
+      ]
+    },
+    {
+      "slug": "clear-body",
+      "name": "Corpo Limpo",
+      "desc": "Impede que adversários reduzam os atributos do Pokémon.",
+      "count": 11,
+      "impl": true,
+      "species": [
+        {
+          "slug": "tentacool",
+          "dex": 72,
+          "name": "TENTACOOL"
+        },
+        {
+          "slug": "tentacruel",
+          "dex": 73,
+          "name": "TENTACRUEL"
+        },
+        {
+          "slug": "beldum",
+          "dex": 374,
+          "name": "BELDUM"
+        },
+        {
+          "slug": "metang",
+          "dex": 375,
+          "name": "METANG"
+        },
+        {
+          "slug": "metagross",
+          "dex": 376,
+          "name": "METAGROSS"
+        },
+        {
+          "slug": "regirock",
+          "dex": 377,
+          "name": "REGIROCK"
+        },
+        {
+          "slug": "regice",
+          "dex": 378,
+          "name": "REGICE"
+        },
+        {
+          "slug": "registeel",
+          "dex": 379,
+          "name": "REGISTEEL"
+        },
+        {
+          "slug": "klink",
+          "dex": 599,
+          "name": "KLINK"
+        },
+        {
+          "slug": "klang",
+          "dex": 600,
+          "name": "KLANG"
+        },
+        {
+          "slug": "klinklang",
+          "dex": 601,
+          "name": "KLINKLANG"
+        }
+      ]
+    },
+    {
+      "slug": "overgrow",
+      "name": "Cresc. Veloz",
+      "desc": "Aumenta o poder de golpes de Grama quando os PS estão baixos.",
+      "count": 17,
+      "impl": true,
+      "species": [
+        {
+          "slug": "bulbasaur",
+          "dex": 1,
+          "name": "BULBASAUR"
+        },
+        {
+          "slug": "ivysaur",
+          "dex": 2,
+          "name": "IVYSAUR"
+        },
+        {
+          "slug": "venusaur",
+          "dex": 3,
+          "name": "VENUSAUR"
+        },
+        {
+          "slug": "chikorita",
+          "dex": 152,
+          "name": "CHIKORITA"
+        },
+        {
+          "slug": "bayleef",
+          "dex": 153,
+          "name": "BAYLEEF"
+        },
+        {
+          "slug": "meganium",
+          "dex": 154,
+          "name": "MEGANIUM"
+        },
+        {
+          "slug": "treecko",
+          "dex": 252,
+          "name": "TREECKO"
+        },
+        {
+          "slug": "grovyle",
+          "dex": 253,
+          "name": "GROVYLE"
+        },
+        {
+          "slug": "sceptile",
+          "dex": 254,
+          "name": "SCEPTILE"
+        },
+        {
+          "slug": "turtwig",
+          "dex": 387,
+          "name": "TURTWIG"
+        },
+        {
+          "slug": "grotle",
+          "dex": 388,
+          "name": "GROTLE"
+        },
+        {
+          "slug": "torterra",
+          "dex": 389,
+          "name": "TORTERRA"
+        },
+        {
+          "slug": "snivy",
+          "dex": 495,
+          "name": "SNIVY"
+        },
+        {
+          "slug": "servine",
+          "dex": 496,
+          "name": "SERVINE"
+        },
+        {
+          "slug": "serperior",
+          "dex": 497,
+          "name": "SERPERIOR"
+        },
+        {
+          "slug": "pansage",
+          "dex": 511,
+          "name": "PANSAGE"
+        },
+        {
+          "slug": "simisage",
+          "dex": 512,
+          "name": "SIMISAGE"
+        }
+      ]
+    },
+    {
+      "slug": "natural-cure",
+      "name": "Cura Natural",
+      "desc": "Cura condições de status quando o Pokémon sai de campo.",
+      "count": 13,
+      "impl": true,
+      "species": [
+        {
+          "slug": "chansey",
+          "dex": 113,
+          "name": "CHANSEY"
+        },
+        {
+          "slug": "staryu",
+          "dex": 120,
+          "name": "STARYU"
+        },
+        {
+          "slug": "starmie",
+          "dex": 121,
+          "name": "STARMIE"
+        },
+        {
+          "slug": "corsola",
+          "dex": 222,
+          "name": "CORSOLA"
+        },
+        {
+          "slug": "blissey",
+          "dex": 242,
+          "name": "BLISSEY"
+        },
+        {
+          "slug": "celebi",
+          "dex": 251,
+          "name": "CELEBI"
+        },
+        {
+          "slug": "roselia",
+          "dex": 315,
+          "name": "ROSELIA"
+        },
+        {
+          "slug": "swablu",
+          "dex": 333,
+          "name": "SWABLU"
+        },
+        {
+          "slug": "altaria",
+          "dex": 334,
+          "name": "ALTARIA"
+        },
+        {
+          "slug": "budew",
+          "dex": 406,
+          "name": "BUDEW"
+        },
+        {
+          "slug": "roserade",
+          "dex": 407,
+          "name": "ROSERADE"
+        },
+        {
+          "slug": "happiny",
+          "dex": 440,
+          "name": "HAPPINY"
+        },
+        {
+          "slug": "shaymin",
+          "dex": 492,
+          "name": "SHAYMIN"
+        }
+      ]
+    },
+    {
+      "slug": "poison-heal",
+      "name": "Cura Venenosa",
+      "desc": "Recupera PS quando o Pokémon está envenenado.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "shroomish",
+          "dex": 285,
+          "name": "SHROOMISH"
+        },
+        {
+          "slug": "breloom",
+          "dex": 286,
+          "name": "BRELOOM"
+        },
+        {
+          "slug": "gliscor",
+          "dex": 472,
+          "name": "GLISCOR"
+        }
+      ]
+    },
+    {
+      "slug": "cursed-body",
+      "name": "Cursed-Body",
+      "desc": "Cursed-Body é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "froslass",
+          "dex": 478,
+          "name": "FROSLASS"
+        },
+        {
+          "slug": "frillish",
+          "dex": 592,
+          "name": "FRILLISH"
+        },
+        {
+          "slug": "jellicent",
+          "dex": 593,
+          "name": "JELLICENT"
+        }
+      ]
+    },
+    {
+      "slug": "defeatist",
+      "name": "Defeatist",
+      "desc": "Defeatist é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "archen",
+          "dex": 566,
+          "name": "ARCHEN"
+        },
+        {
+          "slug": "archeops",
+          "dex": 567,
+          "name": "ARCHEOPS"
+        }
+      ]
+    },
+    {
+      "slug": "defiant",
+      "name": "Defiant",
+      "desc": "Defiant é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "piplup",
+          "dex": 393,
+          "name": "PIPLUP"
+        },
+        {
+          "slug": "prinplup",
+          "dex": 394,
+          "name": "PRINPLUP"
+        },
+        {
+          "slug": "empoleon",
+          "dex": 395,
+          "name": "EMPOLEON"
+        },
+        {
+          "slug": "purugly",
+          "dex": 432,
+          "name": "PURUGLY"
+        },
+        {
+          "slug": "pawniard",
+          "dex": 624,
+          "name": "PAWNIARD"
+        },
+        {
+          "slug": "bisharp",
+          "dex": 625,
+          "name": "BISHARP"
+        },
+        {
+          "slug": "braviary",
+          "dex": 628,
+          "name": "BRAVIARY"
+        },
+        {
+          "slug": "tornadus",
+          "dex": 641,
+          "name": "TORNADUS"
+        },
+        {
+          "slug": "thundurus",
+          "dex": 642,
+          "name": "THUNDURUS"
+        }
+      ]
+    },
+    {
+      "slug": "download",
+      "name": "Download",
+      "desc": "Aumenta o atributo ofensivo que melhor explora a defesa do alvo.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "porygon",
+          "dex": 137,
+          "name": "PORYGON"
+        },
+        {
+          "slug": "porygon2",
+          "dex": 233,
+          "name": "PORYGON2"
+        },
+        {
+          "slug": "porygon_z",
+          "dex": 474,
+          "name": "PORYGON Z"
+        },
+        {
+          "slug": "genesect",
+          "dex": 649,
+          "name": "GENESECT"
+        }
+      ]
+    },
+    {
+      "slug": "skill-link",
+      "name": "Elo de Perícia",
+      "desc": "Faz golpes de múltiplos acertos atingirem o máximo de vezes.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "shellder",
+          "dex": 90,
+          "name": "SHELLDER"
+        },
+        {
+          "slug": "cloyster",
+          "dex": 91,
+          "name": "CLOYSTER"
+        },
+        {
+          "slug": "ambipom",
+          "dex": 424,
+          "name": "AMBIPOM"
+        },
+        {
+          "slug": "minccino",
+          "dex": 572,
+          "name": "MINCCINO"
+        },
+        {
+          "slug": "cinccino",
+          "dex": 573,
+          "name": "CINCCINO"
+        }
+      ]
+    },
+    {
+      "slug": "stall",
+      "name": "Enrolar",
+      "desc": "Enrolar é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "sableye",
+          "dex": 302,
+          "name": "SABLEYE"
+        }
+      ]
+    },
+    {
+      "slug": "swarm",
+      "name": "Enxame",
+      "desc": "Aumenta o poder de golpes de Inseto quando os PS estão baixos.",
+      "count": 24,
+      "impl": true,
+      "species": [
+        {
+          "slug": "beedrill",
+          "dex": 15,
+          "name": "BEEDRILL"
+        },
+        {
+          "slug": "scyther",
+          "dex": 123,
+          "name": "SCYTHER"
+        },
+        {
+          "slug": "ledyba",
+          "dex": 165,
+          "name": "LEDYBA"
+        },
+        {
+          "slug": "ledian",
+          "dex": 166,
+          "name": "LEDIAN"
+        },
+        {
+          "slug": "spinarak",
+          "dex": 167,
+          "name": "SPINARAK"
+        },
+        {
+          "slug": "ariados",
+          "dex": 168,
+          "name": "ARIADOS"
+        },
+        {
+          "slug": "scizor",
+          "dex": 212,
+          "name": "SCIZOR"
+        },
+        {
+          "slug": "heracross",
+          "dex": 214,
+          "name": "HERACROSS"
+        },
+        {
+          "slug": "beautifly",
+          "dex": 267,
+          "name": "BEAUTIFLY"
+        },
+        {
+          "slug": "volbeat",
+          "dex": 313,
+          "name": "VOLBEAT"
+        },
+        {
+          "slug": "kricketune",
+          "dex": 402,
+          "name": "KRICKETUNE"
+        },
+        {
+          "slug": "mothim",
+          "dex": 414,
+          "name": "MOTHIM"
+        },
+        {
+          "slug": "sewaddle",
+          "dex": 540,
+          "name": "SEWADDLE"
+        },
+        {
+          "slug": "leavanny",
+          "dex": 542,
+          "name": "LEAVANNY"
+        },
+        {
+          "slug": "venipede",
+          "dex": 543,
+          "name": "VENIPEDE"
+        },
+        {
+          "slug": "whirlipede",
+          "dex": 544,
+          "name": "WHIRLIPEDE"
+        },
+        {
+          "slug": "scolipede",
+          "dex": 545,
+          "name": "SCOLIPEDE"
+        },
+        {
+          "slug": "karrablast",
+          "dex": 588,
+          "name": "KARRABLAST"
+        },
+        {
+          "slug": "escavalier",
+          "dex": 589,
+          "name": "ESCAVALIER"
+        },
+        {
+          "slug": "joltik",
+          "dex": 595,
+          "name": "JOLTIK"
+        },
+        {
+          "slug": "galvantula",
+          "dex": 596,
+          "name": "GALVANTULA"
+        },
+        {
+          "slug": "durant",
+          "dex": 632,
+          "name": "DURANT"
+        },
+        {
+          "slug": "larvesta",
+          "dex": 636,
+          "name": "LARVESTA"
+        },
+        {
+          "slug": "volcarona",
+          "dex": 637,
+          "name": "VOLCARONA"
+        }
+      ]
+    },
+    {
+      "slug": "marvel-scale",
+      "name": "Escama",
+      "desc": "Aumenta a Defesa enquanto o Pokémon sofre uma condição de status.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "milotic",
+          "dex": 350,
+          "name": "MILOTIC"
+        }
+      ]
+    },
+    {
+      "slug": "vital-spirit",
+      "name": "Espírito",
+      "desc": "Espírito é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 7,
+      "impl": true,
+      "species": [
+        {
+          "slug": "mankey",
+          "dex": 56,
+          "name": "MANKEY"
+        },
+        {
+          "slug": "primeape",
+          "dex": 57,
+          "name": "PRIMEAPE"
+        },
+        {
+          "slug": "delibird",
+          "dex": 225,
+          "name": "DELIBIRD"
+        },
+        {
+          "slug": "vigoroth",
+          "dex": 288,
+          "name": "VIGOROTH"
+        },
+        {
+          "slug": "electivire",
+          "dex": 466,
+          "name": "ELECTIVIRE"
+        },
+        {
+          "slug": "magmortar",
+          "dex": 467,
+          "name": "MAGMORTAR"
+        },
+        {
+          "slug": "lillipup",
+          "dex": 506,
+          "name": "LILLIPUP"
+        }
+      ]
+    },
+    {
+      "slug": "effect-spore",
+      "name": "Esporo",
+      "desc": "Esporo é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "paras",
+          "dex": 46,
+          "name": "PARAS"
+        },
+        {
+          "slug": "parasect",
+          "dex": 47,
+          "name": "PARASECT"
+        },
+        {
+          "slug": "shroomish",
+          "dex": 285,
+          "name": "SHROOMISH"
+        },
+        {
+          "slug": "breloom",
+          "dex": 286,
+          "name": "BRELOOM"
+        },
+        {
+          "slug": "foongus",
+          "dex": 590,
+          "name": "FOONGUS"
+        },
+        {
+          "slug": "amoonguss",
+          "dex": 591,
+          "name": "AMOONGUSS"
+        }
+      ]
+    },
+    {
+      "slug": "flash-fire",
+      "name": "Esquenta",
+      "desc": "Anula golpes de Fogo e fortalece os golpes de Fogo do usuário.",
+      "count": 14,
+      "impl": true,
+      "species": [
+        {
+          "slug": "vulpix",
+          "dex": 37,
+          "name": "VULPIX"
+        },
+        {
+          "slug": "ninetales",
+          "dex": 38,
+          "name": "NINETALES"
+        },
+        {
+          "slug": "growlithe",
+          "dex": 58,
+          "name": "GROWLITHE"
+        },
+        {
+          "slug": "arcanine",
+          "dex": 59,
+          "name": "ARCANINE"
+        },
+        {
+          "slug": "ponyta",
+          "dex": 77,
+          "name": "PONYTA"
+        },
+        {
+          "slug": "rapidash",
+          "dex": 78,
+          "name": "RAPIDASH"
+        },
+        {
+          "slug": "flareon",
+          "dex": 136,
+          "name": "FLAREON"
+        },
+        {
+          "slug": "houndour",
+          "dex": 228,
+          "name": "HOUNDOUR"
+        },
+        {
+          "slug": "houndoom",
+          "dex": 229,
+          "name": "HOUNDOOM"
+        },
+        {
+          "slug": "heatran",
+          "dex": 485,
+          "name": "HEATRAN"
+        },
+        {
+          "slug": "litwick",
+          "dex": 607,
+          "name": "LITWICK"
+        },
+        {
+          "slug": "lampent",
+          "dex": 608,
+          "name": "LAMPENT"
+        },
+        {
+          "slug": "chandelure",
+          "dex": 609,
+          "name": "CHANDELURE"
+        },
+        {
+          "slug": "heatmor",
+          "dex": 631,
+          "name": "HEATMOR"
+        }
+      ]
+    },
+    {
+      "slug": "static",
+      "name": "Estática",
+      "desc": "Estática é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 14,
+      "impl": true,
+      "species": [
+        {
+          "slug": "pikachu",
+          "dex": 25,
+          "name": "PIKACHU"
+        },
+        {
+          "slug": "raichu",
+          "dex": 26,
+          "name": "RAICHU"
+        },
+        {
+          "slug": "voltorb",
+          "dex": 100,
+          "name": "VOLTORB"
+        },
+        {
+          "slug": "electrode",
+          "dex": 101,
+          "name": "ELECTRODE"
+        },
+        {
+          "slug": "electabuzz",
+          "dex": 125,
+          "name": "ELECTABUZZ"
+        },
+        {
+          "slug": "pichu",
+          "dex": 172,
+          "name": "PICHU"
+        },
+        {
+          "slug": "mareep",
+          "dex": 179,
+          "name": "MAREEP"
+        },
+        {
+          "slug": "flaaffy",
+          "dex": 180,
+          "name": "FLAAFFY"
+        },
+        {
+          "slug": "ampharos",
+          "dex": 181,
+          "name": "AMPHAROS"
+        },
+        {
+          "slug": "elekid",
+          "dex": 239,
+          "name": "ELEKID"
+        },
+        {
+          "slug": "electrike",
+          "dex": 309,
+          "name": "ELECTRIKE"
+        },
+        {
+          "slug": "manectric",
+          "dex": 310,
+          "name": "MANECTRIC"
+        },
+        {
+          "slug": "emolga",
+          "dex": 587,
+          "name": "EMOLGA"
+        },
+        {
+          "slug": "stunfisk",
+          "dex": 618,
+          "name": "STUNFISK"
+        }
+      ]
+    },
+    {
+      "slug": "stench",
+      "name": "Fedor",
+      "desc": "Fedor é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "grimer",
+          "dex": 88,
+          "name": "GRIMER"
+        },
+        {
+          "slug": "muk",
+          "dex": 89,
+          "name": "MUK"
+        },
+        {
+          "slug": "stunky",
+          "dex": 434,
+          "name": "STUNKY"
+        },
+        {
+          "slug": "skuntank",
+          "dex": 435,
+          "name": "SKUNTANK"
+        },
+        {
+          "slug": "trubbish",
+          "dex": 568,
+          "name": "TRUBBISH"
+        },
+        {
+          "slug": "garbodor",
+          "dex": 569,
+          "name": "GARBODOR"
+        }
+      ]
+    },
+    {
+      "slug": "filter",
+      "name": "Filtro",
+      "desc": "Filtro é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "mr_mime",
+          "dex": 122,
+          "name": "MR. MIME"
+        },
+        {
+          "slug": "mime_jr",
+          "dex": 439,
+          "name": "MIME JR"
+        }
+      ]
+    },
+    {
+      "slug": "steadfast",
+      "name": "Firmeza",
+      "desc": "Firmeza é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "tyrogue",
+          "dex": 236,
+          "name": "TYROGUE"
+        },
+        {
+          "slug": "riolu",
+          "dex": 447,
+          "name": "RIOLU"
+        },
+        {
+          "slug": "lucario",
+          "dex": 448,
+          "name": "LUCARIO"
+        },
+        {
+          "slug": "gallade",
+          "dex": 475,
+          "name": "GALLADE"
+        }
+      ]
+    },
+    {
+      "slug": "flare-boost",
+      "name": "Flare-Boost",
+      "desc": "Flare-Boost é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "drifloon",
+          "dex": 425,
+          "name": "DRIFLOON"
+        },
+        {
+          "slug": "drifblim",
+          "dex": 426,
+          "name": "DRIFBLIM"
+        }
+      ]
+    },
+    {
+      "slug": "limber",
+      "name": "Flexível",
+      "desc": "Flexível é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "persian",
+          "dex": 53,
+          "name": "PERSIAN"
+        },
+        {
+          "slug": "hitmonlee",
+          "dex": 106,
+          "name": "HITMONLEE"
+        },
+        {
+          "slug": "ditto",
+          "dex": 132,
+          "name": "DITTO"
+        },
+        {
+          "slug": "buneary",
+          "dex": 427,
+          "name": "BUNEARY"
+        },
+        {
+          "slug": "lopunny",
+          "dex": 428,
+          "name": "LOPUNNY"
+        },
+        {
+          "slug": "glameow",
+          "dex": 431,
+          "name": "GLAMEOW"
+        },
+        {
+          "slug": "purrloin",
+          "dex": 509,
+          "name": "PURRLOIN"
+        },
+        {
+          "slug": "liepard",
+          "dex": 510,
+          "name": "LIEPARD"
+        },
+        {
+          "slug": "stunfisk",
+          "dex": 618,
+          "name": "STUNFISK"
+        }
+      ]
+    },
+    {
+      "slug": "flower-gift",
+      "name": "Flower-Gift",
+      "desc": "Flower-Gift é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "cherrim",
+          "dex": 421,
+          "name": "CHERRIM"
+        }
+      ]
+    },
+    {
+      "slug": "inner-focus",
+      "name": "Foco Interno",
+      "desc": "Impede recuo causado por golpes.",
+      "count": 21,
+      "impl": true,
+      "species": [
+        {
+          "slug": "zubat",
+          "dex": 41,
+          "name": "ZUBAT"
+        },
+        {
+          "slug": "golbat",
+          "dex": 42,
+          "name": "GOLBAT"
+        },
+        {
+          "slug": "abra",
+          "dex": 63,
+          "name": "ABRA"
+        },
+        {
+          "slug": "kadabra",
+          "dex": 64,
+          "name": "KADABRA"
+        },
+        {
+          "slug": "alakazam",
+          "dex": 65,
+          "name": "ALAKAZAM"
+        },
+        {
+          "slug": "farfetchd",
+          "dex": 83,
+          "name": "FARFETCH'D"
+        },
+        {
+          "slug": "dragonite",
+          "dex": 149,
+          "name": "DRAGONITE"
+        },
+        {
+          "slug": "crobat",
+          "dex": 169,
+          "name": "CROBAT"
+        },
+        {
+          "slug": "girafarig",
+          "dex": 203,
+          "name": "GIRAFARIG"
+        },
+        {
+          "slug": "sneasel",
+          "dex": 215,
+          "name": "SNEASEL"
+        },
+        {
+          "slug": "snorunt",
+          "dex": 361,
+          "name": "SNORUNT"
+        },
+        {
+          "slug": "glalie",
+          "dex": 362,
+          "name": "GLALIE"
+        },
+        {
+          "slug": "riolu",
+          "dex": 447,
+          "name": "RIOLU"
+        },
+        {
+          "slug": "lucario",
+          "dex": 448,
+          "name": "LUCARIO"
+        },
+        {
+          "slug": "throh",
+          "dex": 538,
+          "name": "THROH"
+        },
+        {
+          "slug": "sawk",
+          "dex": 539,
+          "name": "SAWK"
+        },
+        {
+          "slug": "darumaka",
+          "dex": 554,
+          "name": "DARUMAKA"
+        },
+        {
+          "slug": "mienfoo",
+          "dex": 619,
+          "name": "MIENFOO"
+        },
+        {
+          "slug": "mienshao",
+          "dex": 620,
+          "name": "MIENSHAO"
+        },
+        {
+          "slug": "pawniard",
+          "dex": 624,
+          "name": "PAWNIARD"
+        },
+        {
+          "slug": "bisharp",
+          "dex": 625,
+          "name": "BISHARP"
+        }
+      ]
+    },
+    {
+      "slug": "leaf-guard",
+      "name": "Folha-Guarda",
+      "desc": "Folha-Guarda é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 11,
+      "impl": true,
+      "species": [
+        {
+          "slug": "tangela",
+          "dex": 114,
+          "name": "TANGELA"
+        },
+        {
+          "slug": "hoppip",
+          "dex": 187,
+          "name": "HOPPIP"
+        },
+        {
+          "slug": "skiploom",
+          "dex": 188,
+          "name": "SKIPLOOM"
+        },
+        {
+          "slug": "jumpluff",
+          "dex": 189,
+          "name": "JUMPLUFF"
+        },
+        {
+          "slug": "roselia",
+          "dex": 315,
+          "name": "ROSELIA"
+        },
+        {
+          "slug": "budew",
+          "dex": 406,
+          "name": "BUDEW"
+        },
+        {
+          "slug": "tangrowth",
+          "dex": 465,
+          "name": "TANGROWTH"
+        },
+        {
+          "slug": "leafeon",
+          "dex": 470,
+          "name": "LEAFEON"
+        },
+        {
+          "slug": "swadloon",
+          "dex": 541,
+          "name": "SWADLOON"
+        },
+        {
+          "slug": "petilil",
+          "dex": 548,
+          "name": "PETILIL"
+        },
+        {
+          "slug": "lilligant",
+          "dex": 549,
+          "name": "LILLIGANT"
+        }
+      ]
+    },
+    {
+      "slug": "huge-power",
+      "name": "Força Imensa",
+      "desc": "Aumenta muito o Ataque físico.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "marill",
+          "dex": 183,
+          "name": "MARILL"
+        },
+        {
+          "slug": "azumarill",
+          "dex": 184,
+          "name": "AZUMARILL"
+        },
+        {
+          "slug": "azurill",
+          "dex": 298,
+          "name": "AZURILL"
+        }
+      ]
+    },
+    {
+      "slug": "pure-power",
+      "name": "Força Pura",
+      "desc": "Aumenta muito o Ataque físico.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "meditite",
+          "dex": 307,
+          "name": "MEDITITE"
+        },
+        {
+          "slug": "medicham",
+          "dex": 308,
+          "name": "MEDICHAM"
+        }
+      ]
+    },
+    {
+      "slug": "solar-power",
+      "name": "Força Solar",
+      "desc": "Força Solar é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "sunkern",
+          "dex": 191,
+          "name": "SUNKERN"
+        },
+        {
+          "slug": "sunflora",
+          "dex": 192,
+          "name": "SUNFLORA"
+        },
+        {
+          "slug": "tropius",
+          "dex": 357,
+          "name": "TROPIUS"
+        }
+      ]
+    },
+    {
+      "slug": "sniper",
+      "name": "Franco-Atirador",
+      "desc": "Aumenta o dano de acertos críticos.",
+      "count": 7,
+      "impl": true,
+      "species": [
+        {
+          "slug": "horsea",
+          "dex": 116,
+          "name": "HORSEA"
+        },
+        {
+          "slug": "seadra",
+          "dex": 117,
+          "name": "SEADRA"
+        },
+        {
+          "slug": "remoraid",
+          "dex": 223,
+          "name": "REMORAID"
+        },
+        {
+          "slug": "octillery",
+          "dex": 224,
+          "name": "OCTILLERY"
+        },
+        {
+          "slug": "kingdra",
+          "dex": 230,
+          "name": "KINGDRA"
+        },
+        {
+          "slug": "skorupi",
+          "dex": 451,
+          "name": "SKORUPI"
+        },
+        {
+          "slug": "drapion",
+          "dex": 452,
+          "name": "DRAPION"
+        }
+      ]
+    },
+    {
+      "slug": "friend-guard",
+      "name": "Friend-Guard",
+      "desc": "Friend-Guard é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": false,
+      "species": [
+        {
+          "slug": "jigglypuff",
+          "dex": 39,
+          "name": "JIGGLYPUFF"
+        },
+        {
+          "slug": "igglybuff",
+          "dex": 174,
+          "name": "IGGLYBUFF"
+        },
+        {
+          "slug": "happiny",
+          "dex": 440,
+          "name": "HAPPINY"
+        }
+      ]
+    },
+    {
+      "slug": "run-away",
+      "name": "Fuga",
+      "desc": "Fuga é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 18,
+      "impl": true,
+      "species": [
+        {
+          "slug": "rattata",
+          "dex": 19,
+          "name": "RATTATA"
+        },
+        {
+          "slug": "raticate",
+          "dex": 20,
+          "name": "RATICATE"
+        },
+        {
+          "slug": "ponyta",
+          "dex": 77,
+          "name": "PONYTA"
+        },
+        {
+          "slug": "rapidash",
+          "dex": 78,
+          "name": "RAPIDASH"
+        },
+        {
+          "slug": "doduo",
+          "dex": 84,
+          "name": "DODUO"
+        },
+        {
+          "slug": "dodrio",
+          "dex": 85,
+          "name": "DODRIO"
+        },
+        {
+          "slug": "eevee",
+          "dex": 133,
+          "name": "EEVEE"
+        },
+        {
+          "slug": "sentret",
+          "dex": 161,
+          "name": "SENTRET"
+        },
+        {
+          "slug": "furret",
+          "dex": 162,
+          "name": "FURRET"
+        },
+        {
+          "slug": "aipom",
+          "dex": 190,
+          "name": "AIPOM"
+        },
+        {
+          "slug": "dunsparce",
+          "dex": 206,
+          "name": "DUNSPARCE"
+        },
+        {
+          "slug": "snubbull",
+          "dex": 209,
+          "name": "SNUBBULL"
+        },
+        {
+          "slug": "poochyena",
+          "dex": 261,
+          "name": "POOCHYENA"
+        },
+        {
+          "slug": "kricketot",
+          "dex": 401,
+          "name": "KRICKETOT"
+        },
+        {
+          "slug": "pachirisu",
+          "dex": 417,
+          "name": "PACHIRISU"
+        },
+        {
+          "slug": "buneary",
+          "dex": 427,
+          "name": "BUNEARY"
+        },
+        {
+          "slug": "patrat",
+          "dex": 504,
+          "name": "PATRAT"
+        },
+        {
+          "slug": "lillipup",
+          "dex": 506,
+          "name": "LILLIPUP"
+        }
+      ]
+    },
+    {
+      "slug": "white-smoke",
+      "name": "Fumaça",
+      "desc": "Impede que adversários reduzam os atributos do Pokémon.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "torkoal",
+          "dex": 324,
+          "name": "TORKOAL"
+        },
+        {
+          "slug": "heatmor",
+          "dex": 631,
+          "name": "HEATMOR"
+        }
+      ]
+    },
+    {
+      "slug": "drizzle",
+      "name": "Garoa",
+      "desc": "Faz chover ao entrar em batalha.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "pelipper",
+          "dex": 279,
+          "name": "PELIPPER"
+        },
+        {
+          "slug": "kyogre",
+          "dex": 382,
+          "name": "KYOGRE"
+        }
+      ]
+    },
+    {
+      "slug": "neutralizing-gas",
+      "name": "Gás Neutralizante",
+      "desc": "Anula as demais habilidades enquanto este Pokémon está em campo.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "koffing",
+          "dex": 109,
+          "name": "KOFFING"
+        },
+        {
+          "slug": "weezing",
+          "dex": 110,
+          "name": "WEEZING"
+        }
+      ]
+    },
+    {
+      "slug": "thick-fat",
+      "name": "Gordura",
+      "desc": "Reduz o dano recebido de golpes de Fogo e Gelo.",
+      "count": 19,
+      "impl": true,
+      "species": [
+        {
+          "slug": "seel",
+          "dex": 86,
+          "name": "SEEL"
+        },
+        {
+          "slug": "dewgong",
+          "dex": 87,
+          "name": "DEWGONG"
+        },
+        {
+          "slug": "snorlax",
+          "dex": 143,
+          "name": "SNORLAX"
+        },
+        {
+          "slug": "marill",
+          "dex": 183,
+          "name": "MARILL"
+        },
+        {
+          "slug": "azumarill",
+          "dex": 184,
+          "name": "AZUMARILL"
+        },
+        {
+          "slug": "miltank",
+          "dex": 241,
+          "name": "MILTANK"
+        },
+        {
+          "slug": "makuhita",
+          "dex": 296,
+          "name": "MAKUHITA"
+        },
+        {
+          "slug": "hariyama",
+          "dex": 297,
+          "name": "HARIYAMA"
+        },
+        {
+          "slug": "azurill",
+          "dex": 298,
+          "name": "AZURILL"
+        },
+        {
+          "slug": "spoink",
+          "dex": 325,
+          "name": "SPOINK"
+        },
+        {
+          "slug": "grumpig",
+          "dex": 326,
+          "name": "GRUMPIG"
+        },
+        {
+          "slug": "spheal",
+          "dex": 363,
+          "name": "SPHEAL"
+        },
+        {
+          "slug": "sealeo",
+          "dex": 364,
+          "name": "SEALEO"
+        },
+        {
+          "slug": "walrein",
+          "dex": 365,
+          "name": "WALREIN"
+        },
+        {
+          "slug": "purugly",
+          "dex": 432,
+          "name": "PURUGLY"
+        },
+        {
+          "slug": "munchlax",
+          "dex": 446,
+          "name": "MUNCHLAX"
+        },
+        {
+          "slug": "mamoswine",
+          "dex": 473,
+          "name": "MAMOSWINE"
+        },
+        {
+          "slug": "tepig",
+          "dex": 498,
+          "name": "TEPIG"
+        },
+        {
+          "slug": "pignite",
+          "dex": 499,
+          "name": "PIGNITE"
+        }
+      ]
+    },
+    {
+      "slug": "liquid-ooze",
+      "name": "Gosma",
+      "desc": "Gosma é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "tentacool",
+          "dex": 72,
+          "name": "TENTACOOL"
+        },
+        {
+          "slug": "tentacruel",
+          "dex": 73,
+          "name": "TENTACRUEL"
+        },
+        {
+          "slug": "gulpin",
+          "dex": 316,
+          "name": "GULPIN"
+        },
+        {
+          "slug": "swalot",
+          "dex": 317,
+          "name": "SWALOT"
+        }
+      ]
+    },
+    {
+      "slug": "serene-grace",
+      "name": "Graça",
+      "desc": "Aumenta a chance de efeitos secundários dos golpes.",
+      "count": 11,
+      "impl": true,
+      "species": [
+        {
+          "slug": "chansey",
+          "dex": 113,
+          "name": "CHANSEY"
+        },
+        {
+          "slug": "togepi",
+          "dex": 175,
+          "name": "TOGEPI"
+        },
+        {
+          "slug": "togetic",
+          "dex": 176,
+          "name": "TOGETIC"
+        },
+        {
+          "slug": "dunsparce",
+          "dex": 206,
+          "name": "DUNSPARCE"
+        },
+        {
+          "slug": "blissey",
+          "dex": 242,
+          "name": "BLISSEY"
+        },
+        {
+          "slug": "jirachi",
+          "dex": 385,
+          "name": "JIRACHI"
+        },
+        {
+          "slug": "happiny",
+          "dex": 440,
+          "name": "HAPPINY"
+        },
+        {
+          "slug": "togekiss",
+          "dex": 468,
+          "name": "TOGEKISS"
+        },
+        {
+          "slug": "deerling",
+          "dex": 585,
+          "name": "DEERLING"
+        },
+        {
+          "slug": "sawsbuck",
+          "dex": 586,
+          "name": "SAWSBUCK"
+        },
+        {
+          "slug": "meloetta",
+          "dex": 648,
+          "name": "MELOETTA"
+        }
+      ]
+    },
+    {
+      "slug": "magic-guard",
+      "name": "Guarda Mágica",
+      "desc": "Evita dano indireto que não venha de golpes.",
+      "count": 7,
+      "impl": true,
+      "species": [
+        {
+          "slug": "clefairy",
+          "dex": 35,
+          "name": "CLEFAIRY"
+        },
+        {
+          "slug": "clefable",
+          "dex": 36,
+          "name": "CLEFABLE"
+        },
+        {
+          "slug": "cleffa",
+          "dex": 173,
+          "name": "CLEFFA"
+        },
+        {
+          "slug": "sigilyph",
+          "dex": 561,
+          "name": "SIGILYPH"
+        },
+        {
+          "slug": "solosis",
+          "dex": 577,
+          "name": "SOLOSIS"
+        },
+        {
+          "slug": "duosion",
+          "dex": 578,
+          "name": "DUOSION"
+        },
+        {
+          "slug": "reuniclus",
+          "dex": 579,
+          "name": "REUNICLUS"
+        }
+      ]
+    },
+    {
+      "slug": "wonder-guard",
+      "name": "Guarda Maravilha",
+      "desc": "Só permite dano direto de golpes super eficazes.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "shedinja",
+          "dex": 292,
+          "name": "SHEDINJA"
+        }
+      ]
+    },
+    {
+      "slug": "gluttony",
+      "name": "Gula",
+      "desc": "Gula é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "snorlax",
+          "dex": 143,
+          "name": "SNORLAX"
+        },
+        {
+          "slug": "shuckle",
+          "dex": 213,
+          "name": "SHUCKLE"
+        },
+        {
+          "slug": "zigzagoon",
+          "dex": 263,
+          "name": "ZIGZAGOON"
+        },
+        {
+          "slug": "linoone",
+          "dex": 264,
+          "name": "LINOONE"
+        },
+        {
+          "slug": "munchlax",
+          "dex": 446,
+          "name": "MUNCHLAX"
+        },
+        {
+          "slug": "pansage",
+          "dex": 511,
+          "name": "PANSAGE"
+        },
+        {
+          "slug": "simisage",
+          "dex": 512,
+          "name": "SIMISAGE"
+        },
+        {
+          "slug": "pansear",
+          "dex": 513,
+          "name": "PANSEAR"
+        },
+        {
+          "slug": "simisear",
+          "dex": 514,
+          "name": "SIMISEAR"
+        },
+        {
+          "slug": "panpour",
+          "dex": 515,
+          "name": "PANPOUR"
+        },
+        {
+          "slug": "simipour",
+          "dex": 516,
+          "name": "SIMIPOUR"
+        },
+        {
+          "slug": "heatmor",
+          "dex": 631,
+          "name": "HEATMOR"
+        }
+      ]
+    },
+    {
+      "slug": "healer",
+      "name": "Healer",
+      "desc": "Healer é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": false,
+      "species": [
+        {
+          "slug": "audino",
+          "dex": 531,
+          "name": "AUDINO"
+        },
+        {
+          "slug": "alomomola",
+          "dex": 594,
+          "name": "ALOMOMOLA"
+        }
+      ]
+    },
+    {
+      "slug": "heatproof",
+      "name": "Heatproof",
+      "desc": "Heatproof é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "bronzor",
+          "dex": 436,
+          "name": "BRONZOR"
+        },
+        {
+          "slug": "bronzong",
+          "dex": 437,
+          "name": "BRONZONG"
+        }
+      ]
+    },
+    {
+      "slug": "heavy-metal",
+      "name": "Heavy-Metal",
+      "desc": "Heavy-Metal é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": false,
+      "species": [
+        {
+          "slug": "bronzor",
+          "dex": 436,
+          "name": "BRONZOR"
+        },
+        {
+          "slug": "bronzong",
+          "dex": 437,
+          "name": "BRONZONG"
+        }
+      ]
+    },
+    {
+      "slug": "hydration",
+      "name": "Hidratação",
+      "desc": "Hidratação é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "seel",
+          "dex": 86,
+          "name": "SEEL"
+        },
+        {
+          "slug": "dewgong",
+          "dex": 87,
+          "name": "DEWGONG"
+        },
+        {
+          "slug": "wingull",
+          "dex": 278,
+          "name": "WINGULL"
+        },
+        {
+          "slug": "phione",
+          "dex": 489,
+          "name": "PHIONE"
+        },
+        {
+          "slug": "manaphy",
+          "dex": 490,
+          "name": "MANAPHY"
+        },
+        {
+          "slug": "tympole",
+          "dex": 535,
+          "name": "TYMPOLE"
+        },
+        {
+          "slug": "palpitoad",
+          "dex": 536,
+          "name": "PALPITOAD"
+        },
+        {
+          "slug": "ducklett",
+          "dex": 580,
+          "name": "DUCKLETT"
+        },
+        {
+          "slug": "swanna",
+          "dex": 581,
+          "name": "SWANNA"
+        },
+        {
+          "slug": "alomomola",
+          "dex": 594,
+          "name": "ALOMOMOLA"
+        },
+        {
+          "slug": "shelmet",
+          "dex": 616,
+          "name": "SHELMET"
+        },
+        {
+          "slug": "accelgor",
+          "dex": 617,
+          "name": "ACCELGOR"
+        }
+      ]
+    },
+    {
+      "slug": "hyper-cutter",
+      "name": "Hiper Corte",
+      "desc": "Impede que o Ataque seja reduzido por adversários.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "krabby",
+          "dex": 98,
+          "name": "KRABBY"
+        },
+        {
+          "slug": "kingler",
+          "dex": 99,
+          "name": "KINGLER"
+        },
+        {
+          "slug": "pinsir",
+          "dex": 127,
+          "name": "PINSIR"
+        },
+        {
+          "slug": "gligar",
+          "dex": 207,
+          "name": "GLIGAR"
+        },
+        {
+          "slug": "mawile",
+          "dex": 303,
+          "name": "MAWILE"
+        },
+        {
+          "slug": "trapinch",
+          "dex": 328,
+          "name": "TRAPINCH"
+        },
+        {
+          "slug": "corphish",
+          "dex": 341,
+          "name": "CORPHISH"
+        },
+        {
+          "slug": "crawdaunt",
+          "dex": 342,
+          "name": "CRAWDAUNT"
+        },
+        {
+          "slug": "gliscor",
+          "dex": 472,
+          "name": "GLISCOR"
+        }
+      ]
+    },
+    {
+      "slug": "honey-gather",
+      "name": "Honey-Gather",
+      "desc": "Honey-Gather é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": false,
+      "species": [
+        {
+          "slug": "combee",
+          "dex": 415,
+          "name": "COMBEE"
+        }
+      ]
+    },
+    {
+      "slug": "illusion",
+      "name": "Illusion",
+      "desc": "Illusion é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": false,
+      "species": [
+        {
+          "slug": "zorua",
+          "dex": 570,
+          "name": "ZORUA"
+        },
+        {
+          "slug": "zoroark",
+          "dex": 571,
+          "name": "ZOROARK"
+        }
+      ]
+    },
+    {
+      "slug": "illuminate",
+      "name": "Iluminar",
+      "desc": "Iluminar é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "staryu",
+          "dex": 120,
+          "name": "STARYU"
+        },
+        {
+          "slug": "starmie",
+          "dex": 121,
+          "name": "STARMIE"
+        },
+        {
+          "slug": "chinchou",
+          "dex": 170,
+          "name": "CHINCHOU"
+        },
+        {
+          "slug": "lanturn",
+          "dex": 171,
+          "name": "LANTURN"
+        },
+        {
+          "slug": "volbeat",
+          "dex": 313,
+          "name": "VOLBEAT"
+        },
+        {
+          "slug": "watchog",
+          "dex": 505,
+          "name": "WATCHOG"
+        }
+      ]
+    },
+    {
+      "slug": "magnet-pull",
+      "name": "Ímã",
+      "desc": "Ímã é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "magnemite",
+          "dex": 81,
+          "name": "MAGNEMITE"
+        },
+        {
+          "slug": "magneton",
+          "dex": 82,
+          "name": "MAGNETON"
+        },
+        {
+          "slug": "nosepass",
+          "dex": 299,
+          "name": "NOSEPASS"
+        },
+        {
+          "slug": "magnezone",
+          "dex": 462,
+          "name": "MAGNEZONE"
+        },
+        {
+          "slug": "probopass",
+          "dex": 476,
+          "name": "PROBOPASS"
+        }
+      ]
+    },
+    {
+      "slug": "reckless",
+      "name": "Imprudente",
+      "desc": "Fortalece golpes que causam recuo ou dano por falha.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "hitmonlee",
+          "dex": 106,
+          "name": "HITMONLEE"
+        },
+        {
+          "slug": "starly",
+          "dex": 396,
+          "name": "STARLY"
+        },
+        {
+          "slug": "staravia",
+          "dex": 397,
+          "name": "STARAVIA"
+        },
+        {
+          "slug": "staraptor",
+          "dex": 398,
+          "name": "STARAPTOR"
+        },
+        {
+          "slug": "rhyperior",
+          "dex": 464,
+          "name": "RHYPERIOR"
+        },
+        {
+          "slug": "emboar",
+          "dex": 500,
+          "name": "EMBOAR"
+        },
+        {
+          "slug": "basculin",
+          "dex": 550,
+          "name": "BASCULIN"
+        },
+        {
+          "slug": "mienfoo",
+          "dex": 619,
+          "name": "MIENFOO"
+        },
+        {
+          "slug": "mienshao",
+          "dex": 620,
+          "name": "MIENSHAO"
+        },
+        {
+          "slug": "bouffalant",
+          "dex": 626,
+          "name": "BOUFFALANT"
+        }
+      ]
+    },
+    {
+      "slug": "immunity",
+      "name": "Imunidade",
+      "desc": "Imunidade é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "snorlax",
+          "dex": 143,
+          "name": "SNORLAX"
+        },
+        {
+          "slug": "zangoose",
+          "dex": 335,
+          "name": "ZANGOOSE"
+        }
+      ]
+    },
+    {
+      "slug": "infiltrator",
+      "name": "Infiltrator",
+      "desc": "Infiltrator é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": false,
+      "species": [
+        {
+          "slug": "spiritomb",
+          "dex": 442,
+          "name": "SPIRITOMB"
+        },
+        {
+          "slug": "cottonee",
+          "dex": 546,
+          "name": "COTTONEE"
+        },
+        {
+          "slug": "whimsicott",
+          "dex": 547,
+          "name": "WHIMSICOTT"
+        },
+        {
+          "slug": "litwick",
+          "dex": 607,
+          "name": "LITWICK"
+        },
+        {
+          "slug": "lampent",
+          "dex": 608,
+          "name": "LAMPENT"
+        },
+        {
+          "slug": "chandelure",
+          "dex": 609,
+          "name": "CHANDELURE"
+        }
+      ]
+    },
+    {
+      "slug": "insomnia",
+      "name": "Insônia",
+      "desc": "Insônia é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "drowzee",
+          "dex": 96,
+          "name": "DROWZEE"
+        },
+        {
+          "slug": "hypno",
+          "dex": 97,
+          "name": "HYPNO"
+        },
+        {
+          "slug": "hoothoot",
+          "dex": 163,
+          "name": "HOOTHOOT"
+        },
+        {
+          "slug": "noctowl",
+          "dex": 164,
+          "name": "NOCTOWL"
+        },
+        {
+          "slug": "spinarak",
+          "dex": 167,
+          "name": "SPINARAK"
+        },
+        {
+          "slug": "ariados",
+          "dex": 168,
+          "name": "ARIADOS"
+        },
+        {
+          "slug": "murkrow",
+          "dex": 198,
+          "name": "MURKROW"
+        },
+        {
+          "slug": "shuppet",
+          "dex": 353,
+          "name": "SHUPPET"
+        },
+        {
+          "slug": "banette",
+          "dex": 354,
+          "name": "BANETTE"
+        },
+        {
+          "slug": "honchkrow",
+          "dex": 430,
+          "name": "HONCHKROW"
+        }
+      ]
+    },
+    {
+      "slug": "intimidate",
+      "name": "Intimidação",
+      "desc": "Reduz o Ataque do adversário ao entrar em batalha.",
+      "count": 26,
+      "impl": true,
+      "species": [
+        {
+          "slug": "ekans",
+          "dex": 23,
+          "name": "EKANS"
+        },
+        {
+          "slug": "arbok",
+          "dex": 24,
+          "name": "ARBOK"
+        },
+        {
+          "slug": "growlithe",
+          "dex": 58,
+          "name": "GROWLITHE"
+        },
+        {
+          "slug": "arcanine",
+          "dex": 59,
+          "name": "ARCANINE"
+        },
+        {
+          "slug": "tauros",
+          "dex": 128,
+          "name": "TAUROS"
+        },
+        {
+          "slug": "gyarados",
+          "dex": 130,
+          "name": "GYARADOS"
+        },
+        {
+          "slug": "snubbull",
+          "dex": 209,
+          "name": "SNUBBULL"
+        },
+        {
+          "slug": "granbull",
+          "dex": 210,
+          "name": "GRANBULL"
+        },
+        {
+          "slug": "stantler",
+          "dex": 234,
+          "name": "STANTLER"
+        },
+        {
+          "slug": "hitmontop",
+          "dex": 237,
+          "name": "HITMONTOP"
+        },
+        {
+          "slug": "mightyena",
+          "dex": 262,
+          "name": "MIGHTYENA"
+        },
+        {
+          "slug": "masquerain",
+          "dex": 284,
+          "name": "MASQUERAIN"
+        },
+        {
+          "slug": "mawile",
+          "dex": 303,
+          "name": "MAWILE"
+        },
+        {
+          "slug": "salamence",
+          "dex": 373,
+          "name": "SALAMENCE"
+        },
+        {
+          "slug": "staravia",
+          "dex": 397,
+          "name": "STARAVIA"
+        },
+        {
+          "slug": "staraptor",
+          "dex": 398,
+          "name": "STARAPTOR"
+        },
+        {
+          "slug": "shinx",
+          "dex": 403,
+          "name": "SHINX"
+        },
+        {
+          "slug": "luxio",
+          "dex": 404,
+          "name": "LUXIO"
+        },
+        {
+          "slug": "luxray",
+          "dex": 405,
+          "name": "LUXRAY"
+        },
+        {
+          "slug": "herdier",
+          "dex": 507,
+          "name": "HERDIER"
+        },
+        {
+          "slug": "stoutland",
+          "dex": 508,
+          "name": "STOUTLAND"
+        },
+        {
+          "slug": "sandile",
+          "dex": 551,
+          "name": "SANDILE"
+        },
+        {
+          "slug": "krokorok",
+          "dex": 552,
+          "name": "KROKOROK"
+        },
+        {
+          "slug": "krookodile",
+          "dex": 553,
+          "name": "KROOKODILE"
+        },
+        {
+          "slug": "scraggy",
+          "dex": 559,
+          "name": "SCRAGGY"
+        },
+        {
+          "slug": "scrafty",
+          "dex": 560,
+          "name": "SCRAFTY"
+        }
+      ]
+    },
+    {
+      "slug": "iron-barbs",
+      "name": "Iron-Barbs",
+      "desc": "Iron-Barbs é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "ferroseed",
+          "dex": 597,
+          "name": "FERROSEED"
+        },
+        {
+          "slug": "ferrothorn",
+          "dex": 598,
+          "name": "FERROTHORN"
+        }
+      ]
+    },
+    {
+      "slug": "justified",
+      "name": "Justified",
+      "desc": "Justified é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "lucario",
+          "dex": 448,
+          "name": "LUCARIO"
+        },
+        {
+          "slug": "gallade",
+          "dex": 475,
+          "name": "GALLADE"
+        },
+        {
+          "slug": "cobalion",
+          "dex": 638,
+          "name": "COBALION"
+        },
+        {
+          "slug": "terrakion",
+          "dex": 639,
+          "name": "TERRAKION"
+        },
+        {
+          "slug": "virizion",
+          "dex": 640,
+          "name": "VIRIZION"
+        },
+        {
+          "slug": "keldeo",
+          "dex": 647,
+          "name": "KELDEO"
+        }
+      ]
+    },
+    {
+      "slug": "klutz",
+      "name": "Klutz",
+      "desc": "Klutz é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 7,
+      "impl": false,
+      "species": [
+        {
+          "slug": "buneary",
+          "dex": 427,
+          "name": "BUNEARY"
+        },
+        {
+          "slug": "lopunny",
+          "dex": 428,
+          "name": "LOPUNNY"
+        },
+        {
+          "slug": "woobat",
+          "dex": 527,
+          "name": "WOOBAT"
+        },
+        {
+          "slug": "swoobat",
+          "dex": 528,
+          "name": "SWOOBAT"
+        },
+        {
+          "slug": "audino",
+          "dex": 531,
+          "name": "AUDINO"
+        },
+        {
+          "slug": "golett",
+          "dex": 622,
+          "name": "GOLETT"
+        },
+        {
+          "slug": "golurk",
+          "dex": 623,
+          "name": "GOLURK"
+        }
+      ]
+    },
+    {
+      "slug": "tinted-lens",
+      "name": "Lente Colorida",
+      "desc": "Lente Colorida é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "venonat",
+          "dex": 48,
+          "name": "VENONAT"
+        },
+        {
+          "slug": "venomoth",
+          "dex": 49,
+          "name": "VENOMOTH"
+        },
+        {
+          "slug": "illumise",
+          "dex": 314,
+          "name": "ILLUMISE"
+        },
+        {
+          "slug": "mothim",
+          "dex": 414,
+          "name": "MOTHIM"
+        },
+        {
+          "slug": "yanmega",
+          "dex": 469,
+          "name": "YANMEGA"
+        },
+        {
+          "slug": "sigilyph",
+          "dex": 561,
+          "name": "SIGILYPH"
+        }
+      ]
+    },
+    {
+      "slug": "levitate",
+      "name": "Levitar",
+      "desc": "Concede imunidade a golpes do tipo Terra.",
+      "count": 32,
+      "impl": true,
+      "species": [
+        {
+          "slug": "gastly",
+          "dex": 92,
+          "name": "GASTLY"
+        },
+        {
+          "slug": "haunter",
+          "dex": 93,
+          "name": "HAUNTER"
+        },
+        {
+          "slug": "gengar",
+          "dex": 94,
+          "name": "GENGAR"
+        },
+        {
+          "slug": "koffing",
+          "dex": 109,
+          "name": "KOFFING"
+        },
+        {
+          "slug": "weezing",
+          "dex": 110,
+          "name": "WEEZING"
+        },
+        {
+          "slug": "misdreavus",
+          "dex": 200,
+          "name": "MISDREAVUS"
+        },
+        {
+          "slug": "unown",
+          "dex": 201,
+          "name": "UNOWN"
+        },
+        {
+          "slug": "vibrava",
+          "dex": 329,
+          "name": "VIBRAVA"
+        },
+        {
+          "slug": "flygon",
+          "dex": 330,
+          "name": "FLYGON"
+        },
+        {
+          "slug": "lunatone",
+          "dex": 337,
+          "name": "LUNATONE"
+        },
+        {
+          "slug": "solrock",
+          "dex": 338,
+          "name": "SOLROCK"
+        },
+        {
+          "slug": "baltoy",
+          "dex": 343,
+          "name": "BALTOY"
+        },
+        {
+          "slug": "claydol",
+          "dex": 344,
+          "name": "CLAYDOL"
+        },
+        {
+          "slug": "duskull",
+          "dex": 355,
+          "name": "DUSKULL"
+        },
+        {
+          "slug": "chimecho",
+          "dex": 358,
+          "name": "CHIMECHO"
+        },
+        {
+          "slug": "latias",
+          "dex": 380,
+          "name": "LATIAS"
+        },
+        {
+          "slug": "latios",
+          "dex": 381,
+          "name": "LATIOS"
+        },
+        {
+          "slug": "mismagius",
+          "dex": 429,
+          "name": "MISMAGIUS"
+        },
+        {
+          "slug": "chingling",
+          "dex": 433,
+          "name": "CHINGLING"
+        },
+        {
+          "slug": "bronzor",
+          "dex": 436,
+          "name": "BRONZOR"
+        },
+        {
+          "slug": "bronzong",
+          "dex": 437,
+          "name": "BRONZONG"
+        },
+        {
+          "slug": "carnivine",
+          "dex": 455,
+          "name": "CARNIVINE"
+        },
+        {
+          "slug": "rotom",
+          "dex": 479,
+          "name": "ROTOM"
+        },
+        {
+          "slug": "uxie",
+          "dex": 480,
+          "name": "UXIE"
+        },
+        {
+          "slug": "mesprit",
+          "dex": 481,
+          "name": "MESPRIT"
+        },
+        {
+          "slug": "azelf",
+          "dex": 482,
+          "name": "AZELF"
+        },
+        {
+          "slug": "cresselia",
+          "dex": 488,
+          "name": "CRESSELIA"
+        },
+        {
+          "slug": "tynamo",
+          "dex": 602,
+          "name": "TYNAMO"
+        },
+        {
+          "slug": "eelektrik",
+          "dex": 603,
+          "name": "EELEKTRIK"
+        },
+        {
+          "slug": "eelektross",
+          "dex": 604,
+          "name": "EELEKTROSS"
+        },
+        {
+          "slug": "cryogonal",
+          "dex": 615,
+          "name": "CRYOGONAL"
+        },
+        {
+          "slug": "hydreigon",
+          "dex": 635,
+          "name": "HYDREIGON"
+        }
+      ]
+    },
+    {
+      "slug": "early-bird",
+      "name": "Madrugador",
+      "desc": "Madrugador é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 13,
+      "impl": true,
+      "species": [
+        {
+          "slug": "doduo",
+          "dex": 84,
+          "name": "DODUO"
+        },
+        {
+          "slug": "dodrio",
+          "dex": 85,
+          "name": "DODRIO"
+        },
+        {
+          "slug": "kangaskhan",
+          "dex": 115,
+          "name": "KANGASKHAN"
+        },
+        {
+          "slug": "ledyba",
+          "dex": 165,
+          "name": "LEDYBA"
+        },
+        {
+          "slug": "ledian",
+          "dex": 166,
+          "name": "LEDIAN"
+        },
+        {
+          "slug": "natu",
+          "dex": 177,
+          "name": "NATU"
+        },
+        {
+          "slug": "xatu",
+          "dex": 178,
+          "name": "XATU"
+        },
+        {
+          "slug": "girafarig",
+          "dex": 203,
+          "name": "GIRAFARIG"
+        },
+        {
+          "slug": "houndour",
+          "dex": 228,
+          "name": "HOUNDOUR"
+        },
+        {
+          "slug": "houndoom",
+          "dex": 229,
+          "name": "HOUNDOOM"
+        },
+        {
+          "slug": "seedot",
+          "dex": 273,
+          "name": "SEEDOT"
+        },
+        {
+          "slug": "nuzleaf",
+          "dex": 274,
+          "name": "NUZLEAF"
+        },
+        {
+          "slug": "shiftry",
+          "dex": 275,
+          "name": "SHIFTRY"
+        }
+      ]
+    },
+    {
+      "slug": "plus",
+      "name": "Mais",
+      "desc": "Mais é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "plusle",
+          "dex": 311,
+          "name": "PLUSLE"
+        },
+        {
+          "slug": "klink",
+          "dex": 599,
+          "name": "KLINK"
+        },
+        {
+          "slug": "klang",
+          "dex": 600,
+          "name": "KLANG"
+        },
+        {
+          "slug": "klinklang",
+          "dex": 601,
+          "name": "KLINKLANG"
+        }
+      ]
+    },
+    {
+      "slug": "snow-cloak",
+      "name": "Manto de Neve",
+      "desc": "Manto de Neve é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "swinub",
+          "dex": 220,
+          "name": "SWINUB"
+        },
+        {
+          "slug": "piloswine",
+          "dex": 221,
+          "name": "PILOSWINE"
+        },
+        {
+          "slug": "glaceon",
+          "dex": 471,
+          "name": "GLACEON"
+        },
+        {
+          "slug": "mamoswine",
+          "dex": 473,
+          "name": "MAMOSWINE"
+        },
+        {
+          "slug": "froslass",
+          "dex": 478,
+          "name": "FROSLASS"
+        },
+        {
+          "slug": "vanillite",
+          "dex": 582,
+          "name": "VANILLITE"
+        },
+        {
+          "slug": "vanillish",
+          "dex": 583,
+          "name": "VANILLISH"
+        },
+        {
+          "slug": "cubchoo",
+          "dex": 613,
+          "name": "CUBCHOO"
+        },
+        {
+          "slug": "beartic",
+          "dex": 614,
+          "name": "BEARTIC"
+        }
+      ]
+    },
+    {
+      "slug": "minus",
+      "name": "Menos",
+      "desc": "Menos é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "minun",
+          "dex": 312,
+          "name": "MINUN"
+        },
+        {
+          "slug": "klink",
+          "dex": 599,
+          "name": "KLINK"
+        },
+        {
+          "slug": "klang",
+          "dex": 600,
+          "name": "KLANG"
+        },
+        {
+          "slug": "klinklang",
+          "dex": 601,
+          "name": "KLINKLANG"
+        }
+      ]
+    },
+    {
+      "slug": "moody",
+      "name": "Moody",
+      "desc": "Moody é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "bidoof",
+          "dex": 399,
+          "name": "BIDOOF"
+        },
+        {
+          "slug": "bibarel",
+          "dex": 400,
+          "name": "BIBAREL"
+        }
+      ]
+    },
+    {
+      "slug": "motor-drive",
+      "name": "Motor-Drive",
+      "desc": "Motor-Drive é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "electivire",
+          "dex": 466,
+          "name": "ELECTIVIRE"
+        },
+        {
+          "slug": "blitzle",
+          "dex": 522,
+          "name": "BLITZLE"
+        },
+        {
+          "slug": "zebstrika",
+          "dex": 523,
+          "name": "ZEBSTRIKA"
+        },
+        {
+          "slug": "emolga",
+          "dex": 587,
+          "name": "EMOLGA"
+        }
+      ]
+    },
+    {
+      "slug": "moxie",
+      "name": "Moxie",
+      "desc": "Moxie é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "honchkrow",
+          "dex": 430,
+          "name": "HONCHKROW"
+        },
+        {
+          "slug": "sandile",
+          "dex": 551,
+          "name": "SANDILE"
+        },
+        {
+          "slug": "krokorok",
+          "dex": 552,
+          "name": "KROKOROK"
+        },
+        {
+          "slug": "krookodile",
+          "dex": 553,
+          "name": "KROOKODILE"
+        },
+        {
+          "slug": "scraggy",
+          "dex": 559,
+          "name": "SCRAGGY"
+        },
+        {
+          "slug": "scrafty",
+          "dex": 560,
+          "name": "SCRAFTY"
+        }
+      ]
+    },
+    {
+      "slug": "color-change",
+      "name": "Mudar Cor",
+      "desc": "Muda o tipo do Pokémon para o tipo do golpe recebido.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "kecleon",
+          "dex": 352,
+          "name": "KECLEON"
+        }
+      ]
+    },
+    {
+      "slug": "multitype",
+      "name": "Multitype",
+      "desc": "Multitype é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "arceus",
+          "dex": 493,
+          "name": "ARCEUS"
+        }
+      ]
+    },
+    {
+      "slug": "mummy",
+      "name": "Mummy",
+      "desc": "Mummy é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "yamask",
+          "dex": 562,
+          "name": "YAMASK"
+        },
+        {
+          "slug": "cofagrigus",
+          "dex": 563,
+          "name": "COFAGRIGUS"
+        }
+      ]
+    },
+    {
+      "slug": "swift-swim",
+      "name": "Nado Rápido",
+      "desc": "Aumenta a Velocidade durante a chuva.",
+      "count": 31,
+      "impl": true,
+      "species": [
+        {
+          "slug": "horsea",
+          "dex": 116,
+          "name": "HORSEA"
+        },
+        {
+          "slug": "goldeen",
+          "dex": 118,
+          "name": "GOLDEEN"
+        },
+        {
+          "slug": "seaking",
+          "dex": 119,
+          "name": "SEAKING"
+        },
+        {
+          "slug": "magikarp",
+          "dex": 129,
+          "name": "MAGIKARP"
+        },
+        {
+          "slug": "omanyte",
+          "dex": 138,
+          "name": "OMANYTE"
+        },
+        {
+          "slug": "omastar",
+          "dex": 139,
+          "name": "OMASTAR"
+        },
+        {
+          "slug": "kabuto",
+          "dex": 140,
+          "name": "KABUTO"
+        },
+        {
+          "slug": "kabutops",
+          "dex": 141,
+          "name": "KABUTOPS"
+        },
+        {
+          "slug": "qwilfish",
+          "dex": 211,
+          "name": "QWILFISH"
+        },
+        {
+          "slug": "mantine",
+          "dex": 226,
+          "name": "MANTINE"
+        },
+        {
+          "slug": "kingdra",
+          "dex": 230,
+          "name": "KINGDRA"
+        },
+        {
+          "slug": "lotad",
+          "dex": 270,
+          "name": "LOTAD"
+        },
+        {
+          "slug": "lombre",
+          "dex": 271,
+          "name": "LOMBRE"
+        },
+        {
+          "slug": "ludicolo",
+          "dex": 272,
+          "name": "LUDICOLO"
+        },
+        {
+          "slug": "surskit",
+          "dex": 283,
+          "name": "SURSKIT"
+        },
+        {
+          "slug": "feebas",
+          "dex": 349,
+          "name": "FEEBAS"
+        },
+        {
+          "slug": "huntail",
+          "dex": 367,
+          "name": "HUNTAIL"
+        },
+        {
+          "slug": "gorebyss",
+          "dex": 368,
+          "name": "GOREBYSS"
+        },
+        {
+          "slug": "relicanth",
+          "dex": 369,
+          "name": "RELICANTH"
+        },
+        {
+          "slug": "luvdisc",
+          "dex": 370,
+          "name": "LUVDISC"
+        },
+        {
+          "slug": "buizel",
+          "dex": 418,
+          "name": "BUIZEL"
+        },
+        {
+          "slug": "floatzel",
+          "dex": 419,
+          "name": "FLOATZEL"
+        },
+        {
+          "slug": "finneon",
+          "dex": 456,
+          "name": "FINNEON"
+        },
+        {
+          "slug": "lumineon",
+          "dex": 457,
+          "name": "LUMINEON"
+        },
+        {
+          "slug": "mantyke",
+          "dex": 458,
+          "name": "MANTYKE"
+        },
+        {
+          "slug": "tympole",
+          "dex": 535,
+          "name": "TYMPOLE"
+        },
+        {
+          "slug": "palpitoad",
+          "dex": 536,
+          "name": "PALPITOAD"
+        },
+        {
+          "slug": "seismitoad",
+          "dex": 537,
+          "name": "SEISMITOAD"
+        },
+        {
+          "slug": "tirtouga",
+          "dex": 564,
+          "name": "TIRTOUGA"
+        },
+        {
+          "slug": "carracosta",
+          "dex": 565,
+          "name": "CARRACOSTA"
+        },
+        {
+          "slug": "beartic",
+          "dex": 614,
+          "name": "BEARTIC"
+        }
+      ]
+    },
+    {
+      "slug": "normalize",
+      "name": "Normalizar",
+      "desc": "Normalizar é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "skitty",
+          "dex": 300,
+          "name": "SKITTY"
+        },
+        {
+          "slug": "delcatty",
+          "dex": 301,
+          "name": "DELCATTY"
+        }
+      ]
+    },
+    {
+      "slug": "compound-eyes",
+      "name": "Olho Composto",
+      "desc": "Aumenta a precisão dos golpes.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "butterfree",
+          "dex": 12,
+          "name": "BUTTERFREE"
+        },
+        {
+          "slug": "venonat",
+          "dex": 48,
+          "name": "VENONAT"
+        },
+        {
+          "slug": "yanma",
+          "dex": 193,
+          "name": "YANMA"
+        },
+        {
+          "slug": "nincada",
+          "dex": 290,
+          "name": "NINCADA"
+        },
+        {
+          "slug": "joltik",
+          "dex": 595,
+          "name": "JOLTIK"
+        },
+        {
+          "slug": "galvantula",
+          "dex": 596,
+          "name": "GALVANTULA"
+        }
+      ]
+    },
+    {
+      "slug": "keen-eye",
+      "name": "Olho Vivo",
+      "desc": "Impede a redução da precisão.",
+      "count": 29,
+      "impl": true,
+      "species": [
+        {
+          "slug": "pidgey",
+          "dex": 16,
+          "name": "PIDGEY"
+        },
+        {
+          "slug": "pidgeotto",
+          "dex": 17,
+          "name": "PIDGEOTTO"
+        },
+        {
+          "slug": "pidgeot",
+          "dex": 18,
+          "name": "PIDGEOT"
+        },
+        {
+          "slug": "spearow",
+          "dex": 21,
+          "name": "SPEAROW"
+        },
+        {
+          "slug": "fearow",
+          "dex": 22,
+          "name": "FEAROW"
+        },
+        {
+          "slug": "farfetchd",
+          "dex": 83,
+          "name": "FARFETCH'D"
+        },
+        {
+          "slug": "hitmonchan",
+          "dex": 107,
+          "name": "HITMONCHAN"
+        },
+        {
+          "slug": "sentret",
+          "dex": 161,
+          "name": "SENTRET"
+        },
+        {
+          "slug": "furret",
+          "dex": 162,
+          "name": "FURRET"
+        },
+        {
+          "slug": "hoothoot",
+          "dex": 163,
+          "name": "HOOTHOOT"
+        },
+        {
+          "slug": "noctowl",
+          "dex": 164,
+          "name": "NOCTOWL"
+        },
+        {
+          "slug": "sneasel",
+          "dex": 215,
+          "name": "SNEASEL"
+        },
+        {
+          "slug": "skarmory",
+          "dex": 227,
+          "name": "SKARMORY"
+        },
+        {
+          "slug": "wingull",
+          "dex": 278,
+          "name": "WINGULL"
+        },
+        {
+          "slug": "pelipper",
+          "dex": 279,
+          "name": "PELIPPER"
+        },
+        {
+          "slug": "sableye",
+          "dex": 302,
+          "name": "SABLEYE"
+        },
+        {
+          "slug": "starly",
+          "dex": 396,
+          "name": "STARLY"
+        },
+        {
+          "slug": "glameow",
+          "dex": 431,
+          "name": "GLAMEOW"
+        },
+        {
+          "slug": "stunky",
+          "dex": 434,
+          "name": "STUNKY"
+        },
+        {
+          "slug": "skuntank",
+          "dex": 435,
+          "name": "SKUNTANK"
+        },
+        {
+          "slug": "chatot",
+          "dex": 441,
+          "name": "CHATOT"
+        },
+        {
+          "slug": "skorupi",
+          "dex": 451,
+          "name": "SKORUPI"
+        },
+        {
+          "slug": "drapion",
+          "dex": 452,
+          "name": "DRAPION"
+        },
+        {
+          "slug": "patrat",
+          "dex": 504,
+          "name": "PATRAT"
+        },
+        {
+          "slug": "watchog",
+          "dex": 505,
+          "name": "WATCHOG"
+        },
+        {
+          "slug": "ducklett",
+          "dex": 580,
+          "name": "DUCKLETT"
+        },
+        {
+          "slug": "swanna",
+          "dex": 581,
+          "name": "SWANNA"
+        },
+        {
+          "slug": "rufflet",
+          "dex": 627,
+          "name": "RUFFLET"
+        },
+        {
+          "slug": "braviary",
+          "dex": 628,
+          "name": "BRAVIARY"
+        }
+      ]
+    },
+    {
+      "slug": "overcoat",
+      "name": "Overcoat",
+      "desc": "Overcoat é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "burmy",
+          "dex": 412,
+          "name": "BURMY"
+        },
+        {
+          "slug": "wormadam",
+          "dex": 413,
+          "name": "WORMADAM"
+        },
+        {
+          "slug": "sewaddle",
+          "dex": 540,
+          "name": "SEWADDLE"
+        },
+        {
+          "slug": "swadloon",
+          "dex": 541,
+          "name": "SWADLOON"
+        },
+        {
+          "slug": "leavanny",
+          "dex": 542,
+          "name": "LEAVANNY"
+        },
+        {
+          "slug": "solosis",
+          "dex": 577,
+          "name": "SOLOSIS"
+        },
+        {
+          "slug": "duosion",
+          "dex": 578,
+          "name": "DUOSION"
+        },
+        {
+          "slug": "reuniclus",
+          "dex": 579,
+          "name": "REUNICLUS"
+        },
+        {
+          "slug": "escavalier",
+          "dex": 589,
+          "name": "ESCAVALIER"
+        },
+        {
+          "slug": "shelmet",
+          "dex": 616,
+          "name": "SHELMET"
+        },
+        {
+          "slug": "vullaby",
+          "dex": 629,
+          "name": "VULLABY"
+        },
+        {
+          "slug": "mandibuzz",
+          "dex": 630,
+          "name": "MANDIBUZZ"
+        }
+      ]
+    },
+    {
+      "slug": "lightning-rod",
+      "name": "Para-raios",
+      "desc": "Anula golpes Elétricos e pode aumentar o Ataque Especial.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "cubone",
+          "dex": 104,
+          "name": "CUBONE"
+        },
+        {
+          "slug": "marowak",
+          "dex": 105,
+          "name": "MAROWAK"
+        },
+        {
+          "slug": "rhyhorn",
+          "dex": 111,
+          "name": "RHYHORN"
+        },
+        {
+          "slug": "rhydon",
+          "dex": 112,
+          "name": "RHYDON"
+        },
+        {
+          "slug": "electrike",
+          "dex": 309,
+          "name": "ELECTRIKE"
+        },
+        {
+          "slug": "manectric",
+          "dex": 310,
+          "name": "MANECTRIC"
+        },
+        {
+          "slug": "rhyperior",
+          "dex": 464,
+          "name": "RHYPERIOR"
+        },
+        {
+          "slug": "blitzle",
+          "dex": 522,
+          "name": "BLITZLE"
+        },
+        {
+          "slug": "zebstrika",
+          "dex": 523,
+          "name": "ZEBSTRIKA"
+        }
+      ]
+    },
+    {
+      "slug": "rough-skin",
+      "name": "Pele Áspera",
+      "desc": "Pele Áspera é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "carvanha",
+          "dex": 318,
+          "name": "CARVANHA"
+        },
+        {
+          "slug": "sharpedo",
+          "dex": 319,
+          "name": "SHARPEDO"
+        },
+        {
+          "slug": "gible",
+          "dex": 443,
+          "name": "GIBLE"
+        },
+        {
+          "slug": "gabite",
+          "dex": 444,
+          "name": "GABITE"
+        },
+        {
+          "slug": "garchomp",
+          "dex": 445,
+          "name": "GARCHOMP"
+        },
+        {
+          "slug": "druddigon",
+          "dex": 621,
+          "name": "DRUDDIGON"
+        }
+      ]
+    },
+    {
+      "slug": "dry-skin",
+      "name": "Pele Seca",
+      "desc": "Pele Seca é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "paras",
+          "dex": 46,
+          "name": "PARAS"
+        },
+        {
+          "slug": "parasect",
+          "dex": 47,
+          "name": "PARASECT"
+        },
+        {
+          "slug": "croagunk",
+          "dex": 453,
+          "name": "CROAGUNK"
+        },
+        {
+          "slug": "toxicroak",
+          "dex": 454,
+          "name": "TOXICROAK"
+        }
+      ]
+    },
+    {
+      "slug": "quick-feet",
+      "name": "Pés Rápidos",
+      "desc": "Pés Rápidos é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "granbull",
+          "dex": 210,
+          "name": "GRANBULL"
+        },
+        {
+          "slug": "teddiursa",
+          "dex": 216,
+          "name": "TEDDIURSA"
+        },
+        {
+          "slug": "ursaring",
+          "dex": 217,
+          "name": "URSARING"
+        },
+        {
+          "slug": "poochyena",
+          "dex": 261,
+          "name": "POOCHYENA"
+        },
+        {
+          "slug": "mightyena",
+          "dex": 262,
+          "name": "MIGHTYENA"
+        }
+      ]
+    },
+    {
+      "slug": "pickpocket",
+      "name": "Pickpocket",
+      "desc": "Pickpocket é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "weavile",
+          "dex": 461,
+          "name": "WEAVILE"
+        }
+      ]
+    },
+    {
+      "slug": "shield-dust",
+      "name": "Pó Escudo",
+      "desc": "Bloqueia efeitos secundários adicionais de golpes.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "caterpie",
+          "dex": 10,
+          "name": "CATERPIE"
+        },
+        {
+          "slug": "weedle",
+          "dex": 13,
+          "name": "WEEDLE"
+        },
+        {
+          "slug": "venomoth",
+          "dex": 49,
+          "name": "VENOMOTH"
+        },
+        {
+          "slug": "wurmple",
+          "dex": 265,
+          "name": "WURMPLE"
+        },
+        {
+          "slug": "dustox",
+          "dex": 269,
+          "name": "DUSTOX"
+        }
+      ]
+    },
+    {
+      "slug": "poison-touch",
+      "name": "Poison-Touch",
+      "desc": "Poison-Touch é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "croagunk",
+          "dex": 453,
+          "name": "CROAGUNK"
+        },
+        {
+          "slug": "toxicroak",
+          "dex": 454,
+          "name": "TOXICROAK"
+        },
+        {
+          "slug": "seismitoad",
+          "dex": 537,
+          "name": "SEISMITOAD"
+        }
+      ]
+    },
+    {
+      "slug": "poison-point",
+      "name": "Ponta Venenosa",
+      "desc": "Ponta Venenosa é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 14,
+      "impl": true,
+      "species": [
+        {
+          "slug": "nidoran_f",
+          "dex": 29,
+          "name": "NIDORAN♀"
+        },
+        {
+          "slug": "nidorina",
+          "dex": 30,
+          "name": "NIDORINA"
+        },
+        {
+          "slug": "nidoqueen",
+          "dex": 31,
+          "name": "NIDOQUEEN"
+        },
+        {
+          "slug": "nidoran_m",
+          "dex": 32,
+          "name": "NIDORAN♂"
+        },
+        {
+          "slug": "nidorino",
+          "dex": 33,
+          "name": "NIDORINO"
+        },
+        {
+          "slug": "nidoking",
+          "dex": 34,
+          "name": "NIDOKING"
+        },
+        {
+          "slug": "seadra",
+          "dex": 117,
+          "name": "SEADRA"
+        },
+        {
+          "slug": "qwilfish",
+          "dex": 211,
+          "name": "QWILFISH"
+        },
+        {
+          "slug": "roselia",
+          "dex": 315,
+          "name": "ROSELIA"
+        },
+        {
+          "slug": "budew",
+          "dex": 406,
+          "name": "BUDEW"
+        },
+        {
+          "slug": "roserade",
+          "dex": 407,
+          "name": "ROSERADE"
+        },
+        {
+          "slug": "venipede",
+          "dex": 543,
+          "name": "VENIPEDE"
+        },
+        {
+          "slug": "whirlipede",
+          "dex": 544,
+          "name": "WHIRLIPEDE"
+        },
+        {
+          "slug": "scolipede",
+          "dex": 545,
+          "name": "SCOLIPEDE"
+        }
+      ]
+    },
+    {
+      "slug": "anger-point",
+      "name": "Ponto de Fúria",
+      "desc": "Ponto de Fúria é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "mankey",
+          "dex": 56,
+          "name": "MANKEY"
+        },
+        {
+          "slug": "primeape",
+          "dex": 57,
+          "name": "PRIMEAPE"
+        },
+        {
+          "slug": "tauros",
+          "dex": 128,
+          "name": "TAUROS"
+        },
+        {
+          "slug": "sandile",
+          "dex": 551,
+          "name": "SANDILE"
+        },
+        {
+          "slug": "krokorok",
+          "dex": 552,
+          "name": "KROKOROK"
+        },
+        {
+          "slug": "krookodile",
+          "dex": 553,
+          "name": "KROOKODILE"
+        }
+      ]
+    },
+    {
+      "slug": "prankster",
+      "name": "Prankster",
+      "desc": "Prankster é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 7,
+      "impl": false,
+      "species": [
+        {
+          "slug": "riolu",
+          "dex": 447,
+          "name": "RIOLU"
+        },
+        {
+          "slug": "purrloin",
+          "dex": 509,
+          "name": "PURRLOIN"
+        },
+        {
+          "slug": "liepard",
+          "dex": 510,
+          "name": "LIEPARD"
+        },
+        {
+          "slug": "cottonee",
+          "dex": 546,
+          "name": "COTTONEE"
+        },
+        {
+          "slug": "whimsicott",
+          "dex": 547,
+          "name": "WHIMSICOTT"
+        },
+        {
+          "slug": "tornadus",
+          "dex": 641,
+          "name": "TORNADUS"
+        },
+        {
+          "slug": "thundurus",
+          "dex": 642,
+          "name": "THUNDURUS"
+        }
+      ]
+    },
+    {
+      "slug": "rain-dish",
+      "name": "Prato de Chuva",
+      "desc": "Prato de Chuva é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "lotad",
+          "dex": 270,
+          "name": "LOTAD"
+        },
+        {
+          "slug": "lombre",
+          "dex": 271,
+          "name": "LOMBRE"
+        },
+        {
+          "slug": "ludicolo",
+          "dex": 272,
+          "name": "LUDICOLO"
+        }
+      ]
+    },
+    {
+      "slug": "forewarn",
+      "name": "Premonição",
+      "desc": "Revela o golpe de maior poder do adversário.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "drowzee",
+          "dex": 96,
+          "name": "DROWZEE"
+        },
+        {
+          "slug": "hypno",
+          "dex": 97,
+          "name": "HYPNO"
+        },
+        {
+          "slug": "jynx",
+          "dex": 124,
+          "name": "JYNX"
+        },
+        {
+          "slug": "smoochum",
+          "dex": 238,
+          "name": "SMOOCHUM"
+        },
+        {
+          "slug": "munna",
+          "dex": 517,
+          "name": "MUNNA"
+        },
+        {
+          "slug": "musharna",
+          "dex": 518,
+          "name": "MUSHARNA"
+        }
+      ]
+    },
+    {
+      "slug": "pressure",
+      "name": "Pressão",
+      "desc": "Faz o adversário gastar PP adicional ao atacar.",
+      "count": 23,
+      "impl": true,
+      "species": [
+        {
+          "slug": "aerodactyl",
+          "dex": 142,
+          "name": "AERODACTYL"
+        },
+        {
+          "slug": "articuno",
+          "dex": 144,
+          "name": "ARTICUNO"
+        },
+        {
+          "slug": "zapdos",
+          "dex": 145,
+          "name": "ZAPDOS"
+        },
+        {
+          "slug": "moltres",
+          "dex": 146,
+          "name": "MOLTRES"
+        },
+        {
+          "slug": "mewtwo",
+          "dex": 150,
+          "name": "MEWTWO"
+        },
+        {
+          "slug": "raikou",
+          "dex": 243,
+          "name": "RAIKOU"
+        },
+        {
+          "slug": "entei",
+          "dex": 244,
+          "name": "ENTEI"
+        },
+        {
+          "slug": "suicune",
+          "dex": 245,
+          "name": "SUICUNE"
+        },
+        {
+          "slug": "lugia",
+          "dex": 249,
+          "name": "LUGIA"
+        },
+        {
+          "slug": "ho_oh",
+          "dex": 250,
+          "name": "HO-OH"
+        },
+        {
+          "slug": "dusclops",
+          "dex": 356,
+          "name": "DUSCLOPS"
+        },
+        {
+          "slug": "absol",
+          "dex": 359,
+          "name": "ABSOL"
+        },
+        {
+          "slug": "deoxys",
+          "dex": 386,
+          "name": "DEOXYS"
+        },
+        {
+          "slug": "vespiquen",
+          "dex": 416,
+          "name": "VESPIQUEN"
+        },
+        {
+          "slug": "spiritomb",
+          "dex": 442,
+          "name": "SPIRITOMB"
+        },
+        {
+          "slug": "weavile",
+          "dex": 461,
+          "name": "WEAVILE"
+        },
+        {
+          "slug": "dusknoir",
+          "dex": 477,
+          "name": "DUSKNOIR"
+        },
+        {
+          "slug": "dialga",
+          "dex": 483,
+          "name": "DIALGA"
+        },
+        {
+          "slug": "palkia",
+          "dex": 484,
+          "name": "PALKIA"
+        },
+        {
+          "slug": "giratina",
+          "dex": 487,
+          "name": "GIRATINA"
+        },
+        {
+          "slug": "pawniard",
+          "dex": 624,
+          "name": "PAWNIARD"
+        },
+        {
+          "slug": "bisharp",
+          "dex": 625,
+          "name": "BISHARP"
+        },
+        {
+          "slug": "kyurem",
+          "dex": 646,
+          "name": "KYUREM"
+        }
+      ]
+    },
+    {
+      "slug": "forecast",
+      "name": "Previsão",
+      "desc": "Altera o tipo do Pokémon de acordo com o clima.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "castform",
+          "dex": 351,
+          "name": "CASTFORM"
+        }
+      ]
+    },
+    {
+      "slug": "iron-fist",
+      "name": "Punho de Ferro",
+      "desc": "Fortalece golpes de soco.",
+      "count": 9,
+      "impl": true,
+      "species": [
+        {
+          "slug": "hitmonchan",
+          "dex": 107,
+          "name": "HITMONCHAN"
+        },
+        {
+          "slug": "chimchar",
+          "dex": 390,
+          "name": "CHIMCHAR"
+        },
+        {
+          "slug": "monferno",
+          "dex": 391,
+          "name": "MONFERNO"
+        },
+        {
+          "slug": "infernape",
+          "dex": 392,
+          "name": "INFERNAPE"
+        },
+        {
+          "slug": "timburr",
+          "dex": 532,
+          "name": "TIMBURR"
+        },
+        {
+          "slug": "gurdurr",
+          "dex": 533,
+          "name": "GURDURR"
+        },
+        {
+          "slug": "conkeldurr",
+          "dex": 534,
+          "name": "CONKELDURR"
+        },
+        {
+          "slug": "golett",
+          "dex": 622,
+          "name": "GOLETT"
+        },
+        {
+          "slug": "golurk",
+          "dex": 623,
+          "name": "GOLURK"
+        }
+      ]
+    },
+    {
+      "slug": "mold-breaker",
+      "name": "Quebra-Molde",
+      "desc": "Permite atacar ignorando habilidades defensivas do alvo.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "pinsir",
+          "dex": 127,
+          "name": "PINSIR"
+        },
+        {
+          "slug": "cranidos",
+          "dex": 408,
+          "name": "CRANIDOS"
+        },
+        {
+          "slug": "rampardos",
+          "dex": 409,
+          "name": "RAMPARDOS"
+        },
+        {
+          "slug": "drilbur",
+          "dex": 529,
+          "name": "DRILBUR"
+        },
+        {
+          "slug": "excadrill",
+          "dex": 530,
+          "name": "EXCADRILL"
+        },
+        {
+          "slug": "throh",
+          "dex": 538,
+          "name": "THROH"
+        },
+        {
+          "slug": "sawk",
+          "dex": 539,
+          "name": "SAWK"
+        },
+        {
+          "slug": "basculin",
+          "dex": 550,
+          "name": "BASCULIN"
+        },
+        {
+          "slug": "axew",
+          "dex": 610,
+          "name": "AXEW"
+        },
+        {
+          "slug": "fraxure",
+          "dex": 611,
+          "name": "FRAXURE"
+        },
+        {
+          "slug": "haxorus",
+          "dex": 612,
+          "name": "HAXORUS"
+        },
+        {
+          "slug": "druddigon",
+          "dex": 621,
+          "name": "DRUDDIGON"
+        }
+      ]
+    },
+    {
+      "slug": "rattled",
+      "name": "Rattled",
+      "desc": "Rattled é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "sudowoodo",
+          "dex": 185,
+          "name": "SUDOWOODO"
+        },
+        {
+          "slug": "bonsly",
+          "dex": 438,
+          "name": "BONSLY"
+        },
+        {
+          "slug": "cubchoo",
+          "dex": 613,
+          "name": "CUBCHOO"
+        }
+      ]
+    },
+    {
+      "slug": "regenerator",
+      "name": "Regenerator",
+      "desc": "Regenerator é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "tangrowth",
+          "dex": 465,
+          "name": "TANGROWTH"
+        },
+        {
+          "slug": "audino",
+          "dex": 531,
+          "name": "AUDINO"
+        },
+        {
+          "slug": "solosis",
+          "dex": 577,
+          "name": "SOLOSIS"
+        },
+        {
+          "slug": "duosion",
+          "dex": 578,
+          "name": "DUOSION"
+        },
+        {
+          "slug": "reuniclus",
+          "dex": 579,
+          "name": "REUNICLUS"
+        },
+        {
+          "slug": "foongus",
+          "dex": 590,
+          "name": "FOONGUS"
+        },
+        {
+          "slug": "amoonguss",
+          "dex": 591,
+          "name": "AMOONGUSS"
+        },
+        {
+          "slug": "alomomola",
+          "dex": 594,
+          "name": "ALOMOMOLA"
+        },
+        {
+          "slug": "mienfoo",
+          "dex": 619,
+          "name": "MIENFOO"
+        },
+        {
+          "slug": "mienshao",
+          "dex": 620,
+          "name": "MIENSHAO"
+        }
+      ]
+    },
+    {
+      "slug": "own-tempo",
+      "name": "Ritmo Próprio",
+      "desc": "Ritmo Próprio é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 13,
+      "impl": true,
+      "species": [
+        {
+          "slug": "slowpoke",
+          "dex": 79,
+          "name": "SLOWPOKE"
+        },
+        {
+          "slug": "slowbro",
+          "dex": 80,
+          "name": "SLOWBRO"
+        },
+        {
+          "slug": "lickitung",
+          "dex": 108,
+          "name": "LICKITUNG"
+        },
+        {
+          "slug": "slowking",
+          "dex": 199,
+          "name": "SLOWKING"
+        },
+        {
+          "slug": "smeargle",
+          "dex": 235,
+          "name": "SMEARGLE"
+        },
+        {
+          "slug": "spoink",
+          "dex": 325,
+          "name": "SPOINK"
+        },
+        {
+          "slug": "grumpig",
+          "dex": 326,
+          "name": "GRUMPIG"
+        },
+        {
+          "slug": "spinda",
+          "dex": 327,
+          "name": "SPINDA"
+        },
+        {
+          "slug": "glameow",
+          "dex": 431,
+          "name": "GLAMEOW"
+        },
+        {
+          "slug": "purugly",
+          "dex": 432,
+          "name": "PURUGLY"
+        },
+        {
+          "slug": "lickilicky",
+          "dex": 463,
+          "name": "LICKILICKY"
+        },
+        {
+          "slug": "petilil",
+          "dex": 548,
+          "name": "PETILIL"
+        },
+        {
+          "slug": "lilligant",
+          "dex": 549,
+          "name": "LILLIGANT"
+        }
+      ]
+    },
+    {
+      "slug": "rivalry",
+      "name": "Rivalidade",
+      "desc": "Rivalidade é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 15,
+      "impl": true,
+      "species": [
+        {
+          "slug": "nidoran_f",
+          "dex": 29,
+          "name": "NIDORAN♀"
+        },
+        {
+          "slug": "nidorina",
+          "dex": 30,
+          "name": "NIDORINA"
+        },
+        {
+          "slug": "nidoqueen",
+          "dex": 31,
+          "name": "NIDOQUEEN"
+        },
+        {
+          "slug": "nidoran_m",
+          "dex": 32,
+          "name": "NIDORAN♂"
+        },
+        {
+          "slug": "nidorino",
+          "dex": 33,
+          "name": "NIDORINO"
+        },
+        {
+          "slug": "nidoking",
+          "dex": 34,
+          "name": "NIDOKING"
+        },
+        {
+          "slug": "shinx",
+          "dex": 403,
+          "name": "SHINX"
+        },
+        {
+          "slug": "luxio",
+          "dex": 404,
+          "name": "LUXIO"
+        },
+        {
+          "slug": "luxray",
+          "dex": 405,
+          "name": "LUXRAY"
+        },
+        {
+          "slug": "pidove",
+          "dex": 519,
+          "name": "PIDOVE"
+        },
+        {
+          "slug": "tranquill",
+          "dex": 520,
+          "name": "TRANQUILL"
+        },
+        {
+          "slug": "unfezant",
+          "dex": 521,
+          "name": "UNFEZANT"
+        },
+        {
+          "slug": "axew",
+          "dex": 610,
+          "name": "AXEW"
+        },
+        {
+          "slug": "fraxure",
+          "dex": 611,
+          "name": "FRAXURE"
+        },
+        {
+          "slug": "haxorus",
+          "dex": 612,
+          "name": "HAXORUS"
+        }
+      ]
+    },
+    {
+      "slug": "sturdy",
+      "name": "Robusto",
+      "desc": "Evita um nocaute direto quando o Pokémon está com os PS cheios.",
+      "count": 30,
+      "impl": true,
+      "species": [
+        {
+          "slug": "geodude",
+          "dex": 74,
+          "name": "GEODUDE"
+        },
+        {
+          "slug": "graveler",
+          "dex": 75,
+          "name": "GRAVELER"
+        },
+        {
+          "slug": "golem",
+          "dex": 76,
+          "name": "GOLEM"
+        },
+        {
+          "slug": "magnemite",
+          "dex": 81,
+          "name": "MAGNEMITE"
+        },
+        {
+          "slug": "magneton",
+          "dex": 82,
+          "name": "MAGNETON"
+        },
+        {
+          "slug": "onix",
+          "dex": 95,
+          "name": "ONIX"
+        },
+        {
+          "slug": "sudowoodo",
+          "dex": 185,
+          "name": "SUDOWOODO"
+        },
+        {
+          "slug": "pineco",
+          "dex": 204,
+          "name": "PINECO"
+        },
+        {
+          "slug": "forretress",
+          "dex": 205,
+          "name": "FORRETRESS"
+        },
+        {
+          "slug": "steelix",
+          "dex": 208,
+          "name": "STEELIX"
+        },
+        {
+          "slug": "shuckle",
+          "dex": 213,
+          "name": "SHUCKLE"
+        },
+        {
+          "slug": "skarmory",
+          "dex": 227,
+          "name": "SKARMORY"
+        },
+        {
+          "slug": "donphan",
+          "dex": 232,
+          "name": "DONPHAN"
+        },
+        {
+          "slug": "nosepass",
+          "dex": 299,
+          "name": "NOSEPASS"
+        },
+        {
+          "slug": "aron",
+          "dex": 304,
+          "name": "ARON"
+        },
+        {
+          "slug": "lairon",
+          "dex": 305,
+          "name": "LAIRON"
+        },
+        {
+          "slug": "aggron",
+          "dex": 306,
+          "name": "AGGRON"
+        },
+        {
+          "slug": "shieldon",
+          "dex": 410,
+          "name": "SHIELDON"
+        },
+        {
+          "slug": "bastiodon",
+          "dex": 411,
+          "name": "BASTIODON"
+        },
+        {
+          "slug": "bonsly",
+          "dex": 438,
+          "name": "BONSLY"
+        },
+        {
+          "slug": "magnezone",
+          "dex": 462,
+          "name": "MAGNEZONE"
+        },
+        {
+          "slug": "probopass",
+          "dex": 476,
+          "name": "PROBOPASS"
+        },
+        {
+          "slug": "roggenrola",
+          "dex": 524,
+          "name": "ROGGENROLA"
+        },
+        {
+          "slug": "boldore",
+          "dex": 525,
+          "name": "BOLDORE"
+        },
+        {
+          "slug": "gigalith",
+          "dex": 526,
+          "name": "GIGALITH"
+        },
+        {
+          "slug": "sawk",
+          "dex": 539,
+          "name": "SAWK"
+        },
+        {
+          "slug": "dwebble",
+          "dex": 557,
+          "name": "DWEBBLE"
+        },
+        {
+          "slug": "crustle",
+          "dex": 558,
+          "name": "CRUSTLE"
+        },
+        {
+          "slug": "tirtouga",
+          "dex": 564,
+          "name": "TIRTOUGA"
+        },
+        {
+          "slug": "carracosta",
+          "dex": 565,
+          "name": "CARRACOSTA"
+        }
+      ]
+    },
+    {
+      "slug": "solid-rock",
+      "name": "Rocha Sólida",
+      "desc": "Rocha Sólida é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "camerupt",
+          "dex": 323,
+          "name": "CAMERUPT"
+        },
+        {
+          "slug": "rhyperior",
+          "dex": 464,
+          "name": "RHYPERIOR"
+        },
+        {
+          "slug": "tirtouga",
+          "dex": 564,
+          "name": "TIRTOUGA"
+        },
+        {
+          "slug": "carracosta",
+          "dex": 565,
+          "name": "CARRACOSTA"
+        }
+      ]
+    },
+    {
+      "slug": "sand-force",
+      "name": "Sand-Force",
+      "desc": "Sand-Force é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 11,
+      "impl": true,
+      "species": [
+        {
+          "slug": "shellos",
+          "dex": 422,
+          "name": "SHELLOS"
+        },
+        {
+          "slug": "gastrodon",
+          "dex": 423,
+          "name": "GASTRODON"
+        },
+        {
+          "slug": "hippopotas",
+          "dex": 449,
+          "name": "HIPPOPOTAS"
+        },
+        {
+          "slug": "hippowdon",
+          "dex": 450,
+          "name": "HIPPOWDON"
+        },
+        {
+          "slug": "probopass",
+          "dex": 476,
+          "name": "PROBOPASS"
+        },
+        {
+          "slug": "roggenrola",
+          "dex": 524,
+          "name": "ROGGENROLA"
+        },
+        {
+          "slug": "boldore",
+          "dex": 525,
+          "name": "BOLDORE"
+        },
+        {
+          "slug": "gigalith",
+          "dex": 526,
+          "name": "GIGALITH"
+        },
+        {
+          "slug": "drilbur",
+          "dex": 529,
+          "name": "DRILBUR"
+        },
+        {
+          "slug": "excadrill",
+          "dex": 530,
+          "name": "EXCADRILL"
+        },
+        {
+          "slug": "landorus",
+          "dex": 645,
+          "name": "LANDORUS"
+        }
+      ]
+    },
+    {
+      "slug": "sand-rush",
+      "name": "Sand-Rush",
+      "desc": "Sand-Rush é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "herdier",
+          "dex": 507,
+          "name": "HERDIER"
+        },
+        {
+          "slug": "stoutland",
+          "dex": 508,
+          "name": "STOUTLAND"
+        },
+        {
+          "slug": "drilbur",
+          "dex": 529,
+          "name": "DRILBUR"
+        },
+        {
+          "slug": "excadrill",
+          "dex": 530,
+          "name": "EXCADRILL"
+        }
+      ]
+    },
+    {
+      "slug": "sap-sipper",
+      "name": "Sap-Sipper",
+      "desc": "Sap-Sipper é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "blitzle",
+          "dex": 522,
+          "name": "BLITZLE"
+        },
+        {
+          "slug": "zebstrika",
+          "dex": 523,
+          "name": "ZEBSTRIKA"
+        },
+        {
+          "slug": "deerling",
+          "dex": 585,
+          "name": "DEERLING"
+        },
+        {
+          "slug": "sawsbuck",
+          "dex": 586,
+          "name": "SAWSBUCK"
+        },
+        {
+          "slug": "bouffalant",
+          "dex": 626,
+          "name": "BOUFFALANT"
+        }
+      ]
+    },
+    {
+      "slug": "drought",
+      "name": "Seca",
+      "desc": "Ativa sol forte ao entrar em batalha.",
+      "count": 2,
+      "impl": true,
+      "species": [
+        {
+          "slug": "torkoal",
+          "dex": 324,
+          "name": "TORKOAL"
+        },
+        {
+          "slug": "groudon",
+          "dex": 383,
+          "name": "GROUDON"
+        }
+      ]
+    },
+    {
+      "slug": "no-guard",
+      "name": "Sem Defeito",
+      "desc": "Faz com que os golpes de ambos os lados não errem.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "machop",
+          "dex": 66,
+          "name": "MACHOP"
+        },
+        {
+          "slug": "machoke",
+          "dex": 67,
+          "name": "MACHOKE"
+        },
+        {
+          "slug": "machamp",
+          "dex": 68,
+          "name": "MACHAMP"
+        },
+        {
+          "slug": "karrablast",
+          "dex": 588,
+          "name": "KARRABLAST"
+        },
+        {
+          "slug": "golett",
+          "dex": 622,
+          "name": "GOLETT"
+        },
+        {
+          "slug": "golurk",
+          "dex": 623,
+          "name": "GOLURK"
+        }
+      ]
+    },
+    {
+      "slug": "sheer-force",
+      "name": "Sheer-Force",
+      "desc": "Sheer-Force é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "cranidos",
+          "dex": 408,
+          "name": "CRANIDOS"
+        },
+        {
+          "slug": "rampardos",
+          "dex": 409,
+          "name": "RAMPARDOS"
+        },
+        {
+          "slug": "timburr",
+          "dex": 532,
+          "name": "TIMBURR"
+        },
+        {
+          "slug": "gurdurr",
+          "dex": 533,
+          "name": "GURDURR"
+        },
+        {
+          "slug": "conkeldurr",
+          "dex": 534,
+          "name": "CONKELDURR"
+        },
+        {
+          "slug": "darmanitan",
+          "dex": 555,
+          "name": "DARMANITAN"
+        },
+        {
+          "slug": "druddigon",
+          "dex": 621,
+          "name": "DRUDDIGON"
+        },
+        {
+          "slug": "rufflet",
+          "dex": 627,
+          "name": "RUFFLET"
+        },
+        {
+          "slug": "braviary",
+          "dex": 628,
+          "name": "BRAVIARY"
+        },
+        {
+          "slug": "landorus",
+          "dex": 645,
+          "name": "LANDORUS"
+        }
+      ]
+    },
+    {
+      "slug": "simple",
+      "name": "Simples",
+      "desc": "Simples é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "numel",
+          "dex": 322,
+          "name": "NUMEL"
+        },
+        {
+          "slug": "bidoof",
+          "dex": 399,
+          "name": "BIDOOF"
+        },
+        {
+          "slug": "bibarel",
+          "dex": 400,
+          "name": "BIBAREL"
+        },
+        {
+          "slug": "woobat",
+          "dex": 527,
+          "name": "WOOBAT"
+        },
+        {
+          "slug": "swoobat",
+          "dex": 528,
+          "name": "SWOOBAT"
+        }
+      ]
+    },
+    {
+      "slug": "synchronize",
+      "name": "Sincronia",
+      "desc": "Pode refletir queimadura, paralisia ou envenenamento ao causador.",
+      "count": 15,
+      "impl": true,
+      "species": [
+        {
+          "slug": "abra",
+          "dex": 63,
+          "name": "ABRA"
+        },
+        {
+          "slug": "kadabra",
+          "dex": 64,
+          "name": "KADABRA"
+        },
+        {
+          "slug": "alakazam",
+          "dex": 65,
+          "name": "ALAKAZAM"
+        },
+        {
+          "slug": "mew",
+          "dex": 151,
+          "name": "MEW"
+        },
+        {
+          "slug": "natu",
+          "dex": 177,
+          "name": "NATU"
+        },
+        {
+          "slug": "xatu",
+          "dex": 178,
+          "name": "XATU"
+        },
+        {
+          "slug": "espeon",
+          "dex": 196,
+          "name": "ESPEON"
+        },
+        {
+          "slug": "umbreon",
+          "dex": 197,
+          "name": "UMBREON"
+        },
+        {
+          "slug": "ralts",
+          "dex": 280,
+          "name": "RALTS"
+        },
+        {
+          "slug": "kirlia",
+          "dex": 281,
+          "name": "KIRLIA"
+        },
+        {
+          "slug": "gardevoir",
+          "dex": 282,
+          "name": "GARDEVOIR"
+        },
+        {
+          "slug": "munna",
+          "dex": 517,
+          "name": "MUNNA"
+        },
+        {
+          "slug": "musharna",
+          "dex": 518,
+          "name": "MUSHARNA"
+        },
+        {
+          "slug": "elgyem",
+          "dex": 605,
+          "name": "ELGYEM"
+        },
+        {
+          "slug": "beheeyem",
+          "dex": 606,
+          "name": "BEHEEYEM"
+        }
+      ]
+    },
+    {
+      "slug": "slow-start",
+      "name": "Slow-Start",
+      "desc": "Slow-Start é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "regigigas",
+          "dex": 486,
+          "name": "REGIGIGAS"
+        }
+      ]
+    },
+    {
+      "slug": "snow-warning",
+      "name": "Snow-Warning",
+      "desc": "Snow-Warning é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "snover",
+          "dex": 459,
+          "name": "SNOVER"
+        },
+        {
+          "slug": "abomasnow",
+          "dex": 460,
+          "name": "ABOMASNOW"
+        },
+        {
+          "slug": "vanilluxe",
+          "dex": 584,
+          "name": "VANILLUXE"
+        }
+      ]
+    },
+    {
+      "slug": "shadow-tag",
+      "name": "Sombra",
+      "desc": "Impede a fuga ou troca do adversário.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "wobbuffet",
+          "dex": 202,
+          "name": "WOBBUFFET"
+        },
+        {
+          "slug": "wynaut",
+          "dex": 360,
+          "name": "WYNAUT"
+        },
+        {
+          "slug": "gothita",
+          "dex": 574,
+          "name": "GOTHITA"
+        },
+        {
+          "slug": "gothorita",
+          "dex": 575,
+          "name": "GOTHORITA"
+        },
+        {
+          "slug": "gothitelle",
+          "dex": 576,
+          "name": "GOTHITELLE"
+        }
+      ]
+    },
+    {
+      "slug": "storm-drain",
+      "name": "Storm-Drain",
+      "desc": "Storm-Drain é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "shellos",
+          "dex": 422,
+          "name": "SHELLOS"
+        },
+        {
+          "slug": "gastrodon",
+          "dex": 423,
+          "name": "GASTRODON"
+        },
+        {
+          "slug": "finneon",
+          "dex": 456,
+          "name": "FINNEON"
+        },
+        {
+          "slug": "lumineon",
+          "dex": 457,
+          "name": "LUMINEON"
+        },
+        {
+          "slug": "maractus",
+          "dex": 556,
+          "name": "MARACTUS"
+        }
+      ]
+    },
+    {
+      "slug": "super-luck",
+      "name": "Super Sorte",
+      "desc": "Aumenta a chance de acerto crítico.",
+      "count": 7,
+      "impl": true,
+      "species": [
+        {
+          "slug": "murkrow",
+          "dex": 198,
+          "name": "MURKROW"
+        },
+        {
+          "slug": "absol",
+          "dex": 359,
+          "name": "ABSOL"
+        },
+        {
+          "slug": "honchkrow",
+          "dex": 430,
+          "name": "HONCHKROW"
+        },
+        {
+          "slug": "togekiss",
+          "dex": 468,
+          "name": "TOGEKISS"
+        },
+        {
+          "slug": "pidove",
+          "dex": 519,
+          "name": "PIDOVE"
+        },
+        {
+          "slug": "tranquill",
+          "dex": 520,
+          "name": "TRANQUILL"
+        },
+        {
+          "slug": "unfezant",
+          "dex": 521,
+          "name": "UNFEZANT"
+        }
+      ]
+    },
+    {
+      "slug": "tangled-feet",
+      "name": "Tangled-Feet",
+      "desc": "Tangled-Feet é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "pidgey",
+          "dex": 16,
+          "name": "PIDGEY"
+        },
+        {
+          "slug": "pidgeotto",
+          "dex": 17,
+          "name": "PIDGEOTTO"
+        },
+        {
+          "slug": "pidgeot",
+          "dex": 18,
+          "name": "PIDGEOT"
+        },
+        {
+          "slug": "spinda",
+          "dex": 327,
+          "name": "SPINDA"
+        },
+        {
+          "slug": "chatot",
+          "dex": 441,
+          "name": "CHATOT"
+        }
+      ]
+    },
+    {
+      "slug": "technician",
+      "name": "Técnico",
+      "desc": "Fortalece golpes de menor poder base.",
+      "count": 13,
+      "impl": true,
+      "species": [
+        {
+          "slug": "meowth",
+          "dex": 52,
+          "name": "MEOWTH"
+        },
+        {
+          "slug": "persian",
+          "dex": 53,
+          "name": "PERSIAN"
+        },
+        {
+          "slug": "mr_mime",
+          "dex": 122,
+          "name": "MR. MIME"
+        },
+        {
+          "slug": "scyther",
+          "dex": 123,
+          "name": "SCYTHER"
+        },
+        {
+          "slug": "scizor",
+          "dex": 212,
+          "name": "SCIZOR"
+        },
+        {
+          "slug": "smeargle",
+          "dex": 235,
+          "name": "SMEARGLE"
+        },
+        {
+          "slug": "hitmontop",
+          "dex": 237,
+          "name": "HITMONTOP"
+        },
+        {
+          "slug": "kricketune",
+          "dex": 402,
+          "name": "KRICKETUNE"
+        },
+        {
+          "slug": "roserade",
+          "dex": 407,
+          "name": "ROSERADE"
+        },
+        {
+          "slug": "ambipom",
+          "dex": 424,
+          "name": "AMBIPOM"
+        },
+        {
+          "slug": "mime_jr",
+          "dex": 439,
+          "name": "MIME JR"
+        },
+        {
+          "slug": "minccino",
+          "dex": 572,
+          "name": "MINCCINO"
+        },
+        {
+          "slug": "cinccino",
+          "dex": 573,
+          "name": "CINCCINO"
+        }
+      ]
+    },
+    {
+      "slug": "telepathy",
+      "name": "Telepathy",
+      "desc": "Telepathy é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 7,
+      "impl": false,
+      "species": [
+        {
+          "slug": "dialga",
+          "dex": 483,
+          "name": "DIALGA"
+        },
+        {
+          "slug": "palkia",
+          "dex": 484,
+          "name": "PALKIA"
+        },
+        {
+          "slug": "giratina",
+          "dex": 487,
+          "name": "GIRATINA"
+        },
+        {
+          "slug": "munna",
+          "dex": 517,
+          "name": "MUNNA"
+        },
+        {
+          "slug": "musharna",
+          "dex": 518,
+          "name": "MUSHARNA"
+        },
+        {
+          "slug": "elgyem",
+          "dex": 605,
+          "name": "ELGYEM"
+        },
+        {
+          "slug": "beheeyem",
+          "dex": 606,
+          "name": "BEHEEYEM"
+        }
+      ]
+    },
+    {
+      "slug": "sand-stream",
+      "name": "Tempestade",
+      "desc": "Inicia uma tempestade de areia ao entrar em batalha.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "tyranitar",
+          "dex": 248,
+          "name": "TYRANITAR"
+        },
+        {
+          "slug": "hippopotas",
+          "dex": 449,
+          "name": "HIPPOPOTAS"
+        },
+        {
+          "slug": "hippowdon",
+          "dex": 450,
+          "name": "HIPPOWDON"
+        },
+        {
+          "slug": "gigalith",
+          "dex": 526,
+          "name": "GIGALITH"
+        }
+      ]
+    },
+    {
+      "slug": "teravolt",
+      "name": "Teravolt",
+      "desc": "Teravolt é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "zekrom",
+          "dex": 644,
+          "name": "ZEKROM"
+        }
+      ]
+    },
+    {
+      "slug": "torrent",
+      "name": "Torrente",
+      "desc": "Aumenta o poder de golpes de Água quando os PS estão baixos.",
+      "count": 17,
+      "impl": true,
+      "species": [
+        {
+          "slug": "squirtle",
+          "dex": 7,
+          "name": "SQUIRTLE"
+        },
+        {
+          "slug": "wartortle",
+          "dex": 8,
+          "name": "WARTORTLE"
+        },
+        {
+          "slug": "blastoise",
+          "dex": 9,
+          "name": "BLASTOISE"
+        },
+        {
+          "slug": "totodile",
+          "dex": 158,
+          "name": "TOTODILE"
+        },
+        {
+          "slug": "croconaw",
+          "dex": 159,
+          "name": "CROCONAW"
+        },
+        {
+          "slug": "feraligatr",
+          "dex": 160,
+          "name": "FERALIGATR"
+        },
+        {
+          "slug": "mudkip",
+          "dex": 258,
+          "name": "MUDKIP"
+        },
+        {
+          "slug": "marshtomp",
+          "dex": 259,
+          "name": "MARSHTOMP"
+        },
+        {
+          "slug": "swampert",
+          "dex": 260,
+          "name": "SWAMPERT"
+        },
+        {
+          "slug": "piplup",
+          "dex": 393,
+          "name": "PIPLUP"
+        },
+        {
+          "slug": "prinplup",
+          "dex": 394,
+          "name": "PRINPLUP"
+        },
+        {
+          "slug": "empoleon",
+          "dex": 395,
+          "name": "EMPOLEON"
+        },
+        {
+          "slug": "oshawott",
+          "dex": 501,
+          "name": "OSHAWOTT"
+        },
+        {
+          "slug": "dewott",
+          "dex": 502,
+          "name": "DEWOTT"
+        },
+        {
+          "slug": "samurott",
+          "dex": 503,
+          "name": "SAMUROTT"
+        },
+        {
+          "slug": "panpour",
+          "dex": 515,
+          "name": "PANPOUR"
+        },
+        {
+          "slug": "simipour",
+          "dex": 516,
+          "name": "SIMIPOUR"
+        }
+      ]
+    },
+    {
+      "slug": "air-lock",
+      "name": "Trava de Ar",
+      "desc": "Trava de Ar é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "rayquaza",
+          "dex": 384,
+          "name": "RAYQUAZA"
+        }
+      ]
+    },
+    {
+      "slug": "shed-skin",
+      "name": "Troca de Pele",
+      "desc": "Troca de Pele é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 15,
+      "impl": true,
+      "species": [
+        {
+          "slug": "metapod",
+          "dex": 11,
+          "name": "METAPOD"
+        },
+        {
+          "slug": "kakuna",
+          "dex": 14,
+          "name": "KAKUNA"
+        },
+        {
+          "slug": "ekans",
+          "dex": 23,
+          "name": "EKANS"
+        },
+        {
+          "slug": "arbok",
+          "dex": 24,
+          "name": "ARBOK"
+        },
+        {
+          "slug": "dratini",
+          "dex": 147,
+          "name": "DRATINI"
+        },
+        {
+          "slug": "dragonair",
+          "dex": 148,
+          "name": "DRAGONAIR"
+        },
+        {
+          "slug": "pupitar",
+          "dex": 247,
+          "name": "PUPITAR"
+        },
+        {
+          "slug": "silcoon",
+          "dex": 266,
+          "name": "SILCOON"
+        },
+        {
+          "slug": "cascoon",
+          "dex": 268,
+          "name": "CASCOON"
+        },
+        {
+          "slug": "seviper",
+          "dex": 336,
+          "name": "SEVIPER"
+        },
+        {
+          "slug": "kricketot",
+          "dex": 401,
+          "name": "KRICKETOT"
+        },
+        {
+          "slug": "burmy",
+          "dex": 412,
+          "name": "BURMY"
+        },
+        {
+          "slug": "scraggy",
+          "dex": 559,
+          "name": "SCRAGGY"
+        },
+        {
+          "slug": "scrafty",
+          "dex": 560,
+          "name": "SCRAFTY"
+        },
+        {
+          "slug": "karrablast",
+          "dex": 588,
+          "name": "KARRABLAST"
+        }
+      ]
+    },
+    {
+      "slug": "turboblaze",
+      "name": "Turboblaze",
+      "desc": "Turboblaze é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "reshiram",
+          "dex": 643,
+          "name": "RESHIRAM"
+        }
+      ]
+    },
+    {
+      "slug": "damp",
+      "name": "Úmido",
+      "desc": "Úmido é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "psyduck",
+          "dex": 54,
+          "name": "PSYDUCK"
+        },
+        {
+          "slug": "golduck",
+          "dex": 55,
+          "name": "GOLDUCK"
+        },
+        {
+          "slug": "poliwag",
+          "dex": 60,
+          "name": "POLIWAG"
+        },
+        {
+          "slug": "poliwhirl",
+          "dex": 61,
+          "name": "POLIWHIRL"
+        },
+        {
+          "slug": "poliwrath",
+          "dex": 62,
+          "name": "POLIWRATH"
+        },
+        {
+          "slug": "politoed",
+          "dex": 186,
+          "name": "POLITOED"
+        },
+        {
+          "slug": "wooper",
+          "dex": 194,
+          "name": "WOOPER"
+        },
+        {
+          "slug": "quagsire",
+          "dex": 195,
+          "name": "QUAGSIRE"
+        },
+        {
+          "slug": "frillish",
+          "dex": 592,
+          "name": "FRILLISH"
+        },
+        {
+          "slug": "jellicent",
+          "dex": 593,
+          "name": "JELLICENT"
+        }
+      ]
+    },
+    {
+      "slug": "unaware",
+      "name": "Unaware",
+      "desc": "Unaware é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": false,
+      "species": [
+        {
+          "slug": "bidoof",
+          "dex": 399,
+          "name": "BIDOOF"
+        },
+        {
+          "slug": "bibarel",
+          "dex": 400,
+          "name": "BIBAREL"
+        },
+        {
+          "slug": "woobat",
+          "dex": 527,
+          "name": "WOOBAT"
+        },
+        {
+          "slug": "swoobat",
+          "dex": 528,
+          "name": "SWOOBAT"
+        }
+      ]
+    },
+    {
+      "slug": "unburden",
+      "name": "Unburden",
+      "desc": "Unburden é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 5,
+      "impl": true,
+      "species": [
+        {
+          "slug": "drifloon",
+          "dex": 425,
+          "name": "DRIFLOON"
+        },
+        {
+          "slug": "drifblim",
+          "dex": 426,
+          "name": "DRIFBLIM"
+        },
+        {
+          "slug": "purrloin",
+          "dex": 509,
+          "name": "PURRLOIN"
+        },
+        {
+          "slug": "liepard",
+          "dex": 510,
+          "name": "LIEPARD"
+        },
+        {
+          "slug": "accelgor",
+          "dex": 617,
+          "name": "ACCELGOR"
+        }
+      ]
+    },
+    {
+      "slug": "unnerve",
+      "name": "Unnerve",
+      "desc": "Unnerve é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 6,
+      "impl": true,
+      "species": [
+        {
+          "slug": "vespiquen",
+          "dex": 416,
+          "name": "VESPIQUEN"
+        },
+        {
+          "slug": "joltik",
+          "dex": 595,
+          "name": "JOLTIK"
+        },
+        {
+          "slug": "galvantula",
+          "dex": 596,
+          "name": "GALVANTULA"
+        },
+        {
+          "slug": "axew",
+          "dex": 610,
+          "name": "AXEW"
+        },
+        {
+          "slug": "fraxure",
+          "dex": 611,
+          "name": "FRAXURE"
+        },
+        {
+          "slug": "haxorus",
+          "dex": 612,
+          "name": "HAXORUS"
+        }
+      ]
+    },
+    {
+      "slug": "truant",
+      "name": "Vadio",
+      "desc": "O Pokémon precisa descansar em turnos alternados.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "slakoth",
+          "dex": 287,
+          "name": "SLAKOTH"
+        },
+        {
+          "slug": "slaking",
+          "dex": 289,
+          "name": "SLAKING"
+        },
+        {
+          "slug": "durant",
+          "dex": 632,
+          "name": "DURANT"
+        }
+      ]
+    },
+    {
+      "slug": "scrappy",
+      "name": "Valentão",
+      "desc": "Valentão é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 4,
+      "impl": true,
+      "species": [
+        {
+          "slug": "kangaskhan",
+          "dex": 115,
+          "name": "KANGASKHAN"
+        },
+        {
+          "slug": "miltank",
+          "dex": 241,
+          "name": "MILTANK"
+        },
+        {
+          "slug": "herdier",
+          "dex": 507,
+          "name": "HERDIER"
+        },
+        {
+          "slug": "stoutland",
+          "dex": 508,
+          "name": "STOUTLAND"
+        }
+      ]
+    },
+    {
+      "slug": "suction-cups",
+      "name": "Ventosa",
+      "desc": "Ventosa é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 3,
+      "impl": true,
+      "species": [
+        {
+          "slug": "octillery",
+          "dex": 224,
+          "name": "OCTILLERY"
+        },
+        {
+          "slug": "lileep",
+          "dex": 345,
+          "name": "LILEEP"
+        },
+        {
+          "slug": "cradily",
+          "dex": 346,
+          "name": "CRADILY"
+        }
+      ]
+    },
+    {
+      "slug": "water-veil",
+      "name": "Véu d'Água",
+      "desc": "Véu d'Água é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "goldeen",
+          "dex": 118,
+          "name": "GOLDEEN"
+        },
+        {
+          "slug": "seaking",
+          "dex": 119,
+          "name": "SEAKING"
+        },
+        {
+          "slug": "mantine",
+          "dex": 226,
+          "name": "MANTINE"
+        },
+        {
+          "slug": "wailmer",
+          "dex": 320,
+          "name": "WAILMER"
+        },
+        {
+          "slug": "wailord",
+          "dex": 321,
+          "name": "WAILORD"
+        },
+        {
+          "slug": "buizel",
+          "dex": 418,
+          "name": "BUIZEL"
+        },
+        {
+          "slug": "floatzel",
+          "dex": 419,
+          "name": "FLOATZEL"
+        },
+        {
+          "slug": "finneon",
+          "dex": 456,
+          "name": "FINNEON"
+        },
+        {
+          "slug": "lumineon",
+          "dex": 457,
+          "name": "LUMINEON"
+        },
+        {
+          "slug": "mantyke",
+          "dex": 458,
+          "name": "MANTYKE"
+        }
+      ]
+    },
+    {
+      "slug": "sand-veil",
+      "name": "Véu de Areia",
+      "desc": "Véu de Areia é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "sandshrew",
+          "dex": 27,
+          "name": "SANDSHREW"
+        },
+        {
+          "slug": "sandslash",
+          "dex": 28,
+          "name": "SANDSLASH"
+        },
+        {
+          "slug": "diglett",
+          "dex": 50,
+          "name": "DIGLETT"
+        },
+        {
+          "slug": "dugtrio",
+          "dex": 51,
+          "name": "DUGTRIO"
+        },
+        {
+          "slug": "gligar",
+          "dex": 207,
+          "name": "GLIGAR"
+        },
+        {
+          "slug": "cacnea",
+          "dex": 331,
+          "name": "CACNEA"
+        },
+        {
+          "slug": "cacturne",
+          "dex": 332,
+          "name": "CACTURNE"
+        },
+        {
+          "slug": "gible",
+          "dex": 443,
+          "name": "GIBLE"
+        },
+        {
+          "slug": "gabite",
+          "dex": 444,
+          "name": "GABITE"
+        },
+        {
+          "slug": "garchomp",
+          "dex": 445,
+          "name": "GARCHOMP"
+        },
+        {
+          "slug": "gliscor",
+          "dex": 472,
+          "name": "GLISCOR"
+        },
+        {
+          "slug": "stunfisk",
+          "dex": 618,
+          "name": "STUNFISK"
+        }
+      ]
+    },
+    {
+      "slug": "victory-star",
+      "name": "Victory-Star",
+      "desc": "Victory-Star é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "victini",
+          "dex": 494,
+          "name": "VICTINI"
+        }
+      ]
+    },
+    {
+      "slug": "hustle",
+      "name": "Vigor",
+      "desc": "Vigor é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 12,
+      "impl": true,
+      "species": [
+        {
+          "slug": "togepi",
+          "dex": 175,
+          "name": "TOGEPI"
+        },
+        {
+          "slug": "togetic",
+          "dex": 176,
+          "name": "TOGETIC"
+        },
+        {
+          "slug": "corsola",
+          "dex": 222,
+          "name": "CORSOLA"
+        },
+        {
+          "slug": "remoraid",
+          "dex": 223,
+          "name": "REMORAID"
+        },
+        {
+          "slug": "delibird",
+          "dex": 225,
+          "name": "DELIBIRD"
+        },
+        {
+          "slug": "combee",
+          "dex": 415,
+          "name": "COMBEE"
+        },
+        {
+          "slug": "togekiss",
+          "dex": 468,
+          "name": "TOGEKISS"
+        },
+        {
+          "slug": "darumaka",
+          "dex": 554,
+          "name": "DARUMAKA"
+        },
+        {
+          "slug": "rufflet",
+          "dex": 627,
+          "name": "RUFFLET"
+        },
+        {
+          "slug": "durant",
+          "dex": 632,
+          "name": "DURANT"
+        },
+        {
+          "slug": "deino",
+          "dex": 633,
+          "name": "DEINO"
+        },
+        {
+          "slug": "zweilous",
+          "dex": 634,
+          "name": "ZWEILOUS"
+        }
+      ]
+    },
+    {
+      "slug": "weak-armor",
+      "name": "Weak-Armor",
+      "desc": "Weak-Armor é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 10,
+      "impl": true,
+      "species": [
+        {
+          "slug": "roggenrola",
+          "dex": 524,
+          "name": "ROGGENROLA"
+        },
+        {
+          "slug": "boldore",
+          "dex": 525,
+          "name": "BOLDORE"
+        },
+        {
+          "slug": "dwebble",
+          "dex": 557,
+          "name": "DWEBBLE"
+        },
+        {
+          "slug": "crustle",
+          "dex": 558,
+          "name": "CRUSTLE"
+        },
+        {
+          "slug": "garbodor",
+          "dex": 569,
+          "name": "GARBODOR"
+        },
+        {
+          "slug": "vanillite",
+          "dex": 582,
+          "name": "VANILLITE"
+        },
+        {
+          "slug": "vanillish",
+          "dex": 583,
+          "name": "VANILLISH"
+        },
+        {
+          "slug": "vanilluxe",
+          "dex": 584,
+          "name": "VANILLUXE"
+        },
+        {
+          "slug": "vullaby",
+          "dex": 629,
+          "name": "VULLABY"
+        },
+        {
+          "slug": "mandibuzz",
+          "dex": 630,
+          "name": "MANDIBUZZ"
+        }
+      ]
+    },
+    {
+      "slug": "wonder-skin",
+      "name": "Wonder-Skin",
+      "desc": "Wonder-Skin é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": true,
+      "species": [
+        {
+          "slug": "sigilyph",
+          "dex": 561,
+          "name": "SIGILYPH"
+        }
+      ]
+    },
+    {
+      "slug": "zen-mode",
+      "name": "Zen-Mode",
+      "desc": "Zen-Mode é uma habilidade passiva aplicada automaticamente quando suas condições de batalha são atendidas.",
+      "count": 1,
+      "impl": false,
+      "species": [
+        {
+          "slug": "darmanitan",
+          "dex": 555,
+          "name": "DARMANITAN"
+        }
+      ]
+    }
+  ]
+}

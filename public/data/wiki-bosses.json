@@ -1,0 +1,2957 @@
+{
+  "generatedAt": "2026-07-16T18:58:30.859Z",
+  "gyms": [
+    {
+      "id": "TRAINER_LEADER_BROCK",
+      "name": "Ginásio de Pewter",
+      "city": "Pewter",
+      "type": "Pedra",
+      "badge": "Rocha",
+      "leader": "brock",
+      "team": [
+        {
+          "slug": "hippopotas",
+          "dex": 449,
+          "name": "HIPPOPOTAS",
+          "level": 80,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "BITE",
+              "type": "Dark"
+            },
+            {
+              "name": "TACKLE",
+              "type": "Normal"
+            },
+            {
+              "name": "YAWN",
+              "type": "Normal"
+            },
+            {
+              "name": "SAND-ATTACK",
+              "type": "Ground"
+            }
+          ],
+          "stats": {
+            "hp": 68,
+            "atk": 72,
+            "def": 78,
+            "spa": 38,
+            "spd": 42,
+            "spe": 32
+          }
+        },
+        {
+          "slug": "rhyhorn",
+          "dex": 111,
+          "name": "RHYHORN",
+          "level": 84,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "ROCK THROW",
+              "type": "Rock"
+            },
+            {
+              "name": "HORN ATTACK",
+              "type": "Normal"
+            },
+            {
+              "name": "STOMP",
+              "type": "Normal"
+            },
+            {
+              "name": "SCARY FACE",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 85,
+            "def": 95,
+            "spa": 30,
+            "spd": 30,
+            "spe": 25
+          }
+        },
+        {
+          "slug": "aron",
+          "dex": 304,
+          "name": "ARON",
+          "level": 88,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "METAL CLAW",
+              "type": "Steel"
+            },
+            {
+              "name": "ROCK TOMB",
+              "type": "Rock"
+            },
+            {
+              "name": "HEADBUTT",
+              "type": "Normal"
+            },
+            {
+              "name": "IRON DEFENSE",
+              "type": "Steel"
+            }
+          ],
+          "stats": {
+            "hp": 50,
+            "atk": 70,
+            "def": 100,
+            "spa": 40,
+            "spd": 40,
+            "spe": 30
+          }
+        },
+        {
+          "slug": "omanyte",
+          "dex": 138,
+          "name": "OMANYTE",
+          "level": 92,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "ANCIENTPOWER",
+              "type": "Rock"
+            },
+            {
+              "name": "WATER GUN",
+              "type": "Water"
+            },
+            {
+              "name": "BITE",
+              "type": "Dark"
+            },
+            {
+              "name": "WITHDRAW",
+              "type": "Water"
+            }
+          ],
+          "stats": {
+            "hp": 35,
+            "atk": 40,
+            "def": 100,
+            "spa": 90,
+            "spd": 55,
+            "spe": 35
+          }
+        },
+        {
+          "slug": "sudowoodo",
+          "dex": 185,
+          "name": "SUDOWOODO",
+          "level": 96,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "ROCK THROW",
+              "type": "Rock"
+            },
+            {
+              "name": "LOW KICK",
+              "type": "Fighting"
+            },
+            {
+              "name": "FEINT ATTACK",
+              "type": "Dark"
+            },
+            {
+              "name": "FLAIL",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 70,
+            "atk": 100,
+            "def": 115,
+            "spa": 30,
+            "spd": 65,
+            "spe": 30
+          }
+        },
+        {
+          "slug": "onix",
+          "dex": 95,
+          "name": "ONIX",
+          "level": 100,
+          "ace": 2,
+          "moves": [
+            {
+              "name": "ROCK TOMB",
+              "type": "Rock"
+            },
+            {
+              "name": "ROCK THROW",
+              "type": "Rock"
+            },
+            {
+              "name": "BIND",
+              "type": "Normal"
+            },
+            {
+              "name": "SCREECH",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 35,
+            "atk": 45,
+            "def": 160,
+            "spa": 30,
+            "spd": 45,
+            "spe": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_LEADER_MISTY",
+      "name": "Ginásio de Cerulean",
+      "city": "Cerulean",
+      "type": "Água",
+      "badge": "Cascata",
+      "leader": "misty",
+      "team": [
+        {
+          "slug": "staryu",
+          "dex": 120,
+          "name": "STARYU",
+          "level": 160,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "WATER PULSE",
+              "type": "Water"
+            },
+            {
+              "name": "SWIFT",
+              "type": "Normal"
+            },
+            {
+              "name": "RECOVER",
+              "type": "Normal"
+            },
+            {
+              "name": "RAPID SPIN",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 30,
+            "atk": 45,
+            "def": 55,
+            "spa": 70,
+            "spd": 55,
+            "spe": 85
+          }
+        },
+        {
+          "slug": "poliwhirl",
+          "dex": 61,
+          "name": "POLIWHIRL",
+          "level": 164,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SURF",
+              "type": "Water"
+            },
+            {
+              "name": "BODY SLAM",
+              "type": "Normal"
+            },
+            {
+              "name": "HYPNOSIS",
+              "type": "Psychic"
+            },
+            {
+              "name": "MUD SHOT",
+              "type": "Ground"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 65,
+            "spa": 50,
+            "spd": 50,
+            "spe": 90
+          }
+        },
+        {
+          "slug": "seel",
+          "dex": 86,
+          "name": "SEEL",
+          "level": 168,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "AURORA BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "HEADBUTT",
+              "type": "Normal"
+            },
+            {
+              "name": "ICY WIND",
+              "type": "Ice"
+            },
+            {
+              "name": "REST",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 45,
+            "def": 55,
+            "spa": 45,
+            "spd": 70,
+            "spe": 45
+          }
+        },
+        {
+          "slug": "horsea",
+          "dex": 116,
+          "name": "HORSEA",
+          "level": 172,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "BUBBLEBEAM",
+              "type": "Water"
+            },
+            {
+              "name": "WATER PULSE",
+              "type": "Water"
+            },
+            {
+              "name": "SMOKESCREEN",
+              "type": "Normal"
+            },
+            {
+              "name": "TWISTER",
+              "type": "Dragon"
+            }
+          ],
+          "stats": {
+            "hp": 30,
+            "atk": 40,
+            "def": 70,
+            "spa": 70,
+            "spd": 25,
+            "spe": 60
+          }
+        },
+        {
+          "slug": "alomomola",
+          "dex": 594,
+          "name": "ALOMOMOLA",
+          "level": 176,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "WATER PULSE",
+              "type": "Water"
+            },
+            {
+              "name": "AQUA JET",
+              "type": "Water"
+            },
+            {
+              "name": "POUND",
+              "type": "Normal"
+            },
+            {
+              "name": "DOUBLESLAP",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 165,
+            "atk": 75,
+            "def": 80,
+            "spa": 40,
+            "spd": 45,
+            "spe": 65
+          }
+        },
+        {
+          "slug": "golduck",
+          "dex": 55,
+          "name": "GOLDUCK",
+          "level": 180,
+          "ace": 2,
+          "moves": [
+            {
+              "name": "SURF",
+              "type": "Water"
+            },
+            {
+              "name": "CONFUSION",
+              "type": "Psychic"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "DISABLE",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 78,
+            "spa": 95,
+            "spd": 80,
+            "spe": 85
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_LEADER_LT_SURGE",
+      "name": "Ginásio de Vermilion",
+      "city": "Vermilion",
+      "type": "Elétrico",
+      "badge": "Trovão",
+      "leader": "lt_surge",
+      "team": [
+        {
+          "slug": "electabuzz",
+          "dex": 125,
+          "name": "ELECTABUZZ",
+          "level": 250,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "CROSS CHOP",
+              "type": "Fighting"
+            },
+            {
+              "name": "ICE PUNCH",
+              "type": "Ice"
+            },
+            {
+              "name": "LIGHT SCREEN",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 83,
+            "def": 57,
+            "spa": 95,
+            "spd": 85,
+            "spe": 105
+          }
+        },
+        {
+          "slug": "electivire",
+          "dex": 466,
+          "name": "ELECTIVIRE",
+          "level": 254,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "THUNDERPUNCH",
+              "type": "Electric"
+            },
+            {
+              "name": "SHOCK WAVE",
+              "type": "Electric"
+            },
+            {
+              "name": "THUNDERSHOCK",
+              "type": "Electric"
+            },
+            {
+              "name": "FIRE PUNCH",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 75,
+            "atk": 123,
+            "def": 67,
+            "spa": 95,
+            "spd": 85,
+            "spe": 95
+          }
+        },
+        {
+          "slug": "electrode",
+          "dex": 101,
+          "name": "ELECTRODE",
+          "level": 258,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "LIGHT SCREEN",
+              "type": "Psychic"
+            },
+            {
+              "name": "EXPLOSION",
+              "type": "Normal"
+            },
+            {
+              "name": "SWIFT",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 70,
+            "spa": 80,
+            "spd": 80,
+            "spe": 140
+          }
+        },
+        {
+          "slug": "jolteon",
+          "dex": 135,
+          "name": "JOLTEON",
+          "level": 262,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "PIN MISSILE",
+              "type": "Bug"
+            },
+            {
+              "name": "QUICK ATTACK",
+              "type": "Normal"
+            },
+            {
+              "name": "DOUBLE KICK",
+              "type": "Fighting"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 60,
+            "spa": 110,
+            "spd": 95,
+            "spe": 130
+          }
+        },
+        {
+          "slug": "ampharos",
+          "dex": 181,
+          "name": "AMPHAROS",
+          "level": 266,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "BODY SLAM",
+              "type": "Normal"
+            },
+            {
+              "name": "THUNDER WAVE",
+              "type": "Electric"
+            },
+            {
+              "name": "LIGHT SCREEN",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 90,
+            "atk": 75,
+            "def": 75,
+            "spa": 115,
+            "spd": 90,
+            "spe": 55
+          }
+        },
+        {
+          "slug": "raichu",
+          "dex": 26,
+          "name": "RAICHU",
+          "level": 270,
+          "ace": 3,
+          "moves": [
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "QUICK ATTACK",
+              "type": "Normal"
+            },
+            {
+              "name": "THUNDER WAVE",
+              "type": "Electric"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 90,
+            "def": 55,
+            "spa": 90,
+            "spd": 80,
+            "spe": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_LEADER_ERIKA",
+      "name": "Ginásio de Celadon",
+      "city": "Celadon",
+      "type": "Grama",
+      "badge": "Arco-Íris",
+      "leader": "erika",
+      "team": [
+        {
+          "slug": "vileplume",
+          "dex": 45,
+          "name": "VILEPLUME",
+          "level": 350,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "PETAL DANCE",
+              "type": "Grass"
+            },
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "SLEEP POWDER",
+              "type": "Grass"
+            }
+          ],
+          "stats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 85,
+            "spa": 100,
+            "spd": 90,
+            "spe": 50
+          }
+        },
+        {
+          "slug": "victreebel",
+          "dex": 71,
+          "name": "VICTREEBEL",
+          "level": 354,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "RAZOR LEAF",
+              "type": "Grass"
+            },
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "SLEEP POWDER",
+              "type": "Grass"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 65,
+            "spa": 100,
+            "spd": 60,
+            "spe": 70
+          }
+        },
+        {
+          "slug": "exeggutor",
+          "dex": 103,
+          "name": "EXEGGUTOR",
+          "level": 358,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "SLEEP POWDER",
+              "type": "Grass"
+            },
+            {
+              "name": "LEECH SEED",
+              "type": "Grass"
+            }
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 95,
+            "def": 85,
+            "spa": 125,
+            "spd": 65,
+            "spe": 55
+          }
+        },
+        {
+          "slug": "roserade",
+          "dex": 407,
+          "name": "ROSERADE",
+          "level": 362,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "MAGICAL LEAF",
+              "type": "Grass"
+            },
+            {
+              "name": "MEGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "POISON STING",
+              "type": "Poison"
+            },
+            {
+              "name": "WEATHER BALL",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 65,
+            "spa": 125,
+            "spd": 105,
+            "spe": 90
+          }
+        },
+        {
+          "slug": "bellossom",
+          "dex": 182,
+          "name": "BELLOSSOM",
+          "level": 366,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "PETAL DANCE",
+              "type": "Grass"
+            },
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "SLEEP POWDER",
+              "type": "Grass"
+            },
+            {
+              "name": "MAGICAL LEAF",
+              "type": "Grass"
+            }
+          ],
+          "stats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 85,
+            "spa": 90,
+            "spd": 100,
+            "spe": 50
+          }
+        },
+        {
+          "slug": "venusaur",
+          "dex": 3,
+          "name": "VENUSAUR",
+          "level": 370,
+          "ace": 3,
+          "moves": [
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "LEECH SEED",
+              "type": "Grass"
+            },
+            {
+              "name": "SLEEP POWDER",
+              "type": "Grass"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 83,
+            "spa": 100,
+            "spd": 100,
+            "spe": 80
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_LEADER_KOGA",
+      "name": "Ginásio de Fuchsia",
+      "city": "Fuchsia",
+      "type": "Veneno",
+      "badge": "Alma",
+      "leader": "koga",
+      "team": [
+        {
+          "slug": "crobat",
+          "dex": 169,
+          "name": "CROBAT",
+          "level": 460,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "AERIAL ACE",
+              "type": "Flying"
+            },
+            {
+              "name": "BITE",
+              "type": "Dark"
+            },
+            {
+              "name": "CONFUSE RAY",
+              "type": "Ghost"
+            }
+          ],
+          "stats": {
+            "hp": 85,
+            "atk": 90,
+            "def": 80,
+            "spa": 70,
+            "spd": 80,
+            "spe": 130
+          }
+        },
+        {
+          "slug": "weezing",
+          "dex": 110,
+          "name": "WEEZING",
+          "level": 464,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "FLAMETHROWER",
+              "type": "Fire"
+            },
+            {
+              "name": "WILL-O-WISP",
+              "type": "Fire"
+            },
+            {
+              "name": "EXPLOSION",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 120,
+            "spa": 85,
+            "spd": 70,
+            "spe": 60
+          }
+        },
+        {
+          "slug": "muk",
+          "dex": 89,
+          "name": "MUK",
+          "level": 468,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            },
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "MINIMIZE",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 105,
+            "atk": 105,
+            "def": 75,
+            "spa": 65,
+            "spd": 100,
+            "spe": 50
+          }
+        },
+        {
+          "slug": "roserade",
+          "dex": 407,
+          "name": "ROSERADE",
+          "level": 472,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "MAGICAL LEAF",
+              "type": "Grass"
+            },
+            {
+              "name": "MEGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "POISON STING",
+              "type": "Poison"
+            },
+            {
+              "name": "WEATHER BALL",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 65,
+            "spa": 125,
+            "spd": 105,
+            "spe": 90
+          }
+        },
+        {
+          "slug": "tentacruel",
+          "dex": 73,
+          "name": "TENTACRUEL",
+          "level": 476,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "SURF",
+              "type": "Water"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "TOXIC",
+              "type": "Poison"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 70,
+            "def": 65,
+            "spa": 80,
+            "spd": 120,
+            "spe": 100
+          }
+        },
+        {
+          "slug": "gengar",
+          "dex": 94,
+          "name": "GENGAR",
+          "level": 480,
+          "ace": 4,
+          "moves": [
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "HYPNOSIS",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 65,
+            "def": 60,
+            "spa": 130,
+            "spd": 75,
+            "spe": 110
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_LEADER_SABRINA",
+      "name": "Ginásio de Saffron",
+      "city": "Saffron",
+      "type": "Psíquico",
+      "badge": "Pântano",
+      "leader": "sabrina",
+      "team": [
+        {
+          "slug": "gardevoir",
+          "dex": 282,
+          "name": "GARDEVOIR",
+          "level": 580,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "CALM MIND",
+              "type": "Psychic"
+            },
+            {
+              "name": "HYPNOSIS",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 68,
+            "atk": 65,
+            "def": 65,
+            "spa": 125,
+            "spd": 115,
+            "spe": 80
+          }
+        },
+        {
+          "slug": "espeon",
+          "dex": 196,
+          "name": "ESPEON",
+          "level": 584,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            },
+            {
+              "name": "CALM MIND",
+              "type": "Psychic"
+            },
+            {
+              "name": "MORNING SUN",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 60,
+            "spa": 130,
+            "spd": 95,
+            "spe": 110
+          }
+        },
+        {
+          "slug": "gallade",
+          "dex": 475,
+          "name": "GALLADE",
+          "level": 588,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "CLOSE COMBAT",
+              "type": "Fighting"
+            },
+            {
+              "name": "PSYCHO CUT",
+              "type": "Psychic"
+            },
+            {
+              "name": "CONFUSION",
+              "type": "Psychic"
+            },
+            {
+              "name": "STORED POWER",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 68,
+            "atk": 125,
+            "def": 65,
+            "spa": 65,
+            "spd": 115,
+            "spe": 80
+          }
+        },
+        {
+          "slug": "exeggutor",
+          "dex": 103,
+          "name": "EXEGGUTOR",
+          "level": 592,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            },
+            {
+              "name": "SLEEP POWDER",
+              "type": "Grass"
+            },
+            {
+              "name": "EXPLOSION",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 95,
+            "def": 85,
+            "spa": 125,
+            "spd": 65,
+            "spe": 55
+          }
+        },
+        {
+          "slug": "starmie",
+          "dex": 121,
+          "name": "STARMIE",
+          "level": 596,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "SURF",
+              "type": "Water"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 75,
+            "def": 85,
+            "spa": 100,
+            "spd": 85,
+            "spe": 115
+          }
+        },
+        {
+          "slug": "alakazam",
+          "dex": 65,
+          "name": "ALAKAZAM",
+          "level": 600,
+          "ace": 4,
+          "moves": [
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            },
+            {
+              "name": "CALM MIND",
+              "type": "Psychic"
+            },
+            {
+              "name": "RECOVER",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 55,
+            "atk": 50,
+            "def": 45,
+            "spa": 135,
+            "spd": 85,
+            "spe": 120
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_LEADER_BLAINE",
+      "name": "Ginásio de Cinnabar",
+      "city": "Cinnabar",
+      "type": "Fogo",
+      "badge": "Vulcão",
+      "leader": "blaine",
+      "team": [
+        {
+          "slug": "charizard",
+          "dex": 6,
+          "name": "CHARIZARD",
+          "level": 710,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "FLAMETHROWER",
+              "type": "Fire"
+            },
+            {
+              "name": "AERIAL ACE",
+              "type": "Flying"
+            },
+            {
+              "name": "DRAGON CLAW",
+              "type": "Dragon"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            }
+          ],
+          "stats": {
+            "hp": 78,
+            "atk": 84,
+            "def": 78,
+            "spa": 109,
+            "spd": 85,
+            "spe": 100
+          }
+        },
+        {
+          "slug": "ninetales",
+          "dex": 38,
+          "name": "NINETALES",
+          "level": 714,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "FLAMETHROWER",
+              "type": "Fire"
+            },
+            {
+              "name": "QUICK ATTACK",
+              "type": "Normal"
+            },
+            {
+              "name": "WILL-O-WISP",
+              "type": "Fire"
+            },
+            {
+              "name": "HYPNOSIS",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 73,
+            "atk": 76,
+            "def": 75,
+            "spa": 81,
+            "spd": 100,
+            "spe": 100
+          }
+        },
+        {
+          "slug": "rapidash",
+          "dex": 78,
+          "name": "RAPIDASH",
+          "level": 718,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "FIRE BLAST",
+              "type": "Fire"
+            },
+            {
+              "name": "QUICK ATTACK",
+              "type": "Normal"
+            },
+            {
+              "name": "MEGAHORN",
+              "type": "Bug"
+            },
+            {
+              "name": "SUNNY DAY",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 100,
+            "def": 70,
+            "spa": 80,
+            "spd": 80,
+            "spe": 105
+          }
+        },
+        {
+          "slug": "volcarona",
+          "dex": 637,
+          "name": "VOLCARONA",
+          "level": 722,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "HEAT WAVE",
+              "type": "Fire"
+            },
+            {
+              "name": "BUG BUZZ",
+              "type": "Bug"
+            },
+            {
+              "name": "SILVER WIND",
+              "type": "Bug"
+            },
+            {
+              "name": "EMBER",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 85,
+            "atk": 60,
+            "def": 65,
+            "spa": 135,
+            "spd": 105,
+            "spe": 100
+          }
+        },
+        {
+          "slug": "houndoom",
+          "dex": 229,
+          "name": "HOUNDOOM",
+          "level": 726,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "FLAMETHROWER",
+              "type": "Fire"
+            },
+            {
+              "name": "CRUNCH",
+              "type": "Dark"
+            },
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "WILL-O-WISP",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 75,
+            "atk": 90,
+            "def": 50,
+            "spa": 110,
+            "spd": 80,
+            "spe": 95
+          }
+        },
+        {
+          "slug": "arcanine",
+          "dex": 59,
+          "name": "ARCANINE",
+          "level": 730,
+          "ace": 5,
+          "moves": [
+            {
+              "name": "FLAMETHROWER",
+              "type": "Fire"
+            },
+            {
+              "name": "EXTREMESPEED",
+              "type": "Normal"
+            },
+            {
+              "name": "CRUNCH",
+              "type": "Dark"
+            },
+            {
+              "name": "ROAR",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 90,
+            "atk": 110,
+            "def": 80,
+            "spa": 100,
+            "spd": 80,
+            "spe": 95
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_LEADER_GIOVANNI",
+      "name": "Ginásio de Viridian",
+      "city": "Viridian",
+      "type": "Terra",
+      "badge": "Terra",
+      "leader": "giovanni",
+      "team": [
+        {
+          "slug": "nidoqueen",
+          "dex": 31,
+          "name": "NIDOQUEEN",
+          "level": 830,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "FIRE BLAST",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 90,
+            "atk": 82,
+            "def": 87,
+            "spa": 75,
+            "spd": 85,
+            "spe": 76
+          }
+        },
+        {
+          "slug": "rhydon",
+          "dex": 112,
+          "name": "RHYDON",
+          "level": 834,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "MEGAHORN",
+              "type": "Bug"
+            },
+            {
+              "name": "SWORDS DANCE",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 105,
+            "atk": 130,
+            "def": 120,
+            "spa": 45,
+            "spd": 45,
+            "spe": 40
+          }
+        },
+        {
+          "slug": "garchomp",
+          "dex": 445,
+          "name": "GARCHOMP",
+          "level": 838,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "DRAGON RUSH",
+              "type": "Dragon"
+            },
+            {
+              "name": "DRAGON CLAW",
+              "type": "Dragon"
+            },
+            {
+              "name": "DIG",
+              "type": "Ground"
+            },
+            {
+              "name": "DUAL CHOP",
+              "type": "Dragon"
+            }
+          ],
+          "stats": {
+            "hp": 108,
+            "atk": 130,
+            "def": 95,
+            "spa": 80,
+            "spd": 85,
+            "spe": 102
+          }
+        },
+        {
+          "slug": "golem",
+          "dex": 76,
+          "name": "GOLEM",
+          "level": 842,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "EXPLOSION",
+              "type": "Normal"
+            },
+            {
+              "name": "FIRE PUNCH",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 110,
+            "def": 130,
+            "spa": 55,
+            "spd": 65,
+            "spe": 45
+          }
+        },
+        {
+          "slug": "flygon",
+          "dex": 330,
+          "name": "FLYGON",
+          "level": 846,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "DRAGON CLAW",
+              "type": "Dragon"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "CRUNCH",
+              "type": "Dark"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 80,
+            "spa": 80,
+            "spd": 80,
+            "spe": 100
+          }
+        },
+        {
+          "slug": "nidoking",
+          "dex": 34,
+          "name": "NIDOKING",
+          "level": 850,
+          "ace": 5,
+          "moves": [
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            }
+          ],
+          "stats": {
+            "hp": 81,
+            "atk": 92,
+            "def": 77,
+            "spa": 85,
+            "spd": 75,
+            "spe": 85
+          }
+        }
+      ]
+    }
+  ],
+  "elite": [
+    {
+      "id": "TRAINER_ELITE_FOUR_LORELEI",
+      "name": "Lorelei",
+      "title": "Elite dos Quatro · Gelo",
+      "team": [
+        {
+          "slug": "dewgong",
+          "dex": 87,
+          "name": "DEWGONG",
+          "level": 880,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SURF",
+              "type": "Water"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "BLIZZARD",
+              "type": "Ice"
+            },
+            {
+              "name": "BODY SLAM",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 90,
+            "atk": 70,
+            "def": 80,
+            "spa": 70,
+            "spd": 95,
+            "spe": 70
+          }
+        },
+        {
+          "slug": "cloyster",
+          "dex": 91,
+          "name": "CLOYSTER",
+          "level": 884,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "HYDRO PUMP",
+              "type": "Water"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "BLIZZARD",
+              "type": "Ice"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            }
+          ],
+          "stats": {
+            "hp": 50,
+            "atk": 95,
+            "def": 180,
+            "spa": 85,
+            "spd": 45,
+            "spe": 70
+          }
+        },
+        {
+          "slug": "jynx",
+          "dex": 124,
+          "name": "JYNX",
+          "level": 888,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "BLIZZARD",
+              "type": "Ice"
+            },
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 50,
+            "def": 35,
+            "spa": 115,
+            "spd": 95,
+            "spe": 95
+          }
+        },
+        {
+          "slug": "lapras",
+          "dex": 131,
+          "name": "LAPRAS",
+          "level": 892,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SURF",
+              "type": "Water"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "BLIZZARD",
+              "type": "Ice"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            }
+          ],
+          "stats": {
+            "hp": 130,
+            "atk": 85,
+            "def": 80,
+            "spa": 85,
+            "spd": 95,
+            "spe": 60
+          }
+        },
+        {
+          "slug": "regice",
+          "dex": 378,
+          "name": "REGICE",
+          "level": 896,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "BLIZZARD",
+              "type": "Ice"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 50,
+            "def": 100,
+            "spa": 100,
+            "spd": 200,
+            "spe": 50
+          }
+        },
+        {
+          "slug": "articuno",
+          "dex": 144,
+          "name": "ARTICUNO",
+          "level": 900,
+          "ace": 3,
+          "moves": [
+            {
+              "name": "BLIZZARD",
+              "type": "Ice"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "AERIAL ACE",
+              "type": "Flying"
+            },
+            {
+              "name": "RECOVER",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 90,
+            "atk": 85,
+            "def": 100,
+            "spa": 95,
+            "spd": 125,
+            "spe": 85
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_ELITE_FOUR_BRUNO",
+      "name": "Bruno",
+      "title": "Elite dos Quatro · Lutador",
+      "team": [
+        {
+          "slug": "hitmonlee",
+          "dex": 106,
+          "name": "HITMONLEE",
+          "level": 900,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "DOUBLE-EDGE",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 50,
+            "atk": 120,
+            "def": 53,
+            "spa": 35,
+            "spd": 110,
+            "spe": 87
+          }
+        },
+        {
+          "slug": "hitmonchan",
+          "dex": 107,
+          "name": "HITMONCHAN",
+          "level": 904,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            }
+          ],
+          "stats": {
+            "hp": 50,
+            "atk": 105,
+            "def": 79,
+            "spa": 35,
+            "spd": 110,
+            "spe": 76
+          }
+        },
+        {
+          "slug": "heracross",
+          "dex": 214,
+          "name": "HERACROSS",
+          "level": 908,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "MEGAHORN",
+              "type": "Bug"
+            },
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 125,
+            "def": 75,
+            "spa": 40,
+            "spd": 95,
+            "spe": 85
+          }
+        },
+        {
+          "slug": "machamp",
+          "dex": 68,
+          "name": "MACHAMP",
+          "level": 912,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "BODY SLAM",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 90,
+            "atk": 130,
+            "def": 80,
+            "spa": 65,
+            "spd": 85,
+            "spe": 55
+          }
+        },
+        {
+          "slug": "regirock",
+          "dex": 377,
+          "name": "REGIROCK",
+          "level": 916,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "BODY SLAM",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 200,
+            "spa": 50,
+            "spd": 100,
+            "spe": 50
+          }
+        },
+        {
+          "slug": "registeel",
+          "dex": 379,
+          "name": "REGISTEEL",
+          "level": 920,
+          "ace": 3,
+          "moves": [
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "BRICK BREAK",
+              "type": "Fighting"
+            },
+            {
+              "name": "BODY SLAM",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 75,
+            "def": 150,
+            "spa": 75,
+            "spd": 150,
+            "spe": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_ELITE_FOUR_AGATHA",
+      "name": "Agatha",
+      "title": "Elite dos Quatro · Fantasma",
+      "team": [
+        {
+          "slug": "weezing",
+          "dex": 110,
+          "name": "WEEZING",
+          "level": 920,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "FLAMETHROWER",
+              "type": "Fire"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "WILL-O-WISP",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 120,
+            "spa": 85,
+            "spd": 70,
+            "spe": 60
+          }
+        },
+        {
+          "slug": "crobat",
+          "dex": 169,
+          "name": "CROBAT",
+          "level": 924,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "AERIAL ACE",
+              "type": "Flying"
+            },
+            {
+              "name": "CRUNCH",
+              "type": "Dark"
+            },
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            }
+          ],
+          "stats": {
+            "hp": 85,
+            "atk": 90,
+            "def": 80,
+            "spa": 70,
+            "spd": 80,
+            "spe": 130
+          }
+        },
+        {
+          "slug": "misdreavus",
+          "dex": 200,
+          "name": "MISDREAVUS",
+          "level": 928,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "CALM MIND",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spa": 85,
+            "spd": 85,
+            "spe": 85
+          }
+        },
+        {
+          "slug": "gengar",
+          "dex": 94,
+          "name": "GENGAR",
+          "level": 932,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            },
+            {
+              "name": "SLUDGE BOMB",
+              "type": "Poison"
+            },
+            {
+              "name": "THUNDERBOLT",
+              "type": "Electric"
+            },
+            {
+              "name": "GIGA DRAIN",
+              "type": "Grass"
+            }
+          ],
+          "stats": {
+            "hp": 60,
+            "atk": 65,
+            "def": 60,
+            "spa": 130,
+            "spd": 75,
+            "spe": 110
+          }
+        },
+        {
+          "slug": "mew",
+          "dex": 151,
+          "name": "MEW",
+          "level": 936,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "SHADOW BALL",
+              "type": "Ghost"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "FLAMETHROWER",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+          }
+        },
+        {
+          "slug": "latios",
+          "dex": 381,
+          "name": "LATIOS",
+          "level": 940,
+          "ace": 3,
+          "moves": [
+            {
+              "name": "LUSTER PURGE",
+              "type": "Psychic"
+            },
+            {
+              "name": "PSYCHIC",
+              "type": "Psychic"
+            },
+            {
+              "name": "DRAGON CLAW",
+              "type": "Dragon"
+            },
+            {
+              "name": "CALM MIND",
+              "type": "Psychic"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 90,
+            "def": 80,
+            "spa": 130,
+            "spd": 110,
+            "spe": 110
+          }
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_ELITE_FOUR_LANCE",
+      "name": "Lance",
+      "title": "Elite dos Quatro · Dragão",
+      "team": [
+        {
+          "slug": "gyarados",
+          "dex": 130,
+          "name": "GYARADOS",
+          "level": 940,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "HYDRO PUMP",
+              "type": "Water"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "CRUNCH",
+              "type": "Dark"
+            },
+            {
+              "name": "DRAGON DANCE",
+              "type": "Dragon"
+            }
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 125,
+            "def": 79,
+            "spa": 60,
+            "spd": 100,
+            "spe": 81
+          }
+        },
+        {
+          "slug": "aerodactyl",
+          "dex": 142,
+          "name": "AERODACTYL",
+          "level": 944,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "ROCK SLIDE",
+              "type": "Rock"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "AERIAL ACE",
+              "type": "Flying"
+            },
+            {
+              "name": "CRUNCH",
+              "type": "Dark"
+            }
+          ],
+          "stats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 65,
+            "spa": 60,
+            "spd": 75,
+            "spe": 130
+          }
+        },
+        {
+          "slug": "kingdra",
+          "dex": 230,
+          "name": "KINGDRA",
+          "level": 948,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "HYDRO PUMP",
+              "type": "Water"
+            },
+            {
+              "name": "ICE BEAM",
+              "type": "Ice"
+            },
+            {
+              "name": "DRAGON CLAW",
+              "type": "Dragon"
+            },
+            {
+              "name": "BODY SLAM",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 95,
+            "spa": 95,
+            "spd": 95,
+            "spe": 85
+          }
+        },
+        {
+          "slug": "salamence",
+          "dex": 373,
+          "name": "SALAMENCE",
+          "level": 952,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "DRAGON CLAW",
+              "type": "Dragon"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "FIRE BLAST",
+              "type": "Fire"
+            },
+            {
+              "name": "DRAGON DANCE",
+              "type": "Dragon"
+            }
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 135,
+            "def": 80,
+            "spa": 110,
+            "spd": 80,
+            "spe": 100
+          }
+        },
+        {
+          "slug": "dragonite",
+          "dex": 149,
+          "name": "DRAGONITE",
+          "level": 956,
+          "ace": 0,
+          "moves": [
+            {
+              "name": "OUTRAGE",
+              "type": "Dragon"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "EXTREMESPEED",
+              "type": "Normal"
+            },
+            {
+              "name": "FIRE BLAST",
+              "type": "Fire"
+            }
+          ],
+          "stats": {
+            "hp": 91,
+            "atk": 134,
+            "def": 95,
+            "spa": 100,
+            "spd": 100,
+            "spe": 80
+          }
+        },
+        {
+          "slug": "rayquaza",
+          "dex": 384,
+          "name": "RAYQUAZA",
+          "level": 960,
+          "ace": 3,
+          "moves": [
+            {
+              "name": "OUTRAGE",
+              "type": "Dragon"
+            },
+            {
+              "name": "DRAGON CLAW",
+              "type": "Dragon"
+            },
+            {
+              "name": "EARTHQUAKE",
+              "type": "Ground"
+            },
+            {
+              "name": "EXTREMESPEED",
+              "type": "Normal"
+            }
+          ],
+          "stats": {
+            "hp": 105,
+            "atk": 150,
+            "def": 90,
+            "spa": 150,
+            "spd": 90,
+            "spe": 95
+          }
+        }
+      ]
+    }
+  ],
+  "champion": {
+    "id": "TRAINER_CHAMPION_FIRST_BULBASAUR",
+    "name": "Campeão Terry",
+    "title": "Campeão da Liga Pokémon",
+    "team": [
+      {
+        "slug": "groudon",
+        "dex": 383,
+        "name": "GROUDON",
+        "level": 980,
+        "ace": 4,
+        "moves": [
+          {
+            "name": "ERUPTION",
+            "type": "Fire"
+          },
+          {
+            "name": "EARTHQUAKE",
+            "type": "Ground"
+          },
+          {
+            "name": "FIRE BLAST",
+            "type": "Fire"
+          },
+          {
+            "name": "ROCK SLIDE",
+            "type": "Rock"
+          }
+        ],
+        "stats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 140,
+          "spa": 100,
+          "spd": 90,
+          "spe": 90
+        }
+      },
+      {
+        "slug": "kyogre",
+        "dex": 382,
+        "name": "KYOGRE",
+        "level": 984,
+        "ace": 4,
+        "moves": [
+          {
+            "name": "WATER SPOUT",
+            "type": "Water"
+          },
+          {
+            "name": "HYDRO PUMP",
+            "type": "Water"
+          },
+          {
+            "name": "ICE BEAM",
+            "type": "Ice"
+          },
+          {
+            "name": "THUNDER",
+            "type": "Electric"
+          }
+        ],
+        "stats": {
+          "hp": 100,
+          "atk": 100,
+          "def": 90,
+          "spa": 150,
+          "spd": 140,
+          "spe": 90
+        }
+      },
+      {
+        "slug": "ho_oh",
+        "dex": 250,
+        "name": "HO-OH",
+        "level": 988,
+        "ace": 5,
+        "moves": [
+          {
+            "name": "SACRED FIRE",
+            "type": "Fire"
+          },
+          {
+            "name": "AERIAL ACE",
+            "type": "Flying"
+          },
+          {
+            "name": "EARTHQUAKE",
+            "type": "Ground"
+          },
+          {
+            "name": "THUNDERBOLT",
+            "type": "Electric"
+          }
+        ],
+        "stats": {
+          "hp": 106,
+          "atk": 130,
+          "def": 90,
+          "spa": 110,
+          "spd": 154,
+          "spe": 90
+        }
+      },
+      {
+        "slug": "lugia",
+        "dex": 249,
+        "name": "LUGIA",
+        "level": 992,
+        "ace": 5,
+        "moves": [
+          {
+            "name": "AEROBLAST",
+            "type": "Flying"
+          },
+          {
+            "name": "PSYCHIC",
+            "type": "Psychic"
+          },
+          {
+            "name": "ICE BEAM",
+            "type": "Ice"
+          },
+          {
+            "name": "CALM MIND",
+            "type": "Psychic"
+          }
+        ],
+        "stats": {
+          "hp": 106,
+          "atk": 90,
+          "def": 130,
+          "spa": 90,
+          "spd": 154,
+          "spe": 110
+        }
+      },
+      {
+        "slug": "rayquaza",
+        "dex": 384,
+        "name": "RAYQUAZA",
+        "level": 996,
+        "ace": 5,
+        "moves": [
+          {
+            "name": "OUTRAGE",
+            "type": "Dragon"
+          },
+          {
+            "name": "DRAGON CLAW",
+            "type": "Dragon"
+          },
+          {
+            "name": "EARTHQUAKE",
+            "type": "Ground"
+          },
+          {
+            "name": "FIRE BLAST",
+            "type": "Fire"
+          }
+        ],
+        "stats": {
+          "hp": 105,
+          "atk": 150,
+          "def": 90,
+          "spa": 150,
+          "spd": 90,
+          "spe": 95
+        }
+      },
+      {
+        "slug": "mewtwo",
+        "dex": 150,
+        "name": "MEWTWO",
+        "level": 1000,
+        "ace": 8,
+        "moves": [
+          {
+            "name": "PSYCHO BOOST",
+            "type": "Psychic"
+          },
+          {
+            "name": "PSYCHIC",
+            "type": "Psychic"
+          },
+          {
+            "name": "ICE BEAM",
+            "type": "Ice"
+          },
+          {
+            "name": "THUNDERBOLT",
+            "type": "Electric"
+          }
+        ],
+        "stats": {
+          "hp": 106,
+          "atk": 110,
+          "def": 90,
+          "spa": 154,
+          "spd": 90,
+          "spe": 130
+        }
+      }
+    ]
+  },
+  "islands": [
+    {
+      "island": 1,
+      "name": "One Island",
+      "kind": "boss",
+      "slug": "charizard",
+      "dex": 6,
+      "monName": "CHARIZARD",
+      "level": 300,
+      "bars": 3,
+      "moves": [
+        {
+          "name": "DRAGON RAGE",
+          "type": "Dragon"
+        },
+        {
+          "name": "INFERNO",
+          "type": "Fire"
+        },
+        {
+          "name": "FIRE SPIN",
+          "type": "Fire"
+        },
+        {
+          "name": "FLARE BLITZ",
+          "type": "Fire"
+        }
+      ],
+      "stats": {
+        "hp": 78,
+        "atk": 84,
+        "def": 78,
+        "spa": 109,
+        "spd": 85,
+        "spe": 100
+      },
+      "map": "MtEmber_Summit"
+    },
+    {
+      "island": 2,
+      "name": "Two Island",
+      "kind": "boss",
+      "slug": "blastoise",
+      "dex": 9,
+      "monName": "BLASTOISE",
+      "level": 420,
+      "bars": 3,
+      "moves": [
+        {
+          "name": "RAIN DANCE",
+          "type": "Water"
+        },
+        {
+          "name": "IRON DEFENSE",
+          "type": "Steel"
+        },
+        {
+          "name": "SKULL BASH",
+          "type": "Normal"
+        },
+        {
+          "name": "HYDRO PUMP",
+          "type": "Water"
+        }
+      ],
+      "stats": {
+        "hp": 79,
+        "atk": 83,
+        "def": 100,
+        "spa": 85,
+        "spd": 105,
+        "spe": 78
+      },
+      "map": "TwoIsland_CapeBrink"
+    },
+    {
+      "island": 3,
+      "name": "Three Island",
+      "kind": "boss",
+      "slug": "venusaur",
+      "dex": 3,
+      "monName": "VENUSAUR",
+      "level": 540,
+      "bars": 3,
+      "moves": [
+        {
+          "name": "WORRY SEED",
+          "type": "Grass"
+        },
+        {
+          "name": "GROWTH",
+          "type": "Normal"
+        },
+        {
+          "name": "SYNTHESIS",
+          "type": "Grass"
+        },
+        {
+          "name": "SOLARBEAM",
+          "type": "Grass"
+        }
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 82,
+        "def": 83,
+        "spa": 100,
+        "spd": 100,
+        "spe": 80
+      },
+      "map": "ThreeIsland_BerryForest"
+    },
+    {
+      "island": 4,
+      "name": "Four Island",
+      "kind": "boss",
+      "slug": "dragonite",
+      "dex": 149,
+      "monName": "DRAGONITE",
+      "level": 650,
+      "bars": 3,
+      "moves": [
+        {
+          "name": "DRAGON DANCE",
+          "type": "Dragon"
+        },
+        {
+          "name": "OUTRAGE",
+          "type": "Dragon"
+        },
+        {
+          "name": "HYPER BEAM",
+          "type": "Normal"
+        },
+        {
+          "name": "HURRICANE",
+          "type": "Flying"
+        }
+      ],
+      "stats": {
+        "hp": 91,
+        "atk": 134,
+        "def": 95,
+        "spa": 100,
+        "spd": 100,
+        "spe": 80
+      },
+      "map": "FourIsland_IcefallCave_Back"
+    },
+    {
+      "island": 5,
+      "name": "Five Island",
+      "kind": "legend",
+      "slug": "raikou",
+      "dex": 243,
+      "monName": "RAIKOU",
+      "level": 760,
+      "bars": 3,
+      "moves": [
+        {
+          "name": "EXTRASENSORY",
+          "type": "Psychic"
+        },
+        {
+          "name": "RAIN DANCE",
+          "type": "Water"
+        },
+        {
+          "name": "THUNDER",
+          "type": "Electric"
+        },
+        {
+          "name": "CALM MIND",
+          "type": "Psychic"
+        }
+      ],
+      "stats": {
+        "hp": 90,
+        "atk": 85,
+        "def": 75,
+        "spa": 115,
+        "spd": 100,
+        "spe": 115
+      },
+      "map": "FiveIsland_LostCave_Room14"
+    },
+    {
+      "island": 6,
+      "name": "Six Island",
+      "kind": "legend",
+      "slug": "suicune",
+      "dex": 245,
+      "monName": "SUICUNE",
+      "level": 880,
+      "bars": 3,
+      "moves": [
+        {
+          "name": "EXTRASENSORY",
+          "type": "Psychic"
+        },
+        {
+          "name": "HYDRO PUMP",
+          "type": "Water"
+        },
+        {
+          "name": "CALM MIND",
+          "type": "Psychic"
+        },
+        {
+          "name": "BLIZZARD",
+          "type": "Ice"
+        }
+      ],
+      "stats": {
+        "hp": 100,
+        "atk": 75,
+        "def": 115,
+        "spa": 90,
+        "spd": 115,
+        "spe": 85
+      },
+      "map": "SixIsland_DottedHole_SapphireRoom"
+    },
+    {
+      "island": 7,
+      "name": "Seven Island",
+      "kind": "legend",
+      "slug": "entei",
+      "dex": 244,
+      "monName": "ENTEI",
+      "level": 1000,
+      "bars": 3,
+      "moves": [
+        {
+          "name": "EXTRASENSORY",
+          "type": "Psychic"
+        },
+        {
+          "name": "FIRE BLAST",
+          "type": "Fire"
+        },
+        {
+          "name": "CALM MIND",
+          "type": "Psychic"
+        },
+        {
+          "name": "ERUPTION",
+          "type": "Fire"
+        }
+      ],
+      "stats": {
+        "hp": 115,
+        "atk": 115,
+        "def": 85,
+        "spa": 90,
+        "spd": 75,
+        "spe": 100
+      },
+      "map": "SevenIsland_SevaultCanyon_TanobyKey"
+    }
+  ]
+}
