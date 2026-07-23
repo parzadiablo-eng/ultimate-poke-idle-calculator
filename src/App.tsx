@@ -51,6 +51,42 @@ const TYPE_CHART: Record<string, Record<string, number>> = {
 
 const DEFAULT_IVS: Stats = { hp: 15, atk: 15, def: 15, spa: 15, spd: 15, spe: 15 };
 const EMPTY_TEAM: Slot[] = Array.from({ length: 6 }, () => ({ slug: "", level: 100, ivs: { ...DEFAULT_IVS }, nature: "Hardy" }));
+const SAVED_TEAM_KEY = "upi-calculator-team";
+const freshTeam = (): Slot[] => EMPTY_TEAM.map(slot => ({ ...slot, ivs: { ...slot.ivs } }));
+const loadSavedSetup = (): { team: Slot[]; pokemonSearch: string[] } => {
+  const fallback = { team: freshTeam(), pokemonSearch: Array(6).fill("") as string[] };
+  try {
+    const raw = localStorage.getItem(SAVED_TEAM_KEY);
+    if (!raw) return fallback;
+    const saved = JSON.parse(raw) as { team?: Partial<Slot>[]; pokemonSearch?: unknown[] };
+    if (!Array.isArray(saved.team)) return fallback;
+    const team = Array.from({ length: 6 }, (_, index): Slot => {
+      const slot = saved.team?.[index];
+      const ivs = slot?.ivs as Partial<Stats> | undefined;
+      const clampIv = (value: unknown) => Math.max(0, Math.min(31, Number(value) || 0));
+      return {
+        slug: typeof slot?.slug === "string" ? slot.slug : "",
+        level: Math.max(1, Math.min(1000, Number(slot?.level) || 100)),
+        nature: typeof slot?.nature === "string" ? slot.nature : "Hardy",
+        ivs: {
+          hp: clampIv(ivs?.hp ?? 15),
+          atk: clampIv(ivs?.atk ?? 15),
+          def: clampIv(ivs?.def ?? 15),
+          spa: clampIv(ivs?.spa ?? 15),
+          spd: clampIv(ivs?.spd ?? 15),
+          spe: clampIv(ivs?.spe ?? 15),
+        },
+      };
+    });
+    const pokemonSearch = Array.from({ length: 6 }, (_, index) => {
+      const name = saved.pokemonSearch?.[index];
+      return typeof name === "string" ? name : "";
+    });
+    return { team, pokemonSearch };
+  } catch {
+    return fallback;
+  }
+};
 const STAT_LABELS: Record<StatKey, string> = {
   hp: "HP", atk: "Ataque", def: "Defesa", spa: "At. Especial", spd: "Def. Especial", spe: "Velocidade",
 };
@@ -132,11 +168,11 @@ export default function Home() {
   const [bosses, setBosses] = useState<Boss[]>([]);
   const [maps, setMaps] = useState<GameMap[]>([]);
   const [bossId, setBossId] = useState("");
-  const [team, setTeam] = useState<Slot[]>(EMPTY_TEAM);
-  const [pokemonSearch, setPokemonSearch] = useState<string[]>(Array(6).fill(""));
+  const [team, setTeam] = useState<Slot[]>(() => loadSavedSetup().team);
+  const [pokemonSearch, setPokemonSearch] = useState<string[]>(() => loadSavedSetup().pokemonSearch);
   const [analyzed, setAnalyzed] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [view, setView] = useState<"battle" | "beginner">("battle");
+  const [view, setView] = useState<"battle" | "beginner" | "tutorial">("battle");
   const [starterSearch, setStarterSearch] = useState("");
   const [starterSlug, setStarterSlug] = useState("");
   const [guideGymId, setGuideGymId] = useState("");
@@ -156,6 +192,14 @@ export default function Home() {
       // Mantém o tema ativo mesmo quando o armazenamento está bloqueado.
     }
   }, [theme]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(SAVED_TEAM_KEY, JSON.stringify({ team, pokemonSearch }));
+    } catch {
+      // A calculadora continua funcionando quando o armazenamento está bloqueado.
+    }
+  }, [team, pokemonSearch]);
 
   useEffect(() => {
     Promise.all([
@@ -465,6 +509,7 @@ export default function Home() {
         <nav className="sideNav">
           <button className={view === "battle" ? "active" : ""} onClick={() => setView("battle")}><span>⚔</span> Confrontos</button>
           <button className={view === "beginner" ? "active" : ""} onClick={() => setView("beginner")}><span>◈</span> Guia para iniciantes</button>
+          <button className={view === "tutorial" ? "active" : ""} onClick={() => setView("tutorial")}><span>?</span> Como usar</button>
         </nav>
         <small className="sideLabel">DADOS ANALISADOS</small>
         <div className="sideFacts">
@@ -505,6 +550,7 @@ export default function Home() {
       <nav className="modeTabs" aria-label="Modos da calculadora">
         <button className={view === "battle" ? "active" : ""} onClick={() => setView("battle")}>Calculadora de batalha</button>
         <button className={view === "beginner" ? "active" : ""} onClick={() => setView("beginner")}>Guia para iniciantes</button>
+        <button className={view === "tutorial" ? "active" : ""} onClick={() => setView("tutorial")}>Como usar</button>
       </nav>
 
       {view === "battle" && <><section className="workspace">
@@ -757,6 +803,48 @@ export default function Home() {
             </article>)}
           </div>}
         <p className="guideNote">O guia considera os encontros e níveis registrados na Wiki. Pesca e outras formas de encontro aparecem identificadas; confirme se o método já foi liberado no seu progresso.</p>
+      </section>}
+
+      {view === "tutorial" && <section className="tutorial">
+        <header className="tutorialIntro">
+          <p className="eyebrow">GUIA RÁPIDO</p>
+          <h2>Como usar a calculadora</h2>
+          <p>Monte seu time uma vez, informe os atributos do jogo e use o relatório para preparar cada Pokémon antes do confronto.</p>
+        </header>
+
+        <div className="tutorialSteps">
+          <article className="tutorialStep">
+            <span>1</span>
+            <div><small>ESCOLHA O DESAFIO</small><h3>Selecione o líder ou boss</h3><p>Na aba <b>Calculadora de batalha</b>, escolha quem você enfrentará. A equipe, os níveis e o Pokémon ACE do adversário aparecerão automaticamente.</p></div>
+          </article>
+          <article className="tutorialStep">
+            <span>2</span>
+            <div><small>MONTE SEU TIME</small><h3>Digite seus Pokémon e níveis</h3><p>Comece a escrever o nome e selecione o Pokémon. Informe o nível atual de cada integrante da equipe.</p></div>
+          </article>
+          <article className="tutorialStep">
+            <span>3</span>
+            <div><small>ATRIBUTOS REAIS</small><h3>Preencha IVs e Nature</h3><p>Abra <b>Informar IVs</b> em cada Pokémon e copie os números mostrados na Pokédex do jogo. Depois selecione a Nature atual.</p></div>
+          </article>
+          <article className="tutorialStep">
+            <span>4</span>
+            <div><small>GERAR O PLANO</small><h3>Clique em Analisar confronto</h3><p>A calculadora compara seu time com a equipe do adversário e mostra preparo estimado, nível recomendado, margem segura e rota para treinamento.</p></div>
+          </article>
+          <article className="tutorialStep">
+            <span>5</span>
+            <div><small>PREPARE AS BUILDS</small><h3>Confira EVs, Nature e movesets</h3><p>Use a distribuição de EVs sugerida, escolha uma das duas melhores Natures e procure os golpes do moveset principal no Tutor. Se algum não existir, use o moveset alternativo.</p></div>
+          </article>
+          <article className="tutorialStep">
+            <span>6</span>
+            <div><small>INICIANTES</small><h3>Use o guia de capturas</h3><p>Quem está começando pode abrir <b>Guia para iniciantes</b>, informar apenas o inicial e descobrir quais Pokémon capturar antes de cada ginásio.</p></div>
+          </article>
+        </div>
+
+        <div className="tutorialInfo">
+          <div><span>✓</span><p><b>Seu time fica salvo.</b> Ao voltar pelo mesmo navegador e dispositivo, Pokémon, níveis, IVs e Natures serão restaurados.</p></div>
+          <div><span>!</span><p><b>Confira o Tutor.</b> Os golpes são sugestões baseadas nos dados disponíveis; use a alternativa se algum golpe não aparecer no jogo.</p></div>
+        </div>
+
+        <button className="tutorialStart" onClick={() => setView("battle")}>Montar minha equipe <span>→</span></button>
       </section>}
 
       <footer><p>Ferramenta independente para testes da comunidade. Dados baseados na Wiki do Ultimate Poke Idle.</p><span>Versão experimental 1.1</span></footer>
