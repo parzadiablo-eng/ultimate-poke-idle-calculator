@@ -140,6 +140,22 @@ export default function Home() {
   const [starterSearch, setStarterSearch] = useState("");
   const [starterSlug, setStarterSlug] = useState("");
   const [guideGymId, setGuideGymId] = useState("");
+  const [theme, setTheme] = useState<"light" | "dark">(() => {
+    try {
+      return localStorage.getItem("upi-calculator-theme") === "dark" ? "dark" : "light";
+    } catch {
+      return "light";
+    }
+  });
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    try {
+      localStorage.setItem("upi-calculator-theme", theme);
+    } catch {
+      // Mantém o tema ativo mesmo quando o armazenamento está bloqueado.
+    }
+  }, [theme]);
 
   useEffect(() => {
     Promise.all([
@@ -462,7 +478,19 @@ export default function Home() {
       <header className="topbar">
         <div className="mobileBrand"><img src="/brand/ultimate-poke-idle.png" alt="" /><b>CALCULATOR</b></div>
         <span className="pageCrumb">⌂ &nbsp; Ultimate Poke Idle &nbsp;/&nbsp; Calculator</span>
-        <span className="status"><i /> Dados da progressão v2</span>
+        <div className="topbarActions">
+          <button
+            type="button"
+            className="themeToggle"
+            onClick={() => setTheme(current => current === "light" ? "dark" : "light")}
+            aria-label={theme === "light" ? "Ativar tema escuro" : "Ativar tema claro"}
+            title={theme === "light" ? "Ativar tema escuro" : "Ativar tema claro"}
+          >
+            <span aria-hidden="true">{theme === "light" ? "☾" : "☀"}</span>
+            {theme === "light" ? "Tema escuro" : "Tema claro"}
+          </button>
+          <span className="status"><i /> Dados da progressão v2</span>
+        </div>
       </header>
 
       <section className="hero">
